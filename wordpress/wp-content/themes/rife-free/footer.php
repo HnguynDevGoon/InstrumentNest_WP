@@ -30,5 +30,13 @@ apollo13framework_footer_for_site_modules();
          */
     wp_footer();
 ?>
+
+<script type='text/javascript'>
+    (function() {
+    var s = document.createElement('script');s.type='text/javascript';s.async=true;s.id='lsInitScript';
+    s.src='https://app.livesupporti.com/js/clientAsync.js?acc=4a1db3fe-e3e3-487d-8132-5ad0be7969f2&skin=Modern';
+    var scr=document.getElementsByTagName('script')[0];scr.parentNode.appendChild(s, scr);
+    })();
+</script>
 </body>
 </html>

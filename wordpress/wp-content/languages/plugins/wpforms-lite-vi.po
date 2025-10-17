@@ -43,7 +43,7 @@ msgstr "Mã bị cấm đã được xóa."
 msgid "Access Control"
 msgstr "Kiểm soát truy cập"
 
-#: lite/wpforms-lite.php:606
+#: lite/wpforms-lite.php:626
 msgid "Open confirmation in new tab"
 msgstr "Mở xác nhận trong tab mới"
 
@@ -62,12 +62,12 @@ msgid "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"set
 msgstr "Bạn cần <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">thiết lập biểu mẫu</a> trước khi có thể quản lý các cài đặt này."
 
 #: includes/admin/builder/class-builder.php:891
-#: includes/admin/builder/functions.php:811
+#: includes/admin/builder/functions.php:851
 #: src/Forms/Fields/Richtext/Field.php:129
 msgid "Full"
 msgstr "Đầy đủ"
 
-#: includes/class-process.php:456
+#: includes/class-process.php:464
 msgid "The form could not be submitted due to a security issue."
 msgstr "Không thể gửi biểu mẫu do sự cố bảo mật."
 
@@ -291,7 +291,7 @@ msgid "Bulgarian Lev"
 msgstr "Lev Bulgaria"
 
 #: includes/fields/class-checkbox.php:246 includes/fields/class-radio.php:218
-#: includes/fields/class-select.php:211
+#: includes/fields/class-select.php:216
 #: src/Integrations/AI/Admin/Builder/Enqueues.php:206
 msgid "Generate Choices"
 msgstr "Tạo lựa chọn"
@@ -327,43 +327,43 @@ msgstr "Từ thiện"
 #. translators: %1$s - What is being checked (PHP, WPForms, etc.), %2$s -
 #. required version. This is used as the completion of the sentence "The {addon
 #. name} addon requires {here goes this string}".
-#: src/Requirements/Requirements.php:1383
+#: src/Requirements/Requirements.php:1386
 msgid "an older version of %1$s than %2$s"
 msgstr "phiên bản cũ hơn của %1$s so với %2$s"
 
 #. translators: %1$s - What is being checked (PHP, WPForms, etc.), %2$s -
 #. required version. This is used as the completion of the sentence "The {addon
 #. name} addon requires {here goes this string}".
-#: src/Requirements/Requirements.php:1381
+#: src/Requirements/Requirements.php:1384
 msgid "a newer version of %1$s than %2$s"
 msgstr "phiên bản mới hơn của %1$s so với %2$s"
 
 #. translators: %1$s - What is being checked (PHP, WPForms, etc.), %2$s -
 #. required version. This is used as the completion of the sentence "The {addon
 #. name} addon requires {here goes this string}".
-#: src/Requirements/Requirements.php:1378
+#: src/Requirements/Requirements.php:1381
 msgid "%1$s %2$s or below"
 msgstr "%1$s %2$s trở xuống"
 
 #. translators: %1$s - What is being checked (PHP, WPForms, etc.), %2$s -
 #. required version. This is used as the completion of the sentence "The {addon
 #. name} addon requires {here goes this string}".
-#: src/Requirements/Requirements.php:1376
+#: src/Requirements/Requirements.php:1379
 msgid "%1$s %2$s or above"
 msgstr "%1$s %2$s trở lên"
 
 #. translators: %1$s - WPForms plugin or addon name, %2$d - requirements
 #. message.
-#: src/Requirements/Requirements.php:1053
+#: src/Requirements/Requirements.php:1056
 msgid "The %1$s requires %2$s."
 msgstr "%1$s yêu cầu %2$s."
 
 #. translators: %1$s - WPForms addon name.
-#: src/Requirements/Requirements.php:1046
+#: src/Requirements/Requirements.php:1049
 msgid "%1$s addon"
 msgstr "phần mở rộng %1$s"
 
-#: src/Frontend/Frontend.php:1893
+#: src/Frontend/Frontend.php:1900
 msgid "Country list"
 msgstr "Danh sách quốc gia"
 
@@ -379,14 +379,9 @@ msgstr "Nhấn nút bên dưới để tạo lại các bảng cơ sở dữ li�
 msgid "Recreate custom tables"
 msgstr "Tạo lại bảng tùy chỉnh"
 
-#: src/Requirements/Requirements.php:1042
+#: src/Requirements/Requirements.php:1045
 msgid "WPForms plugin"
 msgstr "Plugin WPForms"
-
-#. translators: %1$s - template name, %2$s - addon name(s).
-#: src/Admin/Builder/Templates.php:201
-msgid "The %1$s template requires the %2$s addon. Would you like to activate it?"
-msgstr "Mẫu %1$s yêu cầu phần mở rộng %2$s. Bạn có muốn kích hoạt nó không?"
 
 #: src/Admin/Builder/AntiSpam.php:68
 msgid "Turn on invisible modern spam protection."
@@ -396,19 +391,19 @@ msgstr "Bật bảo vệ thư rác hiện đại vô hình."
 msgid "Enable modern anti-spam protection"
 msgstr "Bật bảo vệ chống thư rác hiện đại"
 
-#: includes/fields/class-email.php:1084
+#: includes/fields/class-email.php:1115
 msgid "At least one of the emails in your list contained an error and has been removed."
 msgstr "Ít nhất một email trong danh sách của bạn có lỗi và đã bị xóa."
 
-#: includes/class-process.php:767
+#: includes/class-process.php:785
 msgid "Direct POST request"
 msgstr "Yêu cầu POST trực tiếp"
 
-#: includes/class-process.php:765
+#: includes/class-process.php:783
 msgid "Direct POST requests are not allowed when the AJAX submission is enabled."
 msgstr "Không cho phép yêu cầu POST trực tiếp khi đã bật gửi dữ liệu AJAX."
 
-#: includes/class-process.php:707
+#: includes/class-process.php:725
 msgid "Anti-spam Honeypot V2 verification was failed, please try again later."
 msgstr "Xác minh Honeypot chống thư rác V2 thất bại, vui lòng thử lại sau."
 
@@ -437,7 +432,7 @@ msgid "Are you sure you want to delete this template and all its entries?"
 msgstr "Bạn có chắc chắn muốn xóa mẫu này và tất cả các mục của nó không?"
 
 #. translators: %d - choice number.
-#: includes/fields/class-base.php:3838
+#: includes/fields/class-base.php:3898
 msgid "Item %d"
 msgstr "Mục %d"
 
@@ -449,31 +444,31 @@ msgstr "Khám phá nội dung & Tìm hiểu thêm"
 msgid "Back to All Entries"
 msgstr "Trở lại tất cả nội dung"
 
-#: src/Admin/Builder/Templates.php:1142
+#: src/Admin/Builder/Templates.php:1144
 msgid "Allow your users to easily log in to your site with their username and password."
 msgstr "Cho phép người dùng của bạn dễ dàng đăng nhập vào trang web của bạn bằng tên người dùng và mật khẩu của họ."
 
-#: src/Admin/Builder/Templates.php:1151
+#: src/Admin/Builder/Templates.php:1153
 msgid "Allow your users to easily reset their password."
 msgstr "Cho phép người dùng của bạn dễ dàng đặt lại mật khẩu của họ."
 
-#: src/Admin/Builder/Templates.php:1203
+#: src/Admin/Builder/Templates.php:1205
 msgid "Collect customer feedback, then generate survey reports to determine satisfaction and spot trends."
 msgstr "Thu thập phản hồi của khách hàng, sau đó tạo báo cáo khảo sát để xác định mức độ hài lòng và phát hiện xu hướng."
 
-#: src/Admin/Builder/Templates.php:1212
+#: src/Admin/Builder/Templates.php:1214
 msgid "Ask visitors a question and display the results after they provide an answer."
 msgstr "Hỏi khách truy cập một câu hỏi và hiển thị kết quả sau khi họ cung cấp câu trả lời."
 
-#: src/Admin/Builder/Templates.php:1221
+#: src/Admin/Builder/Templates.php:1223
 msgid "Find out if your clients or customers would recommend you to someone else with this basic Net Promoter Score survey template."
 msgstr "Tìm hiểu xem khách hàng hoặc khách hàng của bạn có muốn giới thiệu bạn cho người khác với mẫu khảo sát Điểm Net Promoter cơ bản này không."
 
-#: src/Admin/Builder/Templates.php:1230
+#: src/Admin/Builder/Templates.php:1232
 msgid "Measure customer loyalty and find out exactly what they are thinking with this enhanced Net Promoter Score survey template."
 msgstr "Đo lường lòng trung thành của khách hàng và tìm hiểu chính xác những gì họ đang nghĩ với mẫu khảo sát Điểm Net Promoter nâng cao này."
 
-#: src/Admin/Education/Fields.php:93
+#: src/Admin/Education/Fields.php:101
 msgid "Repeater"
 msgstr "Lặp lại"
 
@@ -542,7 +537,7 @@ msgstr "Mở rộng chức năng"
 msgid "Troubleshooting and Support"
 msgstr "Khắc phục sự cố và hỗ trợ"
 
-#: src/Admin/Builder/Templates.php:1177
+#: src/Admin/Builder/Templates.php:1179
 msgid "User-submitted content made easy. Allow your users to submit guest blog posts in WordPress. You can add and remove fields as needed."
 msgstr "Nội dung do người dùng gửi dễ dàng. Cho phép người dùng của bạn gửi bài viết trên blog của khách mời trong WordPress. Bạn có thể thêm và xóa trường theo nhu cầu."
 
@@ -555,7 +550,7 @@ msgstr "ID trường #%s"
 msgid "New Email Submit"
 msgstr "Gửi Email mới"
 
-#: src/Admin/Builder/Templates.php:1133
+#: src/Admin/Builder/Templates.php:1135
 msgid "Create customized WordPress user registration forms and add them anywhere on your website."
 msgstr "Tạo Form đăng ký người dùng WordPress tùy chỉnh và thêm chúng vào bất kỳ đâu trên trang web của bạn."
 
@@ -567,35 +562,35 @@ msgstr "Vui lòng tải lại trang và thử gửi Form một lần nữa."
 msgid "It looks like the form you had selected is in the Trash or has been permanently deleted."
 msgstr "Có vẻ như Form bạn đã chọn đã ở trong Thùng rác hoặc đã bị xóa vĩnh viễn."
 
-#: src/Admin/Builder/Templates.php:1127
+#: src/Admin/Builder/Templates.php:1129
 msgid "User Registration Form"
 msgstr "Form đăng ký người dùng"
 
-#: src/Admin/Builder/Templates.php:1136
+#: src/Admin/Builder/Templates.php:1138
 msgid "User Login Form"
 msgstr "Form đăng nhập người dùng"
 
-#: src/Admin/Builder/Templates.php:1145
+#: src/Admin/Builder/Templates.php:1147
 msgid "User Password Reset Form"
 msgstr "Form đặt lại mật khẩu người dùng"
 
-#: src/Admin/Builder/Templates.php:1171
+#: src/Admin/Builder/Templates.php:1173
 msgid "Blog Post Submission Form"
 msgstr "Form gửi bài viết Blog"
 
-#: src/Admin/Builder/Templates.php:1224
+#: src/Admin/Builder/Templates.php:1226
 msgid "NPS Survey Enhanced Form"
 msgstr "Form khảo sát NPS nâng cao"
 
-#: src/Admin/Builder/Templates.php:1215
+#: src/Admin/Builder/Templates.php:1217
 msgid "NPS Survey Simple Form"
 msgstr "Form khảo sát NPS đơn giản"
 
-#: src/Admin/Builder/Templates.php:1197
+#: src/Admin/Builder/Templates.php:1199
 msgid "Survey Form"
 msgstr "Form khảo sát"
 
-#: src/Admin/Builder/Templates.php:1206
+#: src/Admin/Builder/Templates.php:1208
 msgid "Poll Form"
 msgstr "Form thăm dò ý kiến"
 
@@ -612,66 +607,66 @@ msgstr "Sao chép Form"
 msgid "Entries are automatically deleted after %s."
 msgstr "Các mục sẽ tự động bị xóa sau %s."
 
-#: src/Admin/Builder/Settings/Themes.php:191
+#: src/Admin/Builder/Settings/Themes.php:243
 #: src/Integrations/Elementor/Elementor.php:244
 #: src/Integrations/Gutenberg/FormSelector.php:445
 msgid "This cannot be undone."
 msgstr "Hành động này không thể hoàn tác."
 
-#: src/Admin/Builder/Settings/Themes.php:193
+#: src/Admin/Builder/Settings/Themes.php:245
 #: src/Integrations/Elementor/Elementor.php:246
 #: src/Integrations/Gutenberg/FormSelector.php:447
 msgid "Copy"
 msgstr "Sao chép"
 
-#: includes/admin/builder/functions.php:858
-#: src/Admin/Builder/Settings/Themes.php:976
+#: includes/admin/builder/functions.php:898
+#: src/Admin/Builder/Settings/Themes.php:1033
 #: src/Integrations/Elementor/WidgetModern.php:585
 #: src/Integrations/Gutenberg/FormSelector.php:461
 msgid "Position"
 msgstr "Vị trí"
 
-#: src/Admin/Builder/Settings/Themes.php:984
+#: src/Admin/Builder/Settings/Themes.php:1041
 #: src/Integrations/Elementor/WidgetModern.php:592
 #: src/Integrations/Gutenberg/FormSelector.php:466
 msgid "Center Center"
 msgstr "Giữa"
 
-#: src/Admin/Builder/Settings/Themes.php:1004
+#: src/Admin/Builder/Settings/Themes.php:1061
 #: src/Integrations/Elementor/WidgetModern.php:608
 #: src/Integrations/Gutenberg/FormSelector.php:471
 msgid "Repeat"
 msgstr "Lặp lại"
 
-#: src/Admin/Builder/Settings/Themes.php:1009
+#: src/Admin/Builder/Settings/Themes.php:1066
 #: src/Integrations/Elementor/WidgetModern.php:612
 #: src/Integrations/Gutenberg/FormSelector.php:475
 msgid "Tile"
 msgstr "Gạch"
 
-#: src/Admin/Builder/Settings/Themes.php:1027
+#: src/Admin/Builder/Settings/Themes.php:1084
 #: src/Integrations/Elementor/WidgetModern.php:630
 #: src/Integrations/Gutenberg/FormSelector.php:476
 msgid "Cover"
 msgstr "Bao phủ"
 
-#: src/Admin/Builder/Settings/Themes.php:1026
+#: src/Admin/Builder/Settings/Themes.php:1083
 #: src/Integrations/Elementor/WidgetModern.php:629
 #: src/Integrations/Gutenberg/FormSelector.php:477
 msgid "Dimensions"
 msgstr "Kích thước"
 
-#: src/Admin/Builder/Settings/Themes.php:1056
+#: src/Admin/Builder/Settings/Themes.php:1113
 #: src/Integrations/Gutenberg/FormSelector.php:478
 msgid "Width"
 msgstr "Chiều rộng"
 
-#: src/Admin/Builder/Settings/Themes.php:1072
+#: src/Admin/Builder/Settings/Themes.php:1129
 #: src/Integrations/Gutenberg/FormSelector.php:479
 msgid "Height"
 msgstr "Chiều cao"
 
-#: src/Admin/Builder/Settings/Themes.php:818
+#: src/Admin/Builder/Settings/Themes.php:875
 #: src/Integrations/Gutenberg/FormSelector.php:500
 msgid "Padding"
 msgstr "Khoảng cách"
@@ -680,21 +675,21 @@ msgstr "Khoảng cách"
 msgid "Menu"
 msgstr "Menu"
 
-#: src/Admin/Builder/Settings/Themes.php:959
+#: src/Admin/Builder/Settings/Themes.php:1016
 #: src/Integrations/Elementor/WidgetModern.php:571
 #: src/Integrations/Gutenberg/FormSelector.php:505
 msgid "Image"
 msgstr "Hình ảnh"
 
-#: src/Admin/Builder/Settings/Themes.php:964
+#: src/Admin/Builder/Settings/Themes.php:1021
 #: src/Integrations/Elementor/WidgetModern.php:575
 #: src/Integrations/Gutenberg/FormSelector.php:506
 msgid "Media Library"
 msgstr "Thư viện Media"
 
-#: src/Admin/Builder/Settings/Themes.php:505
-#: src/Admin/Builder/Settings/Themes.php:718
-#: src/Admin/Builder/Settings/Themes.php:852
+#: src/Admin/Builder/Settings/Themes.php:562
+#: src/Admin/Builder/Settings/Themes.php:775
+#: src/Admin/Builder/Settings/Themes.php:909
 #: src/Integrations/Gutenberg/FormSelector.php:510
 #: src/Integrations/Gutenberg/FormSelector.php:518
 msgid "Border Size"
@@ -704,13 +699,13 @@ msgstr "Kích thước viền"
 msgid "Border Style"
 msgstr "Kiểu viền"
 
-#: src/Admin/Builder/Settings/Themes.php:902
+#: src/Admin/Builder/Settings/Themes.php:959
 #: src/Integrations/Elementor/WidgetModern.php:526
 #: src/Integrations/Gutenberg/FormSelector.php:517
 msgid "Shadow"
 msgstr "Bóng đổ"
 
-#: src/Admin/Builder/Settings/Themes.php:1176
+#: src/Admin/Builder/Settings/Themes.php:1233
 #: src/Integrations/Gutenberg/FormSelector.php:532
 msgid "Custom CSS"
 msgstr "CSS tùy chỉnh"
@@ -724,27 +719,27 @@ msgstr "Không thể tạo tệp lưu trữ chủ đề."
 msgid "Can't save theme data."
 msgstr "Không thể lưu dữ liệu chủ đề."
 
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:590
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:612
 msgid "Select the field that contains the customer's address. This is optional but required for some regions."
 msgstr "Chọn trường chứa địa chỉ của khách hàng. Điều này là tùy chọn nhưng được yêu cầu đối với một số khu vực."
 
 #: src/Integrations/Square/Admin/Builder/Traits/Content.php:361
 #: src/Integrations/Square/Admin/Builder/Traits/Content.php:382
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:583
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:598
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:605
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:620
 msgid "Customer Address"
 msgstr "Địa chỉ khách hàng"
 
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:610
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:632
 msgid "Select the field that contains the shipping address. This is optional but required for some regions."
 msgstr "Chọn trường chứa địa chỉ giao hàng. Điều này là tùy chọn nhưng được yêu cầu đối với một số khu vực."
 
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:608
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:618
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:630
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:640
 msgid "Shipping Address"
 msgstr "Địa chỉ giao hàng"
 
-#: src/Integrations/Stripe/Process.php:1278
+#: src/Integrations/Stripe/Process.php:1294
 msgid "Irregular activity detected. Your submission has been declined and payment refunded."
 msgstr "Hoạt động bất thường được phát hiện. Nộp đơn của bạn đã bị từ chối và thanh toán được hoàn lại."
 
@@ -772,132 +767,132 @@ msgid "Entry This Week"
 msgid_plural "Entries This Week"
 msgstr[0] "Mục nhập tuần này"
 
-#: src/Admin/Builder/Settings/Themes.php:444
+#: src/Admin/Builder/Settings/Themes.php:501
 #: src/Integrations/Gutenberg/FormSelector.php:441
 msgid "Delete Theme"
 msgstr "Xoá giao diện"
 
-#: src/Admin/Builder/Settings/Themes.php:433
+#: src/Admin/Builder/Settings/Themes.php:490
 #: src/Integrations/Elementor/WidgetModern.php:186
 #: src/Integrations/Gutenberg/FormSelector.php:440
 msgid "Theme Name"
 msgstr "Tên giao diện"
 
 #. Translators: %1$s: Theme name.
-#: src/Admin/Builder/Settings/Themes.php:190
+#: src/Admin/Builder/Settings/Themes.php:242
 #: src/Integrations/Elementor/Elementor.php:243
 #: src/Integrations/Gutenberg/FormSelector.php:444
 msgid "Are you sure you want to delete the %1$s theme?"
 msgstr "Bạn có chắc chắn muốn xoá giao diện %1$s?"
 
-#: src/Admin/Builder/Settings/Themes.php:194
+#: src/Admin/Builder/Settings/Themes.php:246
 #: src/Integrations/Elementor/Elementor.php:247
 #: src/Integrations/Gutenberg/FormSelector.php:448
 msgid "Custom Theme"
 msgstr "Giao diện tùy chỉnh"
 
-#: src/Admin/Builder/Settings/Themes.php:195
+#: src/Admin/Builder/Settings/Themes.php:247
 #: src/Integrations/Elementor/Elementor.php:248
 #: src/Integrations/Gutenberg/FormSelector.php:449
 msgid "Noname Theme"
 msgstr "Giao diện không tên"
 
-#: src/Admin/Builder/Settings/Themes.php:185
+#: src/Admin/Builder/Settings/Themes.php:237
 #: src/Integrations/Elementor/Elementor.php:238
 #: src/Integrations/Gutenberg/FormSelector.php:451
 msgid "Field Label"
 msgstr "Nhãn trường"
 
-#: src/Admin/Builder/Settings/Themes.php:186
+#: src/Admin/Builder/Settings/Themes.php:238
 #: src/Integrations/Elementor/Elementor.php:239
 #: src/Integrations/Gutenberg/FormSelector.php:452
 msgid "Field Sublabel"
 msgstr "Nhãn phụ trường"
 
-#: src/Admin/Builder/Settings/Themes.php:187
+#: src/Admin/Builder/Settings/Themes.php:239
 #: src/Integrations/Elementor/Elementor.php:240
 #: src/Integrations/Gutenberg/FormSelector.php:453
 msgid "Field Border"
 msgstr "Viền trường"
 
-#: src/Admin/Builder/Settings/Themes.php:182
+#: src/Admin/Builder/Settings/Themes.php:234
 #: src/Integrations/Elementor/Elementor.php:236
 #: src/Integrations/Gutenberg/FormSelector.php:455
 msgid "Button Background"
 msgstr "Nền nút"
 
-#: src/Admin/Builder/Settings/Themes.php:183
+#: src/Admin/Builder/Settings/Themes.php:235
 #: src/Forms/Fields/Addons/Coupon/Field.php:154
 #: src/Integrations/Elementor/Elementor.php:237
 #: src/Integrations/Gutenberg/FormSelector.php:456
 msgid "Button Text"
 msgstr "Văn bản nút"
 
-#: src/Admin/Builder/Settings/Themes.php:198
-#: src/Admin/Builder/Settings/Themes.php:806
+#: src/Admin/Builder/Settings/Themes.php:250
+#: src/Admin/Builder/Settings/Themes.php:863
 #: src/Integrations/Elementor/Elementor.php:257
 #: src/Integrations/Elementor/WidgetModern.php:475
 #: src/Integrations/Gutenberg/FormSelector.php:458
 msgid "Container Styles"
 msgstr "Kiểu vùng chứa"
 
-#: src/Admin/Builder/Settings/Themes.php:197
-#: src/Admin/Builder/Settings/Themes.php:933
+#: src/Admin/Builder/Settings/Themes.php:249
+#: src/Admin/Builder/Settings/Themes.php:990
 #: src/Integrations/Elementor/Elementor.php:256
 #: src/Integrations/Elementor/WidgetModern.php:563
 #: src/Integrations/Gutenberg/FormSelector.php:459
 msgid "Background Styles"
 msgstr "Kiểu nền"
 
-#: src/Admin/Builder/Settings/Themes.php:980
+#: src/Admin/Builder/Settings/Themes.php:1037
 #: src/Integrations/Elementor/WidgetModern.php:588
 #: src/Integrations/Gutenberg/FormSelector.php:462
 msgid "Top Left"
 msgstr "Trên bên trái"
 
-#: src/Admin/Builder/Settings/Themes.php:981
+#: src/Admin/Builder/Settings/Themes.php:1038
 #: src/Integrations/Elementor/WidgetModern.php:589
 #: src/Integrations/Gutenberg/FormSelector.php:463
 msgid "Top Center"
 msgstr "Trên giữa"
 
-#: src/Admin/Builder/Settings/Themes.php:982
+#: src/Admin/Builder/Settings/Themes.php:1039
 #: src/Integrations/Elementor/WidgetModern.php:590
 #: src/Integrations/Gutenberg/FormSelector.php:464
 msgid "Top Right"
 msgstr "Trên bên phải"
 
-#: src/Admin/Builder/Settings/Themes.php:983
+#: src/Admin/Builder/Settings/Themes.php:1040
 #: src/Integrations/Elementor/WidgetModern.php:591
 #: src/Integrations/Gutenberg/FormSelector.php:465
 msgid "Center Left"
 msgstr "Giữa bên trái"
 
-#: src/Admin/Builder/Settings/Themes.php:985
+#: src/Admin/Builder/Settings/Themes.php:1042
 #: src/Integrations/Elementor/WidgetModern.php:593
 #: src/Integrations/Gutenberg/FormSelector.php:467
 msgid "Center Right"
 msgstr "Giữa bên phải"
 
-#: src/Admin/Builder/Settings/Themes.php:986
+#: src/Admin/Builder/Settings/Themes.php:1043
 #: src/Integrations/Elementor/WidgetModern.php:594
 #: src/Integrations/Gutenberg/FormSelector.php:468
 msgid "Bottom Left"
 msgstr "Dưới bên trái"
 
-#: src/Admin/Builder/Settings/Themes.php:987
+#: src/Admin/Builder/Settings/Themes.php:1044
 #: src/Integrations/Elementor/WidgetModern.php:595
 #: src/Integrations/Gutenberg/FormSelector.php:469
 msgid "Bottom Center"
 msgstr "Dưới giữa"
 
-#: src/Admin/Builder/Settings/Themes.php:988
+#: src/Admin/Builder/Settings/Themes.php:1045
 #: src/Integrations/Elementor/WidgetModern.php:596
 #: src/Integrations/Gutenberg/FormSelector.php:470
 msgid "Bottom Right"
 msgstr "Dưới bên phải"
 
-#: src/Admin/Builder/Settings/Themes.php:1008
+#: src/Admin/Builder/Settings/Themes.php:1065
 #: src/Integrations/Elementor/WidgetModern.php:611
 #: src/Integrations/Gutenberg/FormSelector.php:472
 msgid "No Repeat"
@@ -912,7 +907,7 @@ msgid "Repeat Vertical"
 msgstr "Lặp lại dọc"
 
 #: src/Integrations/Square/Admin/Builder/Traits/Content.php:373
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:567
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:589
 msgid "--- Select Address ---"
 msgstr "--- Chọn địa chỉ ---"
 
@@ -921,13 +916,13 @@ msgstr "--- Chọn địa chỉ ---"
 msgid "Need some help? Check out our <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">documentation</a>."
 msgstr "Cần giúp đỡ? Hãy xem <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">tài liệu</a> của chúng tôi."
 
-#: src/Admin/Builder/Settings/Themes.php:1103
+#: src/Admin/Builder/Settings/Themes.php:1160
 #: src/Integrations/Elementor/WidgetModern.php:678
 #: src/Integrations/Gutenberg/FormSelector.php:507
 msgid "Choose Image"
 msgstr "Chọn ảnh"
 
-#: src/Admin/Builder/Settings/Themes.php:965
+#: src/Admin/Builder/Settings/Themes.php:1022
 #: src/Integrations/Elementor/WidgetModern.php:576
 #: src/Integrations/Gutenberg/FormSelector.php:508
 msgid "Stock Photo"
@@ -963,22 +958,22 @@ msgstr "Đây là bản xem trước bản sửa đổi đã lưu gần đây nh
 msgid "You're viewing a preview of a form template."
 msgstr "Bạn đang xem bản xem trước của một mẫu Form."
 
-#: src/Admin/Builder/Settings/Themes.php:1180
+#: src/Admin/Builder/Settings/Themes.php:1237
 #: src/Integrations/Gutenberg/FormSelector.php:533
 msgid "Further customize the look of this form without having to edit theme files."
 msgstr "Tùy chỉnh thêm giao diện của Form này mà không cần chỉnh sửa các tệp chủ đề."
 
-#: src/Integrations/Stripe/Process.php:1260
+#: src/Integrations/Stripe/Process.php:1276
 msgid "Secondary form submission was declined."
 msgstr "Nộp Form phụ đã bị từ chối."
 
-#: src/Admin/Builder/Settings/Themes.php:188
+#: src/Admin/Builder/Settings/Themes.php:240
 #: src/Integrations/Elementor/Elementor.php:241
 #: src/Integrations/Gutenberg/FormSelector.php:442
 msgid "Delete Form Theme"
 msgstr "Xoá giao diện Form"
 
-#: src/Admin/Education/Pointers/Payment.php:125
+#: src/Admin/Education/Pointers/Payment.php:128
 msgid "Payment and Donation Forms are here!"
 msgstr "Mẫu thanh toán và quyên góp ở đây!"
 
@@ -995,7 +990,7 @@ msgstr "Chỉ định cách hiển thị giá dưới tên sản phẩm."
 msgid "%s Template Preview"
 msgstr "Xem trước mẫu %s"
 
-#: src/Admin/Builder/Settings/Themes.php:192
+#: src/Admin/Builder/Settings/Themes.php:244
 #: src/Admin/Builder/Templates.php:190
 #: src/Integrations/Elementor/Elementor.php:245
 #: src/Integrations/Gutenberg/FormSelector.php:446
@@ -1086,7 +1081,7 @@ msgid "Move this form template to trash"
 msgstr "Chuyển mẫu Form này vào thùng rác"
 
 #. translators: %1$s - Payments page URL.
-#: src/Admin/Education/Pointers/Payment.php:127
+#: src/Admin/Education/Pointers/Payment.php:130
 msgid "Now available for you: create forms that accept credit cards, Apple Pay, and Google Pay payments. Visit our new <a href=\"%1$s\" id=\"wpforms-education-pointers-payments\">Payments area</a> to get started."
 msgstr "Hiện có sẵn cho bạn: tạo Form chấp nhận thanh toán bằng thẻ tín dụng, Apple Pay và Google Pay. Truy cập <a href=\"%1$s\" id=\"wpforms-education-pointers-payments\">khu vực Thanh toán</a> mới của chúng tôi để bắt đầu."
 
@@ -1103,8 +1098,8 @@ msgid "Error Updating Template"
 msgstr "Lỗi cập nhật mẫu"
 
 #: includes/admin/builder/panels/class-settings.php:60
-#: src/Admin/Builder/Settings/Themes.php:199
-#: src/Admin/Builder/Settings/Themes.php:388
+#: src/Admin/Builder/Settings/Themes.php:251
+#: src/Admin/Builder/Settings/Themes.php:445
 #: src/Integrations/Elementor/Elementor.php:249
 #: src/Integrations/Elementor/WidgetModern.php:138
 #: src/Integrations/Gutenberg/FormSelector.php:439
@@ -1119,7 +1114,7 @@ msgstr "Mô tả mẫu"
 msgid "Describe the use case for your template. Only displayed internally."
 msgstr "Mô tả trường hợp sử dụng cho mẫu của bạn. Chỉ hiển thị nội bộ."
 
-#: includes/class-form.php:1125
+#: includes/class-form.php:1149
 msgid "Zaps Have Been Disabled"
 msgstr "Zaps đã bị vô hiệu hóa"
 
@@ -1136,7 +1131,7 @@ msgid "Save as Template"
 msgstr "Lưu thành mẫu"
 
 #. translators: %s - URL the to list of Zaps.
-#: includes/class-form.php:1128
+#: includes/class-form.php:1152
 msgid "Head over to the Zapier settings in the Marketing tab or visit your <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Zapier account</a> to restore them."
 msgstr "Đi tới cài đặt Zapier trong tab Marketing hoặc truy cập <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">tài khoản Zapier của bạn</a> để khôi phục chúng."
 
@@ -1156,7 +1151,7 @@ msgstr "Phiên bản mẫu Form"
 msgid "Enter descriptive text or instructions to help your users understand the requirements of your form."
 msgstr "Nhập văn bản mô tả hoặc hướng dẫn để giúp người dùng của bạn hiểu các yêu cầu của Form của bạn."
 
-#: src/Admin/Builder/Settings/Themes.php:264
+#: src/Admin/Builder/Settings/Themes.php:321
 msgid "Form Themes"
 msgstr "Giao diện Form"
 
@@ -1164,19 +1159,19 @@ msgstr "Giao diện Form"
 msgid "Hey, there! It looks like you enjoy creating forms with WPForms. Would you do us a favor and take a few seconds to give us a 5-star review? We’d love to hear from you."
 msgstr "Chào bạn! Có vẻ như bạn thích tạo mẫu biểu với WPForms. Bạn có thể dành cho chúng tôi một vài giây để đánh giá 5 sao? Chúng tôi rất muốn nhận được phản hồi từ bạn."
 
-#: includes/fields/class-base.php:2437
+#: includes/fields/class-base.php:2495
 msgid "Enable quantity for this product to allow customers to purchase more than one."
 msgstr "Bật số lượng cho sản phẩm này để cho phép khách hàng mua hơn một sản phẩm."
 
-#: includes/fields/class-base.php:2438
+#: includes/fields/class-base.php:2496
 msgid "Set the minimum and maximum quantity for this product."
 msgstr "Thiết lập số lượng tối thiểu và tối đa cho sản phẩm này."
 
-#: includes/fields/class-base.php:2444
+#: includes/fields/class-base.php:2502
 msgid "Enable Quantity"
 msgstr "Bật số lượng"
 
-#: includes/fields/class-base.php:2478
+#: includes/fields/class-base.php:2536
 #: src/Forms/Fields/Traits/NumberField.php:169
 msgid "Range"
 msgstr "Khoảng"
@@ -1228,31 +1223,31 @@ msgstr "Cập nhật bắt buộc"
 msgid "Update Now"
 msgstr "Cập nhật ngay"
 
-#: src/Forms/Fields/PaymentTotal/Field.php:430
+#: src/Forms/Fields/PaymentTotal/Field.php:431
 msgid "Enable Summary"
 msgstr "Bật tóm tắt"
 
-#: src/Forms/Fields/PaymentTotal/Field.php:431
+#: src/Forms/Fields/PaymentTotal/Field.php:432
 msgid "Enable order summary for this field."
 msgstr "Bật tóm tắt đơn hàng cho trường này."
 
-#: src/Forms/Fields/PaymentTotal/Field.php:512
+#: src/Forms/Fields/PaymentTotal/Field.php:513
 msgid "Example Product 1"
 msgstr "Sản phẩm ví dụ 1"
 
-#: src/Forms/Fields/PaymentTotal/Field.php:518
+#: src/Forms/Fields/PaymentTotal/Field.php:519
 msgid "Example Product 2"
 msgstr "Sản phẩm ví dụ 2"
 
-#: src/Forms/Fields/PaymentTotal/Field.php:524
+#: src/Forms/Fields/PaymentTotal/Field.php:525
 msgid "Example Product 3"
 msgstr "Sản phẩm ví dụ 3"
 
-#: src/Forms/Fields/PaymentTotal/Field.php:809
+#: src/Forms/Fields/PaymentTotal/Field.php:810
 msgid "Show order summary after confirmation message"
 msgstr "Hiển thị tóm tắt đơn hàng sau thông báo xác nhận"
 
-#: src/Admin/Builder/Settings/Themes.php:1124
+#: src/Admin/Builder/Settings/Themes.php:1181
 #: src/Integrations/Elementor/WidgetModern.php:715
 #: src/Integrations/Gutenberg/FormSelector.php:538
 msgid "Other Styles"
@@ -1304,7 +1299,7 @@ msgstr "Bắt đầu xây dựng các Form WordPress thông minh hơn"
 msgid "Add advanced form fields and conditional logic, plus offer more payment options, manage entries, and connect to your favorite marketing tools – all when you purchase a premium plan."
 msgstr "Thêm các trường Form nâng cao và logic có điều kiện, cộng với cung cấp nhiều tùy chọn thanh toán hơn, quản lý mục nhập và kết nối với các công cụ tiếp thị yêu thích của bạn - tất cả khi bạn mua gói cao cấp."
 
-#: src/Forms/Fields/PaymentTotal/Field.php:477
+#: src/Forms/Fields/PaymentTotal/Field.php:478
 msgid "Example data is shown in the form editor. Actual products and totals will be displayed when you preview or embed your form."
 msgstr "Dữ liệu ví dụ được hiển thị trong trình chỉnh sửa Form. Sản phẩm và tổng số thực tế sẽ được hiển thị khi bạn xem trước hoặc nhúng Form."
 
@@ -1431,16 +1426,16 @@ msgid "comprehensive guide"
 msgstr "hướng dẫn đầy đủ"
 
 #: src/Integrations/Square/Admin/Builder/Traits/Content.php:199
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:533
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:555
 msgid "--- Select Name ---"
 msgstr "--- Chọn Tên ---"
 
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:534
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:556
 msgid "Select the field that contains the customer's name. This is optional but recommended."
 msgstr "Chọn trường chứa tên của khách hàng. Điều này là tùy chọn nhưng được khuyến nghị."
 
 #: src/Integrations/Square/Admin/Builder/Traits/Content.php:192
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:547
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:569
 msgid "Customer Name"
 msgstr "Tên khách hàng"
 
@@ -1516,6 +1511,8 @@ msgstr "Cần hỗ trợ? Xem thêm tại"
 
 #. translators: %1$s - addon download URL, %2$s - link to manual installation
 #. guide, %3$s - link to contact support.
+#. translators: %1$s - addon download URL, %2$s - link to a manual installation
+#. guide, %3$s - link to contact support.
 #: includes/admin/admin.php:195 includes/admin/ajax-actions.php:801
 msgid "Could not install the addon. Please <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">download it from wpforms.com</a> and <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">install it manually</a>, or <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">contact support</a> for assistance."
 msgstr "Không thể cài đặt tiện ích bổ sung. Vui lòng <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">tải về từ wpforms.com</a> và <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">cài đặt thủ công</a>, hoặc <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">liên hệ hỗ trợ</a> để được hỗ trợ."
@@ -1537,7 +1534,7 @@ msgid "Access powerful marketing and payment integrations, advanced form fields,
 msgstr "Truy cập các tích hợp tiếp thị và thanh toán mạnh mẽ, các trường Form nâng cao và hơn thế nữa khi bạn mua gói Plus, Pro hoặc Elite của chúng tôi."
 
 #. translators: %s - total number of choices.
-#: includes/fields/class-base.php:2973
+#: includes/fields/class-base.php:3031
 msgid "Showing the first %1$s choices.<br> All %2$s choices will be displayed when viewing the form."
 msgstr "Hiển thị %1$s lựa chọn đầu tiên.<br> Tất cả %2$s lựa chọn sẽ được hiển thị khi xem Form."
 
@@ -1546,7 +1543,7 @@ msgstr "Hiển thị %1$s lựa chọn đầu tiên.<br> Tất cả %2$s lựa c
 msgid "Minimum Price"
 msgstr "Giá tối thiểu"
 
-#: includes/admin/class-settings.php:503 src/Frontend/Frontend.php:1854
+#: includes/admin/class-settings.php:503 src/Frontend/Frontend.php:1861
 msgid "Amount entered is less than the required minimum."
 msgstr "Số lượng nhập vào nhỏ hơn mức tối thiểu yêu cầu."
 
@@ -1555,19 +1552,19 @@ msgstr "Số lượng nhập vào nhỏ hơn mức tối thiểu yêu cầu."
 msgid "It looks like you've downgraded to an older version of WPForms. We recommend always using the latest version as some features may not function as expected in older versions. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">%2$s</a>"
 msgstr "Có vẻ như bạn đã hạ cấp xuống một phiên bản cũ hơn của WPForms. Chúng tôi khuyên bạn nên luôn sử dụng phiên bản mới nhất vì một số tính năng có thể không hoạt động như mong đợi trong các phiên bản cũ hơn. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">%2$s</a>"
 
-#: includes/admin/class-about.php:561 lite/wpforms-lite.php:730
+#: includes/admin/class-about.php:561 lite/wpforms-lite.php:750
 msgid "Create powerful custom calculation forms"
 msgstr "Tạo các form tính toán tùy chỉnh mạnh mẽ"
 
-#: includes/admin/class-about.php:565 lite/wpforms-lite.php:731
+#: includes/admin/class-about.php:565 lite/wpforms-lite.php:751
 msgid "Make surveys and generate reports"
 msgstr "Tạo khảo sát và tạo báo cáo"
 
-#: includes/admin/class-about.php:585 lite/wpforms-lite.php:737
+#: includes/admin/class-about.php:585 lite/wpforms-lite.php:757
 msgid "Take payments with Stripe, PayPal, Square, & Authorize.Net"
 msgstr "Nhận thanh toán với Stripe, PayPal, Square & Authorize.Net"
 
-#: includes/admin/class-about.php:589 lite/wpforms-lite.php:738
+#: includes/admin/class-about.php:589 lite/wpforms-lite.php:758
 msgid "Export entries to Google Sheets, Excel, and CSV"
 msgstr "Xuất mục nhập sang Google Sheets, Excel và CSV"
 
@@ -1619,7 +1616,7 @@ msgid "Code Snippets"
 msgstr "Đoạn mã"
 
 #: src/Emails/Notifications.php:1314
-#: src/Forms/Fields/EntryPreview/Field.php:265
+#: src/Forms/Fields/EntryPreview/Field.php:266
 msgid "Compact"
 msgstr "Gọn gàng"
 
@@ -1967,11 +1964,11 @@ msgstr "Stripe Pro"
 msgid "Heads up! Stripe payments can't be enabled yet."
 msgstr "Lưu ý! Thanh toán Stripe chưa thể bật."
 
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:499
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:521
 msgid "Connect WPForms to Stripe."
 msgstr "Kết nối WPForms với Stripe."
 
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:515
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:537
 msgid "Learn more about our Stripe integration."
 msgstr "Tìm hiểu thêm về tích hợp Stripe của chúng tôi."
 
@@ -2093,7 +2090,7 @@ msgstr "Bí mật ký thử nghiệm"
 msgid "It seems to be request to Stripe PHP Listener method handler but the site is not configured to use it."
 msgstr "Có vẻ như yêu cầu đến bộ xử lý phương thức Stripe PHP Listener nhưng trang web chưa được cấu hình để sử dụng nó."
 
-#: src/Integrations/Stripe/Process.php:879
+#: src/Integrations/Stripe/Process.php:895
 msgid "Stripe Subscription payment stopped validation error."
 msgstr "Thanh toán Stripe Subscription bị dừng lỗi xác thực."
 
@@ -2150,7 +2147,7 @@ msgid "Choose the method of communication between Stripe and WPForms. If REST AP
 msgstr "Chọn phương thức giao tiếp giữa Stripe và WPForms. Nếu hỗ trợ REST API bị tắt cho WordPress, hãy sử dụng PHP listener. <a href=\"%s\" rel=\"nofollow noopener\" target=\"_blank\">Tìm hiểu thêm</a>."
 
 #. translators: %s - WPForms.com Stripe documentation article URL.
-#: src/Integrations/Stripe/Admin/Settings.php:383
+#: src/Integrations/Stripe/Admin/Settings.php:398
 msgid "Securely connect to Stripe with just a few clicks to begin accepting payments! <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-learn-more\">Learn More</a>"
 msgstr "Kết nối an toàn với Stripe chỉ với vài lần nhấp để bắt đầu chấp nhận thanh toán! <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-learn-more\">Tìm hiểu thêm</a>"
 
@@ -2255,27 +2252,27 @@ msgstr "Vui lòng nhập giá trị hợp lệ hoặc thay đổi giá trị tă
 msgid "Something went wrong. Please try again, and if the problem persists, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">contact our support team</a>."
 msgstr "Đã xảy ra sự cố. Vui lòng thử lại, và nếu vấn đề vẫn tiếp diễn, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">liên hệ với đội ngũ hỗ trợ của chúng tôi</a>."
 
-#: includes/admin/builder/panels/class-fields.php:707
+#: includes/admin/builder/panels/class-fields.php:772
 msgid "Search fields:"
 msgstr "Tìm kiếm trường:"
 
-#: includes/admin/builder/panels/class-fields.php:708
+#: includes/admin/builder/panels/class-fields.php:773
 msgid "Search fields..."
 msgstr "Tìm kiếm trường..."
 
-#: includes/admin/builder/panels/class-fields.php:720
+#: includes/admin/builder/panels/class-fields.php:785
 msgid "Sorry, we didn't find any fields that match your criteria."
 msgstr "Rất tiếc, chúng tôi không tìm thấy trường nào phù hợp với tiêu chí của bạn."
 
-#: includes/class-process.php:955
+#: includes/class-process.php:973
 msgid "Please wait a little longer before submitting. We’re running a quick security check."
 msgstr "Vui lòng chờ một chút trước khi gửi. Chúng tôi đang thực hiện kiểm tra bảo mật nhanh."
 
-#: includes/class-process.php:1024
+#: includes/class-process.php:1042
 msgid "Akismet"
 msgstr "Akismet"
 
-#: includes/fields/class-checkbox.php:23 includes/fields/class-select.php:48
+#: includes/fields/class-checkbox.php:23 includes/fields/class-select.php:53
 msgid "choice"
 msgstr "lựa chọn"
 
@@ -2307,39 +2304,38 @@ msgstr "Thời gian tối thiểu để gửi"
 msgid "seconds"
 msgstr "giây"
 
-#: src/Admin/Education/Fields.php:166
+#: src/Admin/Education/Fields.php:174
 #: src/Forms/Fields/CustomCaptcha/Field.php:52
 msgid "spam, math, maths, question"
 msgstr "spam, toán học, câu hỏi"
 
-#: src/Admin/Education/Fields.php:176
+#: src/Admin/Education/Fields.php:184
 #: src/Forms/Fields/Addons/Signature/Field.php:26
 msgid "user, e-signature"
 msgstr "người dùng, chữ ký điện tử"
 
-#: src/Admin/Education/Fields.php:186
+#: src/Admin/Education/Fields.php:194
 #: src/Forms/Fields/Addons/LikertScale/Field.php:26
 msgid "survey, rating scale"
 msgstr "khảo sát, thang điểm"
 
-#: src/Admin/Education/Fields.php:196
+#: src/Admin/Education/Fields.php:204
 #: src/Forms/Fields/Addons/NetPromoterScore/Field.php:26
 msgid "survey, nps"
 msgstr "khảo sát, nps"
 
-#: src/Admin/Education/Fields.php:206 src/Admin/Education/Fields.php:216
-#: src/Admin/Education/Fields.php:226
+#: src/Admin/Education/Fields.php:214 src/Admin/Education/Fields.php:224
 #: src/Integrations/Square/Fields/Square.php:25
 #: src/Integrations/Stripe/Fields/Traits/CreditCard.php:23
 msgid "store, ecommerce, credit card, pay, payment, debit card"
 msgstr "cửa hàng, thương mại điện tử, thẻ tín dụng, thanh toán, thẻ ghi nợ"
 
-#: src/Admin/Education/Fields.php:236
+#: src/Admin/Education/Fields.php:234
 #: src/Forms/Fields/Addons/Coupon/Field.php:35
 msgid "discount, sale"
 msgstr "giảm giá, bán hàng"
 
-#: src/Admin/Education/Fields.php:296
+#: src/Admin/Education/Fields.php:294
 msgid "captcha, spam, antispam"
 msgstr "captcha, spam, chống spam"
 
@@ -2379,7 +2375,7 @@ msgid "Separate multiple classes with spaces."
 msgstr "Tách các lớp nhiều lớp bằng khoảng trắng."
 
 #. translators: %s - error message.
-#: src/Integrations/Stripe/Process.php:1011
+#: src/Integrations/Stripe/Process.php:1027
 msgid "Payment Error: %s"
 msgstr "Lỗi thanh toán: %s"
 
@@ -2474,7 +2470,7 @@ msgid "No coupons applied during the selected period"
 msgstr "Không có phiếu giảm giá nào được áp dụng trong khoảng thời gian đã chọn"
 
 #. translators: %s - PHP extension name(s).
-#: src/Requirements/Requirements.php:1196
+#: src/Requirements/Requirements.php:1199
 msgid "%s PHP extension"
 msgid_plural "%s PHP extensions"
 msgstr[0] "Phần mở rộng PHP %s"
@@ -2494,7 +2490,7 @@ msgid "Last 30 days"
 msgstr "30 ngày qua"
 
 #. translators: %s - license name(s).
-#: src/Requirements/Requirements.php:1267
+#: src/Requirements/Requirements.php:1270
 msgid "%s license"
 msgstr "Bản quyền %s"
 
@@ -2521,35 +2517,35 @@ msgstr "Vui lòng điền thông tin thanh toán để tiếp tục."
 msgid "Payment Element failed to load. Stripe API responded with the message:"
 msgstr "Yếu tố thanh toán không tải được. Stripe API đã phản hồi với thông báo:"
 
-#: src/Integrations/Stripe/Process.php:219
+#: src/Integrations/Stripe/Process.php:220
 msgid "Unable to process payment, please try again later."
 msgstr "Không thể xử lý thanh toán, vui lòng thử lại sau."
 
-#: src/Integrations/Stripe/Process.php:648
+#: src/Integrations/Stripe/Process.php:659
 msgid "Stripe payment stopped, missing keys."
 msgstr "Thanh toán Stripe bị dừng, thiếu khóa."
 
-#: src/Integrations/Stripe/Process.php:654
+#: src/Integrations/Stripe/Process.php:665
 msgid "Stripe payment stopped, missing payment fields."
 msgstr "Thanh toán Stripe bị dừng, thiếu trường thanh toán."
 
-#: src/Integrations/Stripe/Process.php:659
+#: src/Integrations/Stripe/Process.php:670
 msgid "Stripe payment stopped, invalid/empty amount."
 msgstr "Thanh toán Stripe bị dừng, số tiền không hợp lệ/trống."
 
-#: src/Integrations/Stripe/Process.php:663
+#: src/Integrations/Stripe/Process.php:674
 msgid "Stripe payment stopped, amount less than minimum charge required."
 msgstr "Thanh toán Stripe bị dừng, số tiền thấp hơn mức phí tối thiểu yêu cầu."
 
-#: src/Integrations/Stripe/Process.php:1018
+#: src/Integrations/Stripe/Process.php:1034
 msgid "Stripe subscription payment stopped by error"
 msgstr "Thanh toán Stripe subscription bị dừng do lỗi."
 
-#: src/Integrations/Stripe/Process.php:1020
+#: src/Integrations/Stripe/Process.php:1036
 msgid "Stripe payment stopped by error"
 msgstr "Thanh toán Stripe bị dừng do lỗi."
 
-#: src/Integrations/Stripe/Process.php:1142
+#: src/Integrations/Stripe/Process.php:1158
 msgid "Stripe subscription payment stopped, customer email not found."
 msgstr "Thanh toán Stripe subscription bị dừng, không tìm thấy email của khách hàng."
 
@@ -2670,7 +2666,7 @@ msgstr "<p>Thanh toán Stripe phải được bật khi sử dụng trường Th
 msgid "Credit Card field is disabled, Stripe payments are not enabled in the form settings."
 msgstr "Trường Thẻ tín dụng bị vô hiệu hóa, thanh toán Stripe không được bật trong cài đặt Form."
 
-#: src/Integrations/Stripe/Process.php:1137
+#: src/Integrations/Stripe/Process.php:1153
 msgid "Stripe subscription payment stopped, missing form settings."
 msgstr "Thanh toán Stripe subscription bị dừng, thiếu cài đặt Form."
 
@@ -2682,7 +2678,7 @@ msgstr "Xem tất cả Form"
 msgid "Form:"
 msgstr "Form:"
 
-#: src/Integrations/Stripe/Admin/Settings.php:399
+#: src/Integrations/Stripe/Admin/Settings.php:414
 msgid "Connect with Stripe"
 msgstr "Kết nối với Stripe"
 
@@ -2730,11 +2726,11 @@ msgstr "Thanh toán Stripe chưa được xác nhận. Vui lòng kiểm tra bả
 msgid "Stripe subscription stopped, missing PaymentMethod id."
 msgstr "Đăng ký Stripe bị dừng, thiếu ID PaymentMethod."
 
-#: src/Integrations/Stripe/Api/PaymentIntents.php:595
+#: src/Integrations/Stripe/Api/PaymentIntents.php:596
 msgid "Stripe subscription stopped. invalid PaymentIntent status."
 msgstr "Đăng ký Stripe bị dừng. Trạng thái PaymentIntent không hợp lệ."
 
-#: src/Integrations/Stripe/Api/PaymentIntents.php:632
+#: src/Integrations/Stripe/Api/PaymentIntents.php:633
 msgid "Stripe subscription was not confirmed. Please check your Stripe dashboard."
 msgstr "Đăng ký Stripe chưa được xác nhận. Vui lòng kiểm tra bảng điều khiển Stripe của bạn."
 
@@ -2755,6 +2751,7 @@ msgstr "Email thẻ tín dụng Stripe"
 msgid "Sublabel Position"
 msgstr "Vị trí nhãn phụ"
 
+#: src/Forms/Fields/Rating/Field.php:394
 #: src/Integrations/Stripe/Fields/PaymentElementCreditCard.php:108
 msgid "Above"
 msgstr "Phía trên"
@@ -2804,14 +2801,9 @@ msgstr "Văn bản giữ chỗ tên trên thẻ"
 msgid "Card number"
 msgstr "Số thẻ"
 
-#. translators: %s - Stripe connect URL.
-#: src/Integrations/Stripe/Admin/Settings.php:356
-msgid "<a href=\"%s\">Switch Accounts</a>"
-msgstr "<a href=\"%s\">Chuyển đổi tài khoản</a>"
-
 #. translators: %1$s - Stripe account name connected, %2$s - Stripe mode
 #. connected (live or test).
-#: src/Integrations/Stripe/Admin/Settings.php:342
+#: src/Integrations/Stripe/Admin/Settings.php:344
 msgid "Connected to Stripe as <em>%1$s</em> in <strong>%2$s Mode</strong>."
 msgstr "Đã kết nối với Stripe dưới tên <em>%1$s</em> trong <strong>Chế độ %2$s</strong>."
 
@@ -2825,7 +2817,7 @@ msgid "<p>Stripe account connection is required when using the Stripe Credit Car
 msgstr "<p>Kết nối tài khoản Stripe là bắt buộc khi sử dụng trường thẻ tín dụng Stripe.</p><p>Để tiếp tục, vui lòng đi tới <strong>Cài đặt WPForms » Thanh toán » Stripe</strong> và nhấn nút <strong>Kết nối với Stripe</strong>.</p>"
 
 #. translators: %s - WPForms.com Stripe documentation article URL.
-#: src/Integrations/Stripe/Admin/Settings.php:415
+#: src/Integrations/Stripe/Admin/Settings.php:430
 msgid "Please see <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">our documentation on Stripe Credit Card field modes for full details</a>."
 msgstr "Vui lòng xem <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">tài liệu của chúng tôi về các chế độ trường thẻ tín dụng Stripe để biết chi tiết đầy đủ</a>."
 
@@ -2834,12 +2826,12 @@ msgid "<p>AJAX form submissions are required when using the Stripe Credit Card f
 msgstr "<p>Việc gửi Form AJAX là bắt buộc khi sử dụng trường thẻ tín dụng Stripe.</p><p>Để tiếp tục, vui lòng đi tới <strong>Cài đặt » Chung » Nâng cao</strong> và chọn <strong>Bật gửi Form AJAX</strong>.</p>"
 
 #: includes/admin/builder/class-builder.php:771
-#: includes/fields/class-base.php:3779
+#: includes/fields/class-base.php:3839
 msgid "posts"
 msgstr "bài viết"
 
 #: includes/admin/builder/class-builder.php:772
-#: includes/fields/class-base.php:3784
+#: includes/fields/class-base.php:3844
 msgid "terms"
 msgstr "thuật ngữ"
 
@@ -2850,7 +2842,7 @@ msgstr "thuật ngữ"
 #: src/Forms/Fields/PaymentCheckbox/Field.php:412
 #: src/Forms/Fields/PaymentMultiple/Field.php:386
 #: src/Forms/Fields/PaymentSelect/Field.php:439
-#: src/Forms/Fields/PaymentTotal/Field.php:690
+#: src/Forms/Fields/PaymentTotal/Field.php:691
 #: src/SmartTags/SmartTag/OrderSummary.php:209
 #: src/SmartTags/SmartTag/OrderSummary.php:284
 msgid "Item %s"
@@ -2874,11 +2866,11 @@ msgstr "Truy cập vào tất cả các trường tiêu chuẩn, Fancy và thanh
 msgid "Limited Payment Forms"
 msgstr "Form Thanh toán hạn chế"
 
-#: includes/fields/class-base.php:3773
+#: includes/fields/class-base.php:3833
 msgid "Dynamic choices"
 msgstr "Lựa chọn động"
 
-#: includes/fields/class-base.php:3774
+#: includes/fields/class-base.php:3834
 msgid "items"
 msgstr "các mục"
 
@@ -2984,11 +2976,11 @@ msgid "To use all of the features in this template, you'll need the %s. Contact 
 msgstr "Để sử dụng tất cả các tính năng trong mẫu này, bạn sẽ cần %s. Liên hệ với quản trị viên trang web của bạn để cài đặt nó, sau đó thử mở mẫu này lại."
 
 #. translators: %s - addon name(s).
-#: src/Admin/Builder/Templates.php:206
+#: src/Admin/Builder/Templates.php:208
 msgid "To use all of the features in this template, you'll need the %s. Contact your site administrator to install them, then try opening this template again."
 msgstr "Để sử dụng tất cả các tính năng trong mẫu này, bạn sẽ cần %s. Liên hệ với quản trị viên trang web của bạn để cài đặt chúng, sau đó thử mở mẫu này lại."
 
-#: src/Admin/Education/Fields.php:235
+#: src/Admin/Education/Fields.php:233
 #: src/Admin/Payments/Views/Overview/Table.php:96
 #: src/Admin/Payments/Views/Single.php:373
 #: src/Admin/Payments/Views/Single.php:764
@@ -3107,7 +3099,7 @@ msgstr "ID giao dịch"
 #: src/Admin/Payments/Views/Overview/Table.php:644
 #: src/Integrations/Square/Admin/Builder/Traits/Content.php:172
 #: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:390
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:467
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:489
 msgid "Customer Email"
 msgstr "Email khách hàng"
 
@@ -3393,7 +3385,7 @@ msgstr "Biên lai thanh toán Stripe"
 #: src/Integrations/Square/Admin/Builder/Traits/Content.php:179
 #: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:379
 #: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:394
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:474
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:496
 msgid "--- Select Email ---"
 msgstr "--- Chọn Email ---"
 
@@ -3451,7 +3443,7 @@ msgid "How often you would like the charge to recur."
 msgstr "Tần suất bạn muốn tính phí lặp lại."
 
 #: src/Integrations/Square/Admin/Builder/Traits/Content.php:180
-#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:475
+#: src/Integrations/Stripe/Admin/Builder/Traits/ContentTrait.php:497
 msgid "Select the field that contains the customer's email address. This field is required."
 msgstr "Chọn trường chứa địa chỉ email của khách hàng. Trường này là bắt buộc."
 
@@ -3539,8 +3531,10 @@ msgstr "Nếu bạn muốn sử dụng cổng thanh toán khác, vui lòng xem x
 
 #. translators: %1$s - data source name (e.g. Categories, Posts), %2$s - data
 #. source type (e.g. post type, taxonomy).
+#. translators: %1$s - data source name (e.g., Categories, Posts), %2$s - data
+#. source type (e.g., post type, taxonomy).
 #: includes/admin/builder/class-builder.php:766
-#: includes/fields/class-base.php:3793
+#: includes/fields/class-base.php:3853
 msgid "This field will not be displayed in your form since there are no %2$s belonging to %1$s."
 msgstr "Trường này sẽ không được hiển thị trong Form của bạn vì không có %2$s nào thuộc về %1$s."
 
@@ -3635,8 +3629,8 @@ msgstr "Bỏ qua thông báo này."
 msgid "Oh hey, it looks like you're working on a Contact page."
 msgstr "Chào bạn, có vẻ như bạn đang làm việc trên trang Liên hệ."
 
-#: src/Admin/Builder/Settings/Themes.php:543
-#: src/Admin/Builder/Settings/Themes.php:756 src/Admin/Settings/Email.php:520
+#: src/Admin/Builder/Settings/Themes.php:600
+#: src/Admin/Builder/Settings/Themes.php:813 src/Admin/Settings/Email.php:520
 #: src/Integrations/Elementor/WidgetModern.php:276
 #: src/Integrations/Elementor/WidgetModern.php:435
 #: src/Integrations/Elementor/WidgetModern.php:696
@@ -3671,23 +3665,23 @@ msgstr "Thông báo lỗi Recaptcha"
 msgid "Error message"
 msgstr "Thông báo lỗi"
 
-#: src/Admin/Builder/Settings/Themes.php:184
+#: src/Admin/Builder/Settings/Themes.php:236
 #: src/Integrations/Elementor/Elementor.php:235
 #: src/Integrations/Gutenberg/FormSelector.php:530
 msgid "There was an error parsing your JSON code. Please check your code and try again."
 msgstr "Đã xảy ra lỗi khi phân tích mã JSON của bạn. Vui lòng kiểm tra lại mã của bạn và thử lại."
 
-#: src/Admin/Builder/Settings/Themes.php:462
+#: src/Admin/Builder/Settings/Themes.php:519
 #: src/Integrations/Elementor/WidgetModern.php:225
 #: src/Integrations/Gutenberg/FormSelector.php:450
 msgid "Field Styles"
 msgstr "Kiểu Trường"
 
-#: includes/admin/builder/functions.php:845
-#: src/Admin/Builder/Settings/Themes.php:474
-#: src/Admin/Builder/Settings/Themes.php:605
-#: src/Admin/Builder/Settings/Themes.php:686
-#: src/Admin/Builder/Settings/Themes.php:1022
+#: includes/admin/builder/functions.php:885
+#: src/Admin/Builder/Settings/Themes.php:531
+#: src/Admin/Builder/Settings/Themes.php:662
+#: src/Admin/Builder/Settings/Themes.php:743
+#: src/Admin/Builder/Settings/Themes.php:1079
 #: src/Integrations/Elementor/WidgetModern.php:233
 #: src/Integrations/Elementor/WidgetModern.php:333
 #: src/Integrations/Elementor/WidgetModern.php:392
@@ -3696,12 +3690,12 @@ msgstr "Kiểu Trường"
 msgid "Size"
 msgstr "Kích thước"
 
-#: src/Admin/Builder/Settings/Themes.php:487
-#: src/Admin/Builder/Settings/Themes.php:555
-#: src/Admin/Builder/Settings/Themes.php:699
-#: src/Admin/Builder/Settings/Themes.php:768
-#: src/Admin/Builder/Settings/Themes.php:834
-#: src/Admin/Builder/Settings/Themes.php:890
+#: src/Admin/Builder/Settings/Themes.php:544
+#: src/Admin/Builder/Settings/Themes.php:612
+#: src/Admin/Builder/Settings/Themes.php:756
+#: src/Admin/Builder/Settings/Themes.php:825
+#: src/Admin/Builder/Settings/Themes.php:891
+#: src/Admin/Builder/Settings/Themes.php:947
 #: src/Integrations/Elementor/WidgetModern.php:243
 #: src/Integrations/Elementor/WidgetModern.php:285
 #: src/Integrations/Elementor/WidgetModern.php:402
@@ -3734,9 +3728,9 @@ msgstr "Cập nhật WordPress lên phiên bản mới nhất để sử dụng 
 msgid "Enable modern markup in your WPForms settings to unlock the controls below."
 msgstr "Bật mã đánh dấu hiện đại trong cài đặt WPForms của bạn để mở khóa các điều khiển bên dưới."
 
-#: src/Admin/Builder/Settings/Themes.php:521
-#: src/Admin/Builder/Settings/Themes.php:734
-#: src/Admin/Builder/Settings/Themes.php:868
+#: src/Admin/Builder/Settings/Themes.php:578
+#: src/Admin/Builder/Settings/Themes.php:791
+#: src/Admin/Builder/Settings/Themes.php:925
 #: src/Integrations/Gutenberg/FormSelector.php:509
 msgid "Border Radius"
 msgstr "Bán kính viền"
@@ -3749,7 +3743,7 @@ msgstr "Màu sắc"
 msgid "Error Message"
 msgstr "Thông báo lỗi"
 
-#: src/Admin/Builder/Settings/Themes.php:593
+#: src/Admin/Builder/Settings/Themes.php:650
 #: src/Integrations/Elementor/WidgetModern.php:325
 #: src/Integrations/Gutenberg/FormSelector.php:454
 msgid "Label Styles"
@@ -3760,13 +3754,13 @@ msgstr "Kiểu nhãn"
 msgid "Sublabel & Hint"
 msgstr "Nhãn phụ & gợi ý"
 
-#: src/Admin/Builder/Settings/Themes.php:1189
+#: src/Admin/Builder/Settings/Themes.php:1246
 #: src/Integrations/Elementor/WidgetModern.php:772
 #: src/Integrations/Gutenberg/FormSelector.php:529
 msgid "Copy / Paste Style Settings"
 msgstr "Sao chép / Dán cài đặt kiểu"
 
-#: src/Admin/Builder/Settings/Themes.php:674
+#: src/Admin/Builder/Settings/Themes.php:731
 #: src/Integrations/Elementor/WidgetModern.php:384
 #: src/Integrations/Gutenberg/FormSelector.php:457
 msgid "Button Styles"
@@ -3802,7 +3796,7 @@ msgstr "Kiểu Form bị vô hiệu hóa vì Chế độ Form Lead được bậ
 msgid "To change the styling for this form, open it in the form builder and edit the options in the Lead Forms settings."
 msgstr "Để thay đổi kiểu cho Form này, hãy mở nó trong trình tạo Form và chỉnh sửa các tùy chọn trong cài đặt Form Lead."
 
-#: src/Admin/Builder/Settings/Themes.php:1193
+#: src/Admin/Builder/Settings/Themes.php:1250
 #: src/Integrations/Elementor/WidgetModern.php:774
 #: src/Integrations/Gutenberg/FormSelector.php:531
 msgid "If you've copied style settings from another form, you can paste them here to add the same styling to this form. Any current style settings will be overwritten."
@@ -3853,7 +3847,7 @@ msgstr "Bật Cloudflare Turnstile"
 msgid "Enable free, CAPTCHA-like spam protection that protects data privacy."
 msgstr "Bật tính năng bảo vệ chống spam miễn phí, tương tự CAPTCHA, bảo vệ quyền riêng tư dữ liệu."
 
-#: src/Admin/Settings/Captcha/Turnstile.php:91 src/Frontend/Frontend.php:1876
+#: src/Admin/Settings/Captcha/Turnstile.php:91 src/Frontend/Frontend.php:1883
 msgid "Cloudflare Turnstile verification failed, please try again later."
 msgstr "Xác minh Cloudflare Turnstile thất bại, vui lòng thử lại sau."
 
@@ -3951,40 +3945,40 @@ msgstr "Bạn không thể nhập các Form vì bạn không có quyền HTML kh
 msgid "Incorrect usage of this operation."
 msgstr "Sử dụng không chính xác thao tác này."
 
-#: includes/fields/class-base.php:1827
+#: includes/fields/class-base.php:1881
 msgid "Use icon choices"
 msgstr "Sử dụng lựa chọn biểu tượng"
 
-#: includes/fields/class-base.php:1828
+#: includes/fields/class-base.php:1882
 msgid "Enable this option to use icons with the choices."
 msgstr "Bật tùy chọn này để sử dụng biểu tượng với các lựa chọn."
 
-#: includes/fields/class-base.php:1853 src/Forms/Fields/Rating/Field.php:234
+#: includes/fields/class-base.php:1907 src/Forms/Fields/Rating/Field.php:256
 msgid "Icon Color"
 msgstr "Màu biểu tượng"
 
-#: includes/fields/class-base.php:1854
+#: includes/fields/class-base.php:1908
 msgid "Select an accent color for the icon choices."
 msgstr "Chọn màu nhấn cho các lựa chọn biểu tượng."
 
-#: includes/fields/class-base.php:1893 src/Forms/Fields/Rating/Field.php:199
+#: includes/fields/class-base.php:1947 src/Forms/Fields/Rating/Field.php:219
 msgid "Icon Size"
 msgstr "Kích thước biểu tượng"
 
-#: includes/fields/class-base.php:1894
+#: includes/fields/class-base.php:1948
 msgid "Select icon size."
 msgstr "Chọn kích thước biểu tượng."
 
-#: includes/fields/class-base.php:1937
+#: includes/fields/class-base.php:1995
 msgid "Icon Choice Style"
 msgstr "Kiểu lựa chọn biểu tượng"
 
-#: includes/fields/class-base.php:1938
+#: includes/fields/class-base.php:1996
 msgid "Select the style for the icon choices."
 msgstr "Chọn kiểu cho các lựa chọn biểu tượng."
 
 #. translators: %s - <email@example.com>.
-#: lite/wpforms-lite.php:334
+#: lite/wpforms-lite.php:337
 msgid "Enter the email address or email address with recipient's name in \"First Last %s\" format."
 msgstr "Nhập địa chỉ email hoặc địa chỉ email có tên người nhận theo định dạng \"Họ Tên %s\"."
 
@@ -4002,7 +3996,7 @@ msgid "Additional Anti-Spam Settings"
 msgstr "Cài đặt Chống Spam bổ sung"
 
 #. translators: %s - error unique ID.
-#: includes/class-process.php:308
+#: includes/class-process.php:316
 msgid "Error ID: %s."
 msgstr "ID lỗi: %s."
 
@@ -4054,8 +4048,8 @@ msgstr "Bật tính năng chống spam miễn phí, bảo mật quyền riêng t
 msgid "Integrate the powerful spam-fighting service trusted by millions of sites."
 msgstr "Tích hợp dịch vụ chống spam mạnh mẽ được hàng triệu trang web tin tưởng."
 
-#: src/Admin/Builder/Settings/Themes.php:567
-#: src/Admin/Builder/Settings/Themes.php:780 src/Admin/Settings/Email.php:522
+#: src/Admin/Builder/Settings/Themes.php:624
+#: src/Admin/Builder/Settings/Themes.php:837 src/Admin/Settings/Email.php:522
 #: src/Forms/Fields/Richtext/Field.php:176
 #: src/Forms/Fields/Traits/ContentInput.php:316
 #: src/Integrations/Elementor/WidgetModern.php:295
@@ -4081,11 +4075,11 @@ msgid "New Templates"
 msgstr "Mẫu mới"
 
 #. translators: %s - URL to the WForms Logs admin page.
-#: includes/class-process.php:293
+#: includes/class-process.php:301
 msgid "Check the WPForms &raquo; Tools &raquo; <a href=\"%s\">Logs</a> for more details."
 msgstr "Kiểm tra WPForms &raquo; Công cụ &raquo; <a href=\"%s\">Nhật ký</a> để biết thêm chi tiết."
 
-#: includes/class-process.php:281
+#: includes/class-process.php:289
 msgid "Form data is not an array in `\\WPForms_Process::process()`. It might be caused by incorrect data returned by `wpforms_process_before_form_data` filter. Verify whether you have a custom code using this filter and debug value it is returning."
 msgstr "Dữ liệu form không phải là một mảng trong `\\WPForms_Process::process()`. Điều này có thể do dữ liệu không chính xác được trả về bởi bộ lọc `wpforms_process_before_form_data`. Hãy kiểm tra xem bạn có mã tùy chỉnh nào sử dụng bộ lọc này không và debug giá trị mà nó đang trả về."
 
@@ -4098,11 +4092,11 @@ msgid "Multi-page Forms, File Upload Forms, Multiple Form Notifications, File Up
 msgstr "Form nhiều trang, Form tải lên tệp, Thông báo Form nhiều, Tải lên tệp và tệp đính kèm CSV, Xác nhận Form có điều kiện, Lưu và tiếp tục Form"
 
 #. translators: %s - error unique ID.
-#: includes/class-process.php:280
+#: includes/class-process.php:288
 msgid "Missing form data on form submission process %s"
 msgstr "Thiếu dữ liệu Form trong quá trình gửi Form %s"
 
-#: includes/class-process.php:288
+#: includes/class-process.php:296
 msgid "Your form has not been submitted because data is missing from the entry."
 msgstr "Form của bạn chưa được gửi vì thiếu dữ liệu trong mục nhập."
 
@@ -4164,7 +4158,7 @@ msgstr "Xóa khỏi mục yêu thích"
 msgid "Mark as Favorite"
 msgstr "Đánh dấu là Mục yêu thích"
 
-#: src/Admin/Education/Fields.php:85
+#: src/Admin/Education/Fields.php:93
 msgid "Layout"
 msgstr "Bố cục"
 
@@ -4172,7 +4166,7 @@ msgstr "Bố cục"
 msgid "Available Templates"
 msgstr "Mẫu có sẵn"
 
-#: src/Admin/Builder/Templates.php:1080
+#: src/Admin/Builder/Templates.php:1082
 msgid "Never start from scratch again! While WPForms Lite allows you to create any type of form, you can save even more time with WPForms Pro. Upgrade to access hundreds more form templates and advanced form fields."
 msgstr "Không bao giờ bắt đầu từ đầu nữa! Trong khi WPForms Lite cho phép bạn tạo bất kỳ loại Form nào, bạn có thể tiết kiệm nhiều thời gian hơn với WPForms Pro. Nâng cấp để truy cập hàng trăm mẫu Form và trường Form nâng cao hơn."
 
@@ -4195,7 +4189,7 @@ msgid "Choose a template to speed up the process of creating your form. You can 
 msgstr "Chọn một mẫu để tăng tốc quá trình tạo Form của bạn. Bạn cũng có thể bắt đầu với một <a href=\"#\" class=\"wpforms-trigger-blank\">Form trống</a> hoặc <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">tự tạo Form của riêng bạn</a>. <br>Có đề xuất cho một mẫu mới? <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Chúng tôi rất muốn nghe ý kiến của bạn</a>!"
 
 #. translators: %d - templates count.
-#: src/Admin/Builder/Templates.php:1077
+#: src/Admin/Builder/Templates.php:1079
 msgid "Get Access to Our Library of %d+ Pre-Made Form Templates"
 msgstr "Truy cập Thư viện của chúng tôi với %d Mẫu Form được tạo sẵn"
 
@@ -4228,7 +4222,7 @@ msgstr "Mã ủy quyền là bắt buộc."
 msgid "The \"Account Nickname\" is required."
 msgstr "Tên tài khoản là bắt buộc."
 
-#: src/Admin/Education/Fields.php:205 src/Db/Payments/ValueValidator.php:70
+#: src/Admin/Education/Fields.php:213 src/Db/Payments/ValueValidator.php:70
 #: src/Forms/Fields/Helpers/RequirementsAlerts.php:175
 msgid "PayPal Commerce"
 msgstr "Thương mại PayPal"
@@ -4279,7 +4273,7 @@ msgstr "Chấp nhận thanh toán bằng PayPal Commerce, Stripe, Square và Pay
 msgid "Accept payments using PayPal Commerce, Stripe, Square, PayPal Standard, and Authorize.Net"
 msgstr "Chấp nhận thanh toán bằng PayPal Commerce, Stripe, Square, PayPal Standard và Authorize.Net"
 
-#: includes/admin/class-settings.php:515 src/Frontend/Frontend.php:1877
+#: includes/admin/class-settings.php:515 src/Frontend/Frontend.php:1884
 msgid "Please fill out the field in required format."
 msgstr "Vui lòng điền vào trường theo định dạng yêu cầu."
 
@@ -4312,6 +4306,7 @@ msgid "Enable Akismet anti-spam protection"
 msgstr "Bật bảo vệ chống thư rác Akismet"
 
 #: src/Admin/Helpers/Datepicker.php:421 src/Admin/Traits/FormTemplates.php:382
+#: src/Forms/Fields/Traits/CameraTrait.php:140
 msgid "Custom"
 msgstr "Tuỳ chỉnh"
 
@@ -4353,11 +4348,11 @@ msgstr "Thu thập tên, email và tin nhắn từ khách truy cập trang web c
 msgid "Mapbox API"
 msgstr "Mapbox API"
 
-#: src/Admin/Notifications/EventDriven.php:694
+#: src/Admin/Notifications/EventDriven.php:718
 msgid "What’s Your Dream WPForms Feature?"
 msgstr "Tính năng WPForms mơ ước của bạn là gì?"
 
-#: src/Admin/Notifications/EventDriven.php:699
+#: src/Admin/Notifications/EventDriven.php:723
 msgid "Share Your Idea"
 msgstr "Chia sẻ ý tưởng của bạn"
 
@@ -4406,11 +4401,11 @@ msgstr "Dưới đây là tổng số lượt nhập cho mỗi form. Tuy nhiên,
 msgid "When you’re ready to manage your entries inside WordPress, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">upgrade to Pro</a> to import your entries."
 msgstr "Khi bạn đã sẵn sàng để quản lý các mục của mình trong WordPress, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">nâng cấp lên Pro</a> để nhập các mục của bạn."
 
-#: src/Admin/Notifications/EventDriven.php:708
+#: src/Admin/Notifications/EventDriven.php:732
 msgid "Congratulations! You Just Got Your 100th Form Entry!"
 msgstr "Chúc mừng! Bạn vừa nhận được mục nhập Form thứ 100!"
 
-#: src/Admin/Notifications/EventDriven.php:709
+#: src/Admin/Notifications/EventDriven.php:733
 msgid "You just hit 100 entries&hellip; and this is just the beginning! Now it’s time to dig into the data and figure out what makes your visitors tick. The User Journey addon shows you what your visitors looked at before submitting your form. Now you can easily find which areas of your site are triggering form conversions."
 msgstr "Bạn vừa đạt 100 mục nhập ... và đây chỉ là khởi đầu! Bây giờ là lúc đào sâu vào dữ liệu và tìm hiểu điều gì khiến khách truy cập của bạn thích thú. Tiện ích bổ sung User Journey cho bạn thấy những gì khách truy cập của bạn đã xem trước khi gửi Form. Bây giờ bạn có thể dễ dàng tìm ra những khu vực nào trên trang web của bạn đang kích hoạt chuyển đổi Form."
 
@@ -4429,60 +4424,60 @@ msgstr "Các mục của bạn đang được sao lưu an toàn trên đám mây
 msgid "Your form entries can’t be backed up because WPForms can’t connect to the backup server. If you’d like to back up your entries, find out how to <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">fix entry backup issues</a>."
 msgstr "Các mục form của bạn không thể được sao lưu vì WPForms không thể kết nối với máy chủ sao lưu. Nếu bạn muốn sao lưu các mục của mình, hãy tìm hiểu cách <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">khắc phục các vấn đề sao lưu mục</a>."
 
-#: src/Admin/Notifications/EventDriven.php:695
+#: src/Admin/Notifications/EventDriven.php:719
 msgid "If you could add just one feature to WPForms, what would it be? We want to know! Our team is busy surveying valued customers like you as we plan the year ahead. We’d love to know which features would take your business to the next level! Do you have a second to share your idea with us?"
 msgstr "Nếu bạn có thể thêm chỉ một tính năng vào WPForms, đó sẽ là gì? Chúng tôi muốn biết! Đội ngũ của chúng tôi đang bận rộn khảo sát những khách hàng quý giá như bạn khi chúng tôi lên kế hoạch cho năm tới. Chúng tôi rất muốn biết những tính năng nào sẽ giúp doanh nghiệp của bạn phát triển lên một tầm cao mới! Bạn có một chút thời gian để chia sẻ ý tưởng của mình với chúng tôi không?"
 
-#: src/Admin/Notifications/EventDriven.php:555
+#: src/Admin/Notifications/EventDriven.php:579
 msgid "Did you know that many WordPress sites are not properly configured to send emails? With the free WP Mail SMTP plugin, you can easily optimize your site to send emails, avoid the spam folder, and make sure your emails land in the recipient’s inbox every time."
 msgstr "Bạn có biết rằng nhiều trang web WordPress không được cấu hình đúng cách để gửi email? Với plugin WP Mail SMTP miễn phí, bạn có thể dễ dàng tối ưu hóa trang web của mình để gửi email, tránh thư mục thư rác và đảm bảo email của bạn luôn đến hộp thư đến của người nhận."
 
-#: src/Admin/Notifications/EventDriven.php:575
+#: src/Admin/Notifications/EventDriven.php:599
 msgid "Want to Be a VIP? Join Now!"
 msgstr "Muốn trở thành VIP? Tham gia ngay!"
 
-#: src/Admin/Notifications/EventDriven.php:580
+#: src/Admin/Notifications/EventDriven.php:604
 msgid "Join Now"
 msgstr "Tham gia Ngay"
 
-#: src/Admin/Notifications/EventDriven.php:588
+#: src/Admin/Notifications/EventDriven.php:612
 msgid "Want to Know What Your Customers Really Think?"
 msgstr "Bạn muốn biết khách hàng của mình thực sự nghĩ gì?"
 
-#: src/Admin/Notifications/EventDriven.php:589
+#: src/Admin/Notifications/EventDriven.php:613
 msgid "Nothing beats real feedback from your customers and visitors. That’s why many small businesses love our awesome Surveys and Polls addon. Instantly unlock full survey reporting right in your WordPress dashboard. And don’t forget: building a survey is easy with our pre-made templates, so you could get started within a few minutes!"
 msgstr "Không gì tuyệt vời hơn là nhận phản hồi thực tế từ khách hàng và khách truy cập của bạn. Đó là lý do tại sao nhiều doanh nghiệp nhỏ yêu thích tiện ích bổ sung Khảo sát và Bỏ phiếu tuyệt vời của chúng tôi. Mở khóa ngay báo cáo khảo sát đầy đủ ngay trong bảng điều khiển WordPress của bạn. Và đừng quên: tạo khảo sát thật dễ dàng với các mẫu có sẵn của chúng tôi, vì vậy bạn có thể bắt đầu trong vòng vài phút!"
 
-#: src/Admin/Notifications/EventDriven.php:530
+#: src/Admin/Notifications/EventDriven.php:554
 msgid "Start Building"
 msgstr "Bắt đầu tạo"
 
-#: src/Admin/Notifications/EventDriven.php:537
+#: src/Admin/Notifications/EventDriven.php:561
 msgid "Read the Guide"
 msgstr "Đọc hướng dẫn"
 
-#: src/Admin/Notifications/EventDriven.php:576
+#: src/Admin/Notifications/EventDriven.php:600
 msgid "Running a WordPress site can be challenging. But help is just around the corner! Our Facebook group contains tons of tips and help to get your business growing! When you join our VIP Circle, you’ll get instant access to tips, tricks, and answers from a community of loyal WPForms users. Best of all, membership is 100% free!"
 msgstr "Quản lý trang web WordPress có thể là một thử thách. Nhưng sự hỗ trợ luôn ở gần! Nhóm Facebook của chúng tôi chứa đầy lời khuyên và sự hỗ trợ để giúp doanh nghiệp của bạn phát triển! Khi bạn tham gia VIP Circle của chúng tôi, bạn sẽ được truy cập ngay vào các mẹo, thủ thuật và câu trả lời từ cộng đồng người dùng WPForms trung thành. Hơn hết, việc tham gia là hoàn toàn miễn phí!"
 
-#: src/Admin/Notifications/EventDriven.php:641
+#: src/Admin/Notifications/EventDriven.php:665
 msgid "Get More Leads From Your Forms!"
 msgstr "Nhận thêm khách hàng tiềm năng từ các Form của bạn!"
 
-#: src/Admin/Notifications/EventDriven.php:642
+#: src/Admin/Notifications/EventDriven.php:666
 msgid "Are your forms converting fewer visitors than you hoped? Often, visitors quit forms partway through. That can prevent you from getting all the leads you deserve to capture. With our Form Abandonment addon, you can capture partial entries even if your visitor didn’t hit Submit! From there, it’s easy to follow up with leads and turn them into loyal customers."
 msgstr "Form của bạn có chuyển đổi ít khách truy cập hơn bạn mong đợi không? Thường thì khách truy cập bỏ Form giữa chừng. Điều đó có thể ngăn bạn có được tất cả các khách hàng tiềm năng mà bạn xứng đáng có được. Với tiện ích bổ sung Form Abandonment của chúng tôi, bạn có thể thu thập các mục nhập một phần ngay cả khi khách truy cập của bạn không nhấn Submit! Từ đó, bạn có thể dễ dàng theo dõi khách hàng tiềm năng và biến họ thành khách hàng trung thành."
 
-#: src/Admin/Notifications/EventDriven.php:554
+#: src/Admin/Notifications/EventDriven.php:578
 msgid "Don’t Miss Your Form Notification Emails!"
 msgstr "Đừng bỏ lỡ Email thông báo Form của bạn!"
 
 #. translators: %s - number of templates.
-#: src/Admin/Notifications/EventDriven.php:524
+#: src/Admin/Notifications/EventDriven.php:548
 msgid "We’re grateful that you chose WPForms for your website! Now that you’ve installed the plugin, you’re less than 5 minutes away from publishing your first form. To make it easy, we’ve got %s form templates to get you started!"
 msgstr "Chúng tôi rất biết ơn vì bạn đã chọn WPForms cho trang web của mình! Bây giờ bạn đã cài plugin, bạn chỉ còn chưa đầy 5 phút nữa để đăng form đầu tiên của mình. Để giúp bạn dễ dàng hơn, chúng tôi có %s template form để bạn bắt đầu!"
 
-#: includes/fields/class-email.php:1080
+#: includes/fields/class-email.php:1111
 msgid "We’ve detected the same text in your allowlist and denylist. To prevent a conflict, we’ve removed the following text from the list you’re currently viewing:"
 msgstr "Chúng tôi đã phát hiện thấy cùng một văn bản trong danh sách cho phép và danh sách chặn của bạn. Để tránh xung đột, chúng tôi đã xóa văn bản sau khỏi danh sách bạn đang xem:"
 
@@ -4533,7 +4528,7 @@ msgstr "Tất cả thẻ"
 msgid "Almost done!"
 msgstr "Gần xong!"
 
-#: src/Admin/Notifications/EventDriven.php:522
+#: src/Admin/Notifications/EventDriven.php:546
 msgid "Welcome to WPForms!"
 msgstr "Chào mừng đến với WPForms!"
 
@@ -5127,23 +5122,23 @@ msgid "Create your <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">
 msgstr "Tạo <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">form liên hệ</a> của bạn với WPForms chỉ trong vài phút."
 
 #. translators: %s - number of templates.
-#: includes/admin/class-about.php:546 lite/wpforms-lite.php:723
+#: includes/admin/class-about.php:546 lite/wpforms-lite.php:743
 msgid "%s customizable form templates"
 msgstr "%s mẫu form có thể tùy chỉnh"
 
-#: includes/admin/class-about.php:553 lite/wpforms-lite.php:728
+#: includes/admin/class-about.php:553 lite/wpforms-lite.php:748
 msgid "Store and manage form entries in WordPress"
 msgstr "Lưu trữ và quản lý mục nhập form trong WordPress"
 
-#: includes/admin/class-about.php:557 lite/wpforms-lite.php:729
+#: includes/admin/class-about.php:557 lite/wpforms-lite.php:749
 msgid "Unlock all fields & features, including smart conditional logic"
 msgstr "Mở khóa tất cả các trường & tính năng, bao gồm logic điều kiện thông minh"
 
-#: includes/admin/class-about.php:577 lite/wpforms-lite.php:735
+#: includes/admin/class-about.php:577 lite/wpforms-lite.php:755
 msgid "7000+ integrations with marketing and payment services"
 msgstr "Hơn 7000 tích hợp với các dịch vụ tiếp thị và thanh toán"
 
-#: includes/admin/class-about.php:581 lite/wpforms-lite.php:736
+#: includes/admin/class-about.php:581 lite/wpforms-lite.php:756
 msgid "Let users save & resume submissions to prevent abandonment"
 msgstr "Cho phép người dùng lưu & tiếp tục gửi để ngăn chặn bỏ dở"
 
@@ -5179,7 +5174,7 @@ msgstr "Plugin thanh toán Stripe số 1 dành cho WordPress. Bắt đầu chấ
 msgid "The #1 affiliate management plugin for WordPress. Easily create an affiliate program for your eCommerce store or membership site within minutes and start growing your sales with the power of referral marketing."
 msgstr "Plugin quản lý liên kết số 1 dành cho WordPress. Dễ dàng tạo chương trình liên kết cho cửa hàng thương mại điện tử hoặc trang web thành viên của bạn trong vòng vài phút và bắt đầu tăng doanh số bán hàng của bạn với sức mạnh của tiếp thị giới thiệu."
 
-#: includes/admin/class-about.php:593 lite/wpforms-lite.php:739
+#: includes/admin/class-about.php:593 lite/wpforms-lite.php:759
 msgid "Collect signatures, geolocation data, and file uploads"
 msgstr "Thu thập chữ ký, dữ liệu định vị địa lý và tải lên tệp"
 
@@ -5200,12 +5195,12 @@ msgid "This field cannot be moved."
 msgstr "Trường này không thể di chuyển."
 
 #: includes/admin/builder/class-builder.php:888
-#: includes/fields/class-base.php:2673
+#: includes/fields/class-base.php:2731
 msgid "Empty Label"
 msgstr "Nhãn trống"
 
 #. translators: %s - suggested email address.
-#: includes/admin/class-settings.php:477 src/Frontend/Frontend.php:1846
+#: includes/admin/class-settings.php:477 src/Frontend/Frontend.php:1853
 msgid "Did you mean %s?"
 msgstr "Bạn có muốn nói %s không?"
 
@@ -5221,15 +5216,15 @@ msgstr "Giới hạn là %1$s từ. Từ còn lại: %2$s."
 
 #. translators: %1$.3f - total size of the selected files in megabytes, %2$.3f
 #. - allowed file upload limit in megabytes.
-#: includes/class-process.php:1596
+#: includes/class-process.php:1709
 msgid "The total size of the selected files %1$.3f MB exceeds the allowed limit %2$.3f MB."
 msgstr "Tổng kích thước của các tệp đã chọn %1$.3f MB vượt quá giới hạn cho phép %2$.3f MB."
 
-#: includes/fields/class-base.php:2674
+#: includes/fields/class-base.php:2732
 msgid "Label Hidden"
 msgstr "Nhãn ẩn"
 
-#: includes/fields/class-base.php:2675
+#: includes/fields/class-base.php:2733
 msgid "To ensure your form is accessible, every field should have a descriptive label. If you'd like to hide the label, you can do so by enabling Hide Label in the Advanced Field Options tab."
 msgstr "Để đảm bảo form của bạn dễ truy cập, mọi trường cần có nhãn mô tả. Nếu bạn muốn ẩn nhãn, bạn có thể bật tùy chọn Ẩn nhãn trong tab Tùy chọn trường nâng cao."
 
@@ -5259,12 +5254,12 @@ msgid "Pro mailers: Amazon SES, Microsoft 365 / Outlook.com, Zoho Mail."
 msgstr "Các dịch vụ gửi email chuyên nghiệp: Amazon SES, Microsoft 365 / Outlook.com, Zoho Mail."
 
 #. translators: %1$s - character count, %2$s - character limit.
-#: src/Frontend/Frontend.php:1860
+#: src/Frontend/Frontend.php:1867
 msgid "%1$s of %2$s max characters."
 msgstr "%1$s trong số %2$s ký tự tối đa."
 
 #. translators: %1$s - word count, %2$s - word limit.
-#: src/Frontend/Frontend.php:1868
+#: src/Frontend/Frontend.php:1875
 msgid "%1$s of %2$s max words."
 msgstr "%1$s trong số %2$s từ tối đa."
 
@@ -5272,8 +5267,8 @@ msgstr "%1$s trong số %2$s từ tối đa."
 msgid "Security"
 msgstr "Bảo mật"
 
-#: includes/admin/builder/panels/class-fields.php:430
-#: includes/fields/class-base.php:3125
+#: includes/admin/builder/panels/class-fields.php:493
+#: includes/fields/class-base.php:3184
 msgid "Hide Helper"
 msgstr "Ẩn hỗ trợ"
 
@@ -5293,11 +5288,11 @@ msgstr "Không thể cài đặt plugin tự động. Vui lòng tải xuống v�
 msgid "Activating"
 msgstr "Đang Kích Hoạt"
 
-#: src/Admin/Education/Fields.php:117 src/Forms/Fields/Richtext/Field.php:25
+#: src/Admin/Education/Fields.php:125 src/Forms/Fields/Richtext/Field.php:25
 msgid "Rich Text"
 msgstr "Văn bản phong phú"
 
-#: src/Admin/Education/Fields.php:215 src/Db/Payments/ValueValidator.php:72
+#: src/Db/Payments/ValueValidator.php:72
 #: src/Forms/Fields/Helpers/RequirementsAlerts.php:183
 #: src/Integrations/Square/Admin/Settings.php:252
 #: src/Integrations/Square/Fields/Square.php:24
@@ -5358,7 +5353,7 @@ msgid "Put Your WordPress Site on Autopilot"
 msgstr "Đặt trang web WordPress của bạn lên chế độ tự động"
 
 #. translators: %s - Lite plugin download URL.
-#: src/Admin/Pages/PrivacyCompliance.php:161 src/Admin/Pages/SMTP.php:160
+#: src/Admin/Pages/PrivacyCompliance.php:162 src/Admin/Pages/SMTP.php:160
 msgid "Could not install the plugin automatically. Please <a href=\"%s\">download</a> it and install it manually."
 msgstr "Không thể cài plugin tự động. Vui lòng <a href=\"%s\">tải về</a> và cài đặt thủ công."
 
@@ -5422,9 +5417,9 @@ msgstr "Hiển thị xem trước lượt nhập"
 msgid "Show entry preview after confirmation"
 msgstr "Hiển thị xem trước lượt nhập sau khi xác nhận"
 
-#: src/Admin/Education/Fields.php:141
+#: src/Admin/Education/Fields.php:149
 #: src/Forms/Fields/EntryPreview/Field.php:25
-#: src/Forms/Fields/EntryPreview/Field.php:178
+#: src/Forms/Fields/EntryPreview/Field.php:179
 msgid "Entry Preview"
 msgstr "Xem trước lượt nhập"
 
@@ -5436,13 +5431,13 @@ msgstr "Khám phá mọi thứ WPForms cung cấp một cách trực quan. Từ 
 msgid "Preview Form"
 msgstr "Xem trước Form"
 
-#: includes/admin/builder/panels/class-fields.php:428
-#: includes/fields/class-base.php:3123
+#: includes/admin/builder/panels/class-fields.php:491
+#: includes/fields/class-base.php:3182
 msgid "Click to Edit"
 msgstr "Bấm để chỉnh sửa"
 
-#: includes/admin/builder/panels/class-fields.php:429
-#: includes/fields/class-base.php:3124
+#: includes/admin/builder/panels/class-fields.php:492
+#: includes/fields/class-base.php:3183
 msgid "Drag to Reorder"
 msgstr "Kéo để sắp xếp lại"
 
@@ -5456,7 +5451,7 @@ msgid "Addon Templates"
 msgstr "Mẫu bổ sung"
 
 #: includes/emails/class-emails.php:610 src/Emails/Notifications.php:1020
-#: src/Forms/Fields/Html/Field.php:191
+#: src/Forms/Fields/Html/Field.php:194
 msgid "HTML / Code Block"
 msgstr "Khối HTML / Mã"
 
@@ -5464,11 +5459,11 @@ msgstr "Khối HTML / Mã"
 msgid "Enable Notifications"
 msgstr "Bật thông báo"
 
-#: lite/wpforms-lite.php:245
+#: lite/wpforms-lite.php:247
 msgid "Email Subject Line"
 msgstr "Chủ đề email"
 
-#: lite/wpforms-lite.php:354
+#: lite/wpforms-lite.php:358
 msgid "Email Message"
 msgstr "Nội dung email"
 
@@ -5494,12 +5489,12 @@ msgstr "Sau khi lưu các cài đặt này, hãy chắc chắn <a href=\"%1$s\" 
 msgid "Create Blank Form"
 msgstr "Tạo Form trống"
 
-#: includes/fields/class-base.php:1580
+#: includes/fields/class-base.php:1634
 msgid "Dynamic Choices Active"
 msgstr "Lựa chọn động đang hoạt động"
 
 #. translators: %1$s - source name, %2$s - type name.
-#: includes/fields/class-base.php:1584
+#: includes/fields/class-base.php:1638
 msgid "Choices are dynamically populated from the %1$s %2$s. Go to the Advanced tab to change this."
 msgstr "Lựa chọn được điền động từ %1$s %2$s. Đi tới tab Nâng cao để thay đổi điều này."
 
@@ -5529,13 +5524,13 @@ msgstr "Thông báo là các email được gửi khi một Form được gửi 
 msgid "Exit Ctrl+Q"
 msgstr "Thoát Ctrl+Q"
 
-#: includes/admin/builder/panels/class-fields.php:529
+#: includes/admin/builder/panels/class-fields.php:594
 msgid "Dismiss this message. The field will be deleted as well."
 msgstr "Bỏ qua thông báo này. Trường sẽ bị xóa."
 
 #: includes/admin/builder/panels/class-settings.php:379
-#: includes/fields/class-base.php:2086
-#: src/Admin/Builder/Settings/Themes.php:351
+#: includes/fields/class-base.php:2144
+#: src/Admin/Builder/Settings/Themes.php:408
 #: src/Integrations/Elementor/WidgetModern.php:744
 #: src/Integrations/Gutenberg/FormSelector.php:481
 #: src/Lite/Admin/Education/Builder/Notifications.php:130
@@ -5595,7 +5590,7 @@ msgid "You are using an outdated browser!"
 msgstr "Bạn đang sử dụng trình duyệt lỗi thời!"
 
 #. translators: %s - unavailable field name.
-#: includes/admin/builder/panels/class-fields.php:507
+#: includes/admin/builder/panels/class-fields.php:572
 msgid "Unfortunately, the %s field is not available and will be ignored on the front end."
 msgstr "Rất tiếc, trường %s không khả dụng và sẽ bị bỏ qua ở giao diện người dùng."
 
@@ -5609,7 +5604,7 @@ msgid "Learn more"
 msgstr "Tìm hiểu thêm"
 
 #. translators: %s - site domain.
-#: src/Emails/Summaries.php:321
+#: src/Emails/Summaries.php:322
 msgid "Your Weekly WPForms Summary for %s"
 msgstr "Tóm tắt hàng tuần của WPForms cho %s"
 
@@ -5913,12 +5908,12 @@ msgstr "Bật tự động điền địa chỉ"
 msgid "We're sorry, Address Autocomplete is part of the Geolocation Addon and not available on your plan. Please upgrade to the PRO plan to unlock all these awesome features."
 msgstr "Chúng tôi xin lỗi, Tự động điền địa chỉ là một phần của tiện ích bổ sung định vị và không có sẵn trong gói của bạn. Vui lòng nâng cấp lên gói PRO để mở khóa tất cả các tính năng tuyệt vời này."
 
-#: src/Frontend/Frontend.php:2185
+#: src/Frontend/Frontend.php:2192
 msgid "This message is only displayed to site administrators."
 msgstr "Thông báo này chỉ hiển thị cho quản trị viên trang web."
 
 #. translators: %s - URL to the troubleshooting guide.
-#: src/Frontend/Frontend.php:2172
+#: src/Frontend/Frontend.php:2179
 msgid "Heads up! WPForms has detected an issue with JavaScript on this page. JavaScript is required for this form to work properly, so this form may not work as expected. See our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">troubleshooting guide</a> to learn more or contact support."
 msgstr "Cảnh báo! WPForms đã phát hiện một vấn đề với JavaScript trên trang này. JavaScript là cần thiết để Form này hoạt động đúng cách, vì vậy Form này có thể không hoạt động như mong đợi. Xem <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">hướng dẫn khắc phục sự cố</a> của chúng tôi để tìm hiểu thêm hoặc liên hệ hỗ trợ."
 
@@ -5941,7 +5936,7 @@ msgstr "CAPTCHA này được tạo bằng cách sử dụng site key và secret
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: src/Admin/Builder/AntiSpam.php:376 src/Admin/Education/Fields.php:165
+#: src/Admin/Builder/AntiSpam.php:376 src/Admin/Education/Fields.php:173
 #: src/Forms/Fields/CustomCaptcha/Field.php:51
 msgid "Custom Captcha"
 msgstr "CAPTCHA tùy chỉnh"
@@ -5973,14 +5968,14 @@ msgstr "Sao chép mã nhúng vào bảng tạm"
 msgid "For more details on how hCaptcha works, as well as a step by step setup guide, please check out our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">documentation</a>."
 msgstr "Để biết thêm chi tiết về cách hCaptcha hoạt động, cũng như hướng dẫn cài đặt từng bước, vui lòng xem <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">tài liệu</a> của chúng tôi."
 
-#: templates/admin/settings/hcaptcha-description.php:12
-msgid "hCaptcha is a free and privacy-oriented spam prevention service. Within your forms, hCaptcha will display a checkbox asking users to prove they're human (much like Google's v2 Checkbox reCAPTCHA). This is a simple step for legitimate site visitors, but is extremely effective at blocking spam."
-msgstr "hCaptcha là một dịch vụ chống spam miễn phí và hướng đến quyền riêng tư. Trong các Form của bạn, hCaptcha sẽ hiển thị một hộp kiểm yêu cầu người dùng chứng minh họ là người (giống như hộp kiểm reCAPTCHA v2 của Google). Đây là một bước đơn giản cho những người truy cập trang web hợp pháp, nhưng lại cực kỳ hiệu quả trong việc chặn spam."
-
 #. translators: %s - CAPTCHA name.
 #: src/Admin/Education/Builder/Captcha.php:185
 msgid "Are you sure you want to disable %s for this form?"
 msgstr "Bạn có chắc chắn muốn tắt %s cho Form này không?"
+
+#: templates/admin/settings/hcaptcha-description.php:12
+msgid "hCaptcha is a free and privacy-oriented spam prevention service. Within your forms, hCaptcha will display a checkbox asking users to prove they're human (much like Google's v2 Checkbox reCAPTCHA). This is a simple step for legitimate site visitors, but is extremely effective at blocking spam."
+msgstr "hCaptcha là một dịch vụ chống spam miễn phí và hướng đến quyền riêng tư. Trong các Form của bạn, hCaptcha sẽ hiển thị một hộp kiểm yêu cầu người dùng chứng minh họ là người (giống như hộp kiểm reCAPTCHA v2 của Google). Đây là một bước đơn giản cho những người truy cập trang web hợp pháp, nhưng lại cực kỳ hiệu quả trong việc chặn spam."
 
 #: includes/admin/class-settings.php:525
 msgid "Character Limit"
@@ -5991,7 +5986,7 @@ msgid "Word Limit"
 msgstr "Giới hạn từ"
 
 #. translators: %s - The CAPTCHA provider name.
-#: includes/class-process.php:1087
+#: includes/class-process.php:1105
 msgid "%s verification failed, please try again later."
 msgstr "Xác minh %s thất bại, vui lòng thử lại sau."
 
@@ -6025,12 +6020,12 @@ msgid "Could not disconnect this account."
 msgstr "Không thể ngắt kết nối tài khoản này."
 
 #. translators: %s - URL to WPForms.com doc article.
-#: includes/fields/class-select.php:279
+#: includes/fields/class-select.php:285
 msgid "For details, including how this looks and works for your site's visitors, please check out <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">our doc</a>."
 msgstr "Để biết thêm chi tiết, bao gồm cách mà điều này trông như thế nào và hoạt động ra sao đối với khách truy cập trên Web của bạn, vui lòng xem <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">tài liệu của chúng tôi</a>."
 
 #: includes/admin/ajax-actions.php:28 includes/admin/ajax-actions.php:286
-#: includes/fields/class-base.php:3025
+#: includes/fields/class-base.php:3083
 #: src/Admin/Builder/Ajax/PanelLoader.php:134 src/Admin/FormEmbedWizard.php:279
 #: src/Admin/FormEmbedWizard.php:455 src/Admin/Forms/Ajax/Tags.php:200
 #: src/Admin/Forms/Ajax/Tags.php:240
@@ -6043,7 +6038,7 @@ msgid "You are not allowed to perform this action."
 msgstr "Bạn không được phép thực hiện hành động này."
 
 #: includes/admin/ajax-actions.php:23 includes/admin/ajax-actions.php:925
-#: includes/fields/class-base.php:3020 src/Admin/FormEmbedWizard.php:448
+#: includes/fields/class-base.php:3078 src/Admin/FormEmbedWizard.php:448
 #: src/Integrations/AI/Admin/Ajax/Choices.php:57
 #: src/Integrations/AI/Admin/Ajax/Forms.php:84
 #: src/Integrations/AI/Admin/Ajax/Forms.php:123
@@ -6060,8 +6055,8 @@ msgstr "Có lỗi xảy ra khi thực hiện hành động này."
 msgid "Email Restricted"
 msgstr "Email bị giới hạn"
 
-#: includes/admin/class-settings.php:485 includes/fields/class-email.php:652
-#: includes/fields/class-email.php:660 src/Frontend/Frontend.php:1851
+#: includes/admin/class-settings.php:485 includes/fields/class-email.php:683
+#: includes/fields/class-email.php:691 src/Frontend/Frontend.php:1858
 msgid "This email address is not allowed."
 msgstr "Địa chỉ email này không được phép."
 
@@ -6118,7 +6113,8 @@ msgstr "Loại Nhật ký"
 msgid "Select the types of events you want to log. Everything is logged by default."
 msgstr "Chọn loại sự kiện bạn muốn nhật ký. Mọi thứ đều được nhật ký theo mặc định."
 
-#: src/Admin/Tools/Views/Logs.php:187 src/Forms/Fields/FileUpload/Field.php:481
+#: src/Admin/Tools/Views/Logs.php:187
+#: src/Forms/Fields/Traits/AccessRestrictionsTrait.php:193
 msgid "User Roles"
 msgstr "Vai trò Người dùng"
 
@@ -6126,7 +6122,8 @@ msgstr "Vai trò Người dùng"
 msgid "Select the user roles you want to log. All roles are logged by default."
 msgstr "Chọn vai trò người dùng bạn muốn nhật ký. Tất cả các vai trò đều được nhật ký theo mặc định."
 
-#: src/Admin/Tools/Views/Logs.php:227 src/Forms/Fields/FileUpload/Field.php:569
+#: src/Admin/Tools/Views/Logs.php:227
+#: src/Forms/Fields/Traits/AccessRestrictionsTrait.php:281
 msgid "Users"
 msgstr "Người dùng"
 
@@ -6307,12 +6304,7 @@ msgstr "Bạn muốn đặt tên gì cho trang mới?"
 msgid "This email was auto-generated and sent from %s."
 msgstr "Email này được tự động tạo và gửi từ %s."
 
-#. translators: %s - link to the documentation.
-#: templates/emails/summary-footer-plain.php:23
-msgid "Learn how to disable: %s."
-msgstr "Tìm hiểu cách vô hiệu hóa: %s."
-
-#: includes/admin/builder/panels/class-fields.php:565
+#: includes/admin/builder/panels/class-fields.php:630
 msgid "Take your pick from our wide variety of fields and start building out your form!"
 msgstr "Hãy lựa chọn từ nhiều loại trường khác nhau của chúng tôi và bắt đầu xây dựng Form của bạn!"
 
@@ -6323,11 +6315,6 @@ msgstr "Chúng tôi có thể giúp bạn nhúng Form chỉ với vài cú nhấ
 #: templates/admin/form-embed-wizard/popup.php:29
 msgid "Select the page you would like to embed your form in."
 msgstr "Chọn trang bạn muốn nhúng Form vào."
-
-#. translators: %1$s - site URL, %2$s - link to the documentation.
-#: templates/emails/summary-footer.php:23
-msgid "This email was auto-generated and sent from %1$s. Learn <a href=\"%2$s\">how to disable</a>"
-msgstr "Email này được tự động tạo và gửi từ %1$s. Tìm hiểu <a href=\"%2$s\">cách tắt</a>"
 
 #. translators: %1$s - video tutorial toggle CSS classes, %2$s - shortcode
 #. toggle CSS classes.
@@ -6373,7 +6360,7 @@ msgstr "Form của bạn chứa các thay đổi chưa lưu. Bạn có muốn l�
 msgid "%1$s These messages are displayed to the users as they fill out a form in real-time. Messages can include plain text and/or %2$sSmart Tags%3$s."
 msgstr "%1$s Những thông báo này được hiển thị cho người dùng khi họ điền vào Form theo thời gian thực. Thông báo có thể bao gồm văn bản thuần túy và/hoặc %2$sThẻ thông minh%3$s."
 
-#: src/Admin/Builder/Templates.php:852
+#: src/Admin/Builder/Templates.php:854
 #: src/Integrations/Elementor/Widget.php:221
 msgid "New form"
 msgstr "Form mới"
@@ -6402,8 +6389,8 @@ msgstr "Trường nhập liệu có mẫu chưa hoàn chỉnh"
 
 #. translators: %d - choice number.
 #. translators: %d - Choice ID.
-#: includes/fields/class-base.php:588 includes/fields/class-base.php:626
-#: includes/fields/class-base.php:3838 src/Integrations/Square/Process.php:803
+#: includes/fields/class-base.php:593 includes/fields/class-base.php:631
+#: includes/fields/class-base.php:3898 src/Integrations/Square/Process.php:803
 msgid "Choice %d"
 msgstr "Lựa chọn %d"
 
@@ -6490,7 +6477,7 @@ msgstr "Bạn muốn nhúng Form vào một trang hiện có hay tạo trang m�
 msgid "Click the plus button, search for WPForms, click the block to<br>embed it. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>"
 msgstr "Click vào nút cộng, tìm kiếm WPForms, click vào block để<br>nhúng nó. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Tìm hiểu thêm</a>"
 
-#: src/Admin/Education/Fields.php:225
+#: src/Admin/Education/Fields.php:223
 msgid "Authorize.Net"
 msgstr "Authorize.Net"
 
@@ -6504,46 +6491,47 @@ msgstr "Cho phép chúng tôi theo dõi dữ liệu sử dụng, chúng tôi có
 
 #. translators: %d - field ID.
 #. translators: %d - Field ID.
-#: includes/admin/builder/functions.php:305
+#: includes/admin/builder/functions.php:308
 #: src/Integrations/Square/Process.php:762
 #: src/Integrations/Stripe/Fields/PaymentElementCreditCard.php:145
 msgid "Field #%d"
 msgstr "Trường #%d"
 
-#: includes/admin/class-welcome.php:268
+#: includes/admin/class-welcome.php:290
 msgid "Advanced Fields"
 msgstr "Trường nâng cao"
 
-#: includes/admin/class-welcome.php:275
+#: includes/admin/class-welcome.php:297
 msgid "File Uploads"
 msgstr "Tải lên tệp"
 
-#: includes/fields/class-base.php:3587
+#: includes/fields/class-base.php:3647
 msgid "Only unique values can be added"
 msgstr "Chỉ có thể thêm các giá trị duy nhất"
 
-#: includes/fields/class-base.php:3588
+#: includes/fields/class-base.php:3648
 msgid "Only values matching specific conditions can be added"
 msgstr "Chỉ có thể thêm các giá trị phù hợp với các điều kiện cụ thể"
 
-#: includes/fields/class-select.php:275
+#: includes/fields/class-select.php:281
 msgid "Multiple Options Selection"
 msgstr "Chọn nhiều tùy chọn"
 
-#: includes/fields/class-select.php:276
+#: includes/fields/class-select.php:282
 msgid "Allow users to select multiple choices in this field."
 msgstr "Cho phép người dùng chọn nhiều lựa chọn trong trường này."
 
-#: includes/fields/class-select.php:309
+#: includes/fields/class-select.php:315
 #: src/Forms/Fields/Addons/LikertScale/Field.php:235
 #: src/Forms/Fields/Addons/NetPromoterScore/Field.php:111
-#: src/Forms/Fields/EntryPreview/Field.php:142
-#: src/Forms/Fields/FileUpload/Field.php:250
+#: src/Forms/Fields/Camera/Field.php:317
+#: src/Forms/Fields/EntryPreview/Field.php:143
+#: src/Forms/Fields/FileUpload/Field.php:245
 #: src/Forms/Fields/PaymentSelect/Field.php:288
 msgid "Style"
 msgstr "Kiểu"
 
-#: includes/fields/class-select.php:310
+#: includes/fields/class-select.php:316
 #: src/Forms/Fields/PaymentSelect/Field.php:289
 msgid "Classic style is the default one generated by your browser. Modern has a fresh look and displays all selected options in a single row."
 msgstr "Kiểu cổ điển là kiểu mặc định do trình duyệt của bạn tạo ra. Kiểu hiện đại có giao diện mới và hiển thị tất cả các tùy chọn đã chọn trên một hàng."
@@ -6637,8 +6625,8 @@ msgstr "RafflePress Pro"
 
 #: includes/admin/class-menu.php:227 includes/admin/class-menu.php:228
 #: lite/templates/education/builder/did-you-know.php:30
-#: lite/wpforms-lite.php:1000 src/Admin/Builder/AntiSpam.php:350
-#: src/Admin/Builder/Templates.php:1035 src/Admin/Education/Builder/PDF.php:219
+#: lite/wpforms-lite.php:1020 src/Admin/Builder/AntiSpam.php:350
+#: src/Admin/Builder/Templates.php:1037 src/Admin/Education/Builder/PDF.php:224
 #: src/Forms/Fields/Traits/ProField.php:287
 #: src/Integrations/AI/Admin/Builder/Forms.php:217
 #: src/Integrations/Elementor/Elementor.php:251
@@ -6757,7 +6745,7 @@ msgstr "Xem Form của người khác"
 msgid "Your site already has WPForms Pro activated. If you want to switch to WPForms Lite, please first go to %s and deactivate WPForms. Then, you can activate WPForms Lite."
 msgstr "Trang web của bạn đã kích hoạt WPForms Pro. Nếu bạn muốn chuyển sang WPForms Lite, vui lòng trước tiên truy cập %s và vô hiệu hóa WPForms. Sau đó, bạn có thể kích hoạt WPForms Lite."
 
-#: includes/admin/builder/panels/class-fields.php:191
+#: includes/admin/builder/panels/class-fields.php:235
 msgid "Enabled"
 msgstr "Đã bật"
 
@@ -6796,16 +6784,16 @@ msgstr "Số lượng Trang web"
 msgid "SMTP"
 msgstr "SMTP"
 
-#: includes/admin/class-welcome.php:269 src/Logger/Log.php:102
+#: includes/admin/class-welcome.php:291 src/Logger/Log.php:102
 msgid "Conditional Logic"
 msgstr "Logic điều kiện"
 
-#: includes/fields/class-base.php:2492
+#: includes/fields/class-base.php:2550
 #: src/Forms/Fields/Traits/NumberField.php:223
 msgid "Minimum"
 msgstr "Tối thiểu"
 
-#: includes/fields/class-base.php:2511
+#: includes/fields/class-base.php:2569
 #: src/Forms/Fields/Traits/NumberField.php:226
 msgid "Maximum"
 msgstr "Tối đa"
@@ -6857,58 +6845,58 @@ msgstr "Vui lòng cung cấp một giá trị hợp lệ."
 msgid "Dismiss this message."
 msgstr "Bỏ qua thông báo này."
 
-#: src/Admin/Notifications/EventDriven.php:559
-#: src/Admin/Notifications/EventDriven.php:619
-#: src/Admin/Notifications/EventDriven.php:623
-#: src/Admin/Notifications/EventDriven.php:672
-#: src/Admin/Notifications/EventDriven.php:676
-#: src/Admin/Notifications/EventDriven.php:739
-#: src/Admin/Notifications/EventDriven.php:743
-#: src/Admin/Pages/PrivacyCompliance.php:188
-#: src/Admin/Pages/PrivacyCompliance.php:535 src/Admin/Pages/SMTP.php:186
+#: src/Admin/Notifications/EventDriven.php:583
+#: src/Admin/Notifications/EventDriven.php:643
+#: src/Admin/Notifications/EventDriven.php:647
+#: src/Admin/Notifications/EventDriven.php:696
+#: src/Admin/Notifications/EventDriven.php:700
+#: src/Admin/Notifications/EventDriven.php:763
+#: src/Admin/Notifications/EventDriven.php:767
+#: src/Admin/Pages/PrivacyCompliance.php:189
+#: src/Admin/Pages/PrivacyCompliance.php:546 src/Admin/Pages/SMTP.php:186
 #: src/Integrations/UncannyAutomator/UncannyAutomator.php:116
 msgid "Install Now"
 msgstr "Cài đặt Ngay"
 
-#: src/Admin/Pages/PrivacyCompliance.php:184 src/Admin/Pages/SMTP.php:183
+#: src/Admin/Pages/PrivacyCompliance.php:185 src/Admin/Pages/SMTP.php:183
 #: src/Integrations/AI/Admin/Builder/Forms.php:193
 msgid "Installing..."
 msgstr "Đang cài đặt..."
 
-#: src/Admin/Pages/PrivacyCompliance.php:185 src/Admin/Pages/SMTP.php:184
+#: src/Admin/Pages/PrivacyCompliance.php:186 src/Admin/Pages/SMTP.php:184
 #: src/Integrations/AI/Admin/Builder/Forms.php:194
 msgid "Activating..."
 msgstr "Đang kích hoạt..."
 
-#: src/Admin/Pages/PrivacyCompliance.php:190 src/Admin/Pages/SMTP.php:188
+#: src/Admin/Pages/PrivacyCompliance.php:191 src/Admin/Pages/SMTP.php:188
 msgid "Download Now"
 msgstr "Tải xuống ngay"
 
-#: src/Admin/Pages/PrivacyCompliance.php:191 src/Admin/Pages/SMTP.php:189
+#: src/Admin/Pages/PrivacyCompliance.php:192 src/Admin/Pages/SMTP.php:189
 msgid "Go to Plugins page"
 msgstr "Đi đến trang Plugins"
 
-#: src/Admin/Pages/PrivacyCompliance.php:334 src/Admin/Pages/SMTP.php:331
+#: src/Admin/Pages/PrivacyCompliance.php:335 src/Admin/Pages/SMTP.php:331
 msgid "Step 1"
 msgstr "Bước 1"
 
-#: src/Admin/Pages/PrivacyCompliance.php:370 src/Admin/Pages/SMTP.php:365
+#: src/Admin/Pages/PrivacyCompliance.php:371 src/Admin/Pages/SMTP.php:365
 msgid "Step 2"
 msgstr "Bước 2"
 
-#: src/Admin/Pages/PrivacyCompliance.php:408
+#: src/Admin/Pages/PrivacyCompliance.php:409
 msgid "Step 3"
 msgstr "Bước 3"
 
-#: src/Admin/Pages/PrivacyCompliance.php:480
+#: src/Admin/Pages/PrivacyCompliance.php:488
 msgid "Run Setup Wizard"
 msgstr "Chạy trình hướng dẫn thiết lập"
 
-#: src/Admin/Pages/PrivacyCompliance.php:486
+#: src/Admin/Pages/PrivacyCompliance.php:494
 msgid "Setup Complete"
 msgstr "Thiết lập hoàn tất"
 
-#: src/Admin/Pages/PrivacyCompliance.php:571 src/Admin/Pages/SMTP.php:476
+#: src/Admin/Pages/PrivacyCompliance.php:579 src/Admin/Pages/SMTP.php:476
 msgid "Plugin unavailable."
 msgstr "Plugin không khả dụng."
 
@@ -7006,7 +6994,7 @@ msgstr "Google Checkbox reCAPTCHA v2"
 msgid "Something wrong. Please, try again later."
 msgstr "Có gì đó sai. Vui lòng thử lại sau."
 
-#: includes/admin/class-welcome.php:277
+#: includes/admin/class-welcome.php:299
 msgid "Conversational Forms"
 msgstr "Form đàm thoại"
 
@@ -7019,7 +7007,7 @@ msgid "No form ID found."
 msgstr "Không tìm thấy ID Form."
 
 #. translators: %s - Lite plugin download URL.
-#: src/Admin/Pages/PrivacyCompliance.php:173 src/Admin/Pages/SMTP.php:172
+#: src/Admin/Pages/PrivacyCompliance.php:174 src/Admin/Pages/SMTP.php:172
 msgid "Could not activate the plugin. Please activate it on the <a href=\"%s\">Plugins page</a>."
 msgstr "Không thể kích hoạt plugin. Vui lòng kích hoạt nó trên <a href=\"%s\">Trang plugin</a>."
 
@@ -7146,20 +7134,20 @@ msgstr "Tổng số Form"
 msgid "WP Mail SMTP Pro"
 msgstr "WP Mail SMTP Pro"
 
-#: src/Admin/Pages/PrivacyCompliance.php:189 src/Admin/Pages/SMTP.php:187
+#: src/Admin/Pages/PrivacyCompliance.php:190 src/Admin/Pages/SMTP.php:187
 #: src/Integrations/UncannyAutomator/UncannyAutomator.php:116
 msgid "Activate Now"
 msgstr "Kích hoạt ngay"
 
-#: src/Emails/Summaries.php:121
+#: src/Emails/Summaries.php:122
 msgid "View Email Summary Example"
 msgstr "Xem ví dụ về email tóm tắt"
 
-#: src/Emails/Summaries.php:133
+#: src/Emails/Summaries.php:134
 msgid "Disable Email Summaries"
 msgstr "Tắt email tóm tắt"
 
-#: src/Emails/Summaries.php:263
+#: src/Emails/Summaries.php:264
 msgid "Weekly WPForms Email Summaries"
 msgstr "Email tóm tắt hàng tuần của WPForms"
 
@@ -7179,7 +7167,7 @@ msgstr "Phiên bản Pro đã được cài đặt nhưng cần được kích h
 msgid "There was an error installing WPForms Pro. Please try again."
 msgstr "Đã xảy ra lỗi khi cài đặt WPForms Pro. Vui lòng thử lại."
 
-#: src/Emails/Summaries.php:118
+#: src/Emails/Summaries.php:119
 msgid "Disable Email Summaries weekly delivery."
 msgstr "Tắt việc gửi tóm tắt email hàng tuần cho bạn."
 
@@ -7236,16 +7224,16 @@ msgstr "Dán mã bản quyền vào đây"
 msgid "Already purchased? Simply enter your license key below to enable WPForms PRO!"
 msgstr "Đã mua rồi? Chỉ cần nhập mã bản quyền của bạn bên dưới để kích hoạt WPForms PRO!"
 
-#: includes/class-process.php:1460
+#: includes/class-process.php:1478
 msgid "Redirecting…"
 msgstr "Đang chuyển hướng..."
 
-#: includes/fields/class-email.php:580 includes/fields/class-email.php:630
-#: includes/fields/class-email.php:640 includes/fields/class-email.php:1088
+#: includes/fields/class-email.php:611 includes/fields/class-email.php:661
+#: includes/fields/class-email.php:671 includes/fields/class-email.php:1119
 msgid "The provided email is not valid."
 msgstr "Email được cung cấp không hợp lệ."
 
-#: includes/fields/class-email.php:646
+#: includes/fields/class-email.php:677
 msgid "The provided emails do not match."
 msgstr "Các địa chỉ email được cung cấp không khớp."
 
@@ -7263,7 +7251,7 @@ msgstr "Thông báo lỗi"
 msgid "reCAPTCHA v3"
 msgstr "reCAPTCHA v3"
 
-#: src/Admin/Settings/Captcha/ReCaptcha.php:83 src/Frontend/Frontend.php:1875
+#: src/Admin/Settings/Captcha/ReCaptcha.php:83 src/Frontend/Frontend.php:1882
 msgid "Google reCAPTCHA verification failed, please try again later."
 msgstr "Xác minh Google reCAPTCHA thất bại, vui lòng thử lại sau."
 
@@ -7321,7 +7309,7 @@ msgstr "MonsterInsights Pro"
 msgid "Email Suggestion"
 msgstr "Gợi ý Email"
 
-#: includes/admin/class-settings.php:497 src/Frontend/Frontend.php:1853
+#: includes/admin/class-settings.php:497 src/Frontend/Frontend.php:1860
 msgid "Please enter a valid positive number."
 msgstr "Vui lòng nhập một số dương hợp lệ."
 
@@ -7329,15 +7317,15 @@ msgstr "Vui lòng nhập một số dương hợp lệ."
 msgid "Checkbox Selection Limit"
 msgstr "Giới hạn lựa chọn hộp kiểm"
 
-#: includes/fields/class-base.php:2628
+#: includes/fields/class-base.php:2686
 msgid "Choice Limit"
 msgstr "Giới hạn lựa chọn"
 
-#: includes/fields/class-base.php:2629
+#: includes/fields/class-base.php:2687
 msgid "Limit the number of checkboxes a user can select. Leave empty for unlimited."
 msgstr "Giới hạn số lượng hộp kiểm mà người dùng có thể chọn. Để trống cho không giới hạn."
 
-#: src/Frontend/Frontend.php:1850
+#: src/Frontend/Frontend.php:1857
 msgid "Click to accept this suggestion."
 msgstr "Nhấp để chấp nhận đề xuất này."
 
@@ -7357,8 +7345,8 @@ msgstr "Đừng quên kiểm tra mẫu biểu của bạn."
 msgid "Check out our complete guide!"
 msgstr "Kiểm tra hướng dẫn đầy đủ của chúng tôi!"
 
-#: includes/admin/class-settings.php:521 includes/fields/class-base.php:4033
-#: src/Frontend/Frontend.php:1856
+#: includes/admin/class-settings.php:521 includes/fields/class-base.php:4094
+#: src/Frontend/Frontend.php:1863
 msgid "You have exceeded the number of allowed selections: {#}."
 msgstr "Bạn đã vượt quá số lượng lựa chọn cho phép: {#}."
 
@@ -7371,16 +7359,16 @@ msgid "Checkbox reCAPTCHA v2"
 msgstr "Checkbox reCAPTCHA v2"
 
 #: includes/admin/admin.php:171 includes/admin/admin.php:307
-#: includes/fields/class-base.php:3584 src/Admin/Forms/Tags.php:179
+#: includes/fields/class-base.php:3644 src/Admin/Forms/Tags.php:179
 msgid "Loading..."
 msgstr "Đang tải..."
 
 #: includes/admin/admin.php:172 includes/admin/builder/class-builder.php:896
-#: includes/fields/class-base.php:3585 src/Admin/Forms/Tags.php:180
+#: includes/fields/class-base.php:3645 src/Admin/Forms/Tags.php:180
 msgid "No results found"
 msgstr "Không tìm thấy kết quả nào"
 
-#: includes/admin/admin.php:173 includes/fields/class-base.php:3586
+#: includes/admin/admin.php:173 includes/fields/class-base.php:3646
 msgid "No choices to choose from"
 msgstr "Không có lựa chọn nào để chọn"
 
@@ -7478,6 +7466,8 @@ msgid "Thanks for your interest in WPForms Pro!"
 msgstr "Cảm ơn bạn đã quan tâm đến WPForms Pro!"
 
 #: includes/admin/admin.php:251 includes/admin/builder/class-builder.php:776
+#: src/Admin/Builder/Settings/Themes.php:256
+#: src/Forms/Fields/Camera/Field.php:100
 msgid "OK"
 msgstr "OK"
 
@@ -7663,8 +7653,8 @@ msgstr "Bạn có chắc chắn muốn xóa trường này?"
 msgid "Are you sure you want to delete this choice?"
 msgstr "Bạn có chắc chắn muốn xóa lựa chọn này?"
 
-#: includes/admin/builder/class-builder.php:828 includes/class-form.php:878
-#: includes/class-form.php:906 includes/class-form.php:998
+#: includes/admin/builder/class-builder.php:828 includes/class-form.php:900
+#: includes/class-form.php:928 includes/class-form.php:1020
 msgid "(copy)"
 msgstr "(sao chép)"
 
@@ -7794,7 +7784,7 @@ msgid "starts with"
 msgstr "bắt đầu bằng"
 
 #: includes/admin/builder/class-builder.php:851
-#: src/Forms/Fields/Pagebreak/Field.php:512
+#: src/Forms/Fields/Pagebreak/Field.php:513
 msgid "Previous"
 msgstr "Trước đó"
 
@@ -7855,22 +7845,22 @@ msgstr "Mẫu"
 msgid "Preview"
 msgstr "Xem trước"
 
-#: includes/admin/builder/panels/class-fields.php:22
+#: includes/admin/builder/panels/class-fields.php:25
 msgid "Fields"
 msgstr "Các trường"
 
-#: includes/admin/builder/panels/class-fields.php:84
+#: includes/admin/builder/panels/class-fields.php:101
 msgid "Add Fields"
 msgstr "Thêm trường"
 
-#: includes/admin/builder/panels/class-fields.php:90
+#: includes/admin/builder/panels/class-fields.php:107
 msgid "Field Options"
 msgstr "Tùy chọn trường"
 
 #: includes/admin/builder/class-builder.php:889
-#: includes/admin/builder/panels/class-fields.php:198
+#: includes/admin/builder/panels/class-fields.php:242
 #: includes/admin/builder/panels/class-settings.php:206
-#: includes/class-form.php:595 includes/class-form.php:693
+#: includes/class-form.php:616 includes/class-form.php:708
 #: includes/templates/class-simple-contact-form.php:59
 #: src/Admin/Tools/Importers/ContactForm7.php:135
 #: src/Admin/Tools/Importers/NinjaForms.php:143 src/Frontend/Frontend.php:1323
@@ -7879,11 +7869,11 @@ msgstr "Tùy chọn trường"
 msgid "Submit"
 msgstr "Gửi"
 
-#: includes/admin/builder/panels/class-fields.php:548
+#: includes/admin/builder/panels/class-fields.php:613
 msgid "You don't have any fields yet."
 msgstr "Bạn chưa có trường nào."
 
-#: includes/admin/builder/panels/class-fields.php:564
+#: includes/admin/builder/panels/class-fields.php:629
 msgid "You don't have any fields yet. Add some!"
 msgstr "Bạn chưa có trường nào. Hãy thêm một số trường!"
 
@@ -7898,7 +7888,7 @@ msgstr "Thanh toán"
 
 #: includes/admin/builder/panels/class-payments.php:41
 #: includes/admin/builder/panels/class-providers.php:81
-#: includes/fields/class-base.php:1951
+#: includes/fields/class-base.php:2009
 msgid "Default"
 msgstr "Mặc định"
 
@@ -7948,8 +7938,8 @@ msgstr "Cài đặt"
 #: includes/admin/builder/panels/class-settings.php:58
 #: includes/admin/builder/panels/class-settings.php:155
 #: includes/admin/class-settings.php:302 includes/admin/class-settings.php:379
-#: includes/fields/class-base.php:1228 src/Admin/AdminBarMenu.php:209
-#: src/Admin/Builder/Settings/Themes.php:349
+#: includes/fields/class-base.php:1282 src/Admin/AdminBarMenu.php:209
+#: src/Admin/Builder/Settings/Themes.php:406
 msgid "General"
 msgstr "Chung"
 
@@ -8136,19 +8126,19 @@ msgstr "Hỗ trợ ưu tiên"
 msgid "Unlimited Sites"
 msgstr "Trang web không giới hạn"
 
-#: includes/admin/class-about.php:1742 includes/admin/class-welcome.php:208
+#: includes/admin/class-about.php:1742 includes/admin/class-welcome.php:230
 #: src/Integrations/Square/Admin/Builder/Settings.php:278
 #: src/Integrations/Stripe/Admin/Builder/Settings.php:301
 #: src/Lite/Admin/Education/Builder/Fields.php:81
 msgid "Smart Conditional Logic"
 msgstr "Logic điều kiện thông minh"
 
-#: includes/admin/class-about.php:1743 includes/admin/class-welcome.php:279
+#: includes/admin/class-about.php:1743 includes/admin/class-welcome.php:301
 #: src/Admin/Builder/Help.php:107
 msgid "Marketing Integrations"
 msgstr "Tích hợp tiếp thị"
 
-#: includes/admin/class-about.php:1745 includes/admin/class-welcome.php:271
+#: includes/admin/class-about.php:1745 includes/admin/class-welcome.php:293
 msgid "Surveys & Polls"
 msgstr "Khảo sát & Bỏ phiếu"
 
@@ -8241,7 +8231,7 @@ msgstr "Xác thực"
 msgid "Integrations"
 msgstr "Tích hợp"
 
-#: includes/admin/class-settings.php:317 includes/admin/class-welcome.php:276
+#: includes/admin/class-settings.php:317 includes/admin/class-welcome.php:298
 #: src/Admin/AdminBarMenu.php:233
 #: src/Admin/Education/Admin/Settings/Geolocation.php:141
 msgid "Geolocation"
@@ -8272,11 +8262,11 @@ msgid "Validation Messages"
 msgstr "Thông báo xác thực"
 
 #: includes/admin/class-settings.php:464
-#: includes/functions/escape-sanitize.php:451 src/Frontend/Frontend.php:1841
+#: includes/functions/escape-sanitize.php:456 src/Frontend/Frontend.php:1848
 msgid "This field is required."
 msgstr "Trường này là bắt buộc."
 
-#: includes/admin/class-settings.php:470 src/Frontend/Frontend.php:1842
+#: includes/admin/class-settings.php:470 src/Frontend/Frontend.php:1849
 msgid "Please enter a valid email address."
 msgstr "Vui lòng nhập một địa chỉ email hợp lệ."
 
@@ -8285,7 +8275,7 @@ msgid "Number"
 msgstr "Số"
 
 #: includes/admin/class-settings.php:491 includes/fields/class-number.php:226
-#: src/Frontend/Frontend.php:1852
+#: src/Frontend/Frontend.php:1859
 msgid "Please enter a valid number."
 msgstr "Vui lòng nhập một số hợp lệ."
 
@@ -8293,16 +8283,16 @@ msgstr "Vui lòng nhập một số hợp lệ."
 msgid "Confirm Value"
 msgstr "Xác nhận giá trị"
 
-#: includes/admin/class-settings.php:509 src/Frontend/Frontend.php:1855
+#: includes/admin/class-settings.php:509 src/Frontend/Frontend.php:1862
 msgid "Field values do not match."
 msgstr "Giá trị trường không khớp."
 
 #: includes/admin/class-settings.php:547
-#: src/Forms/Fields/PaymentTotal/Field.php:386 src/Frontend/Frontend.php:1977
+#: src/Forms/Fields/PaymentTotal/Field.php:387 src/Frontend/Frontend.php:1984
 msgid "Payment is required."
 msgstr "Thanh toán là bắt buộc."
 
-#: includes/admin/class-settings.php:553 src/Frontend/Frontend.php:1978
+#: includes/admin/class-settings.php:553 src/Frontend/Frontend.php:1985
 msgid "Please enter a valid credit card number."
 msgstr "Vui lòng nhập số thẻ tín dụng hợp lệ."
 
@@ -8318,77 +8308,77 @@ msgstr "Ẩn thông báo"
 msgid "Uninstall WPForms"
 msgstr "Gỡ cài đặt WPForms"
 
-#: includes/admin/class-welcome.php:67 includes/admin/class-welcome.php:68
-#: includes/admin/class-welcome.php:147
+#: includes/admin/class-welcome.php:74 includes/admin/class-welcome.php:75
+#: includes/admin/class-welcome.php:162
 msgid "Welcome to WPForms"
 msgstr "Chào mừng bạn đến với WPForms"
 
-#: includes/admin/class-welcome.php:183
+#: includes/admin/class-welcome.php:205
 msgid "WPForms Features &amp; Addons"
 msgstr "Tính năng & Phụ kiện WPForms"
 
-#: includes/admin/class-welcome.php:202
+#: includes/admin/class-welcome.php:224
 msgid "Responsive Mobile Friendly"
 msgstr "Phản Hồi Di Động Thân Thiện"
 
-#: includes/admin/class-welcome.php:203
+#: includes/admin/class-welcome.php:225
 msgid "WPForms is 100% responsive meaning it works on mobile, tablets & desktop."
 msgstr "WPForms 100% phản hồi, có nghĩa là nó hoạt động trên điện thoại di động, máy tính bảng & máy tính để bàn."
 
-#: includes/admin/class-welcome.php:214
+#: includes/admin/class-welcome.php:236
 msgid "Instant Notifications"
 msgstr "Thông Báo Ngay Lập Tức"
 
-#: includes/admin/class-welcome.php:220 includes/admin/class-welcome.php:274
+#: includes/admin/class-welcome.php:242 includes/admin/class-welcome.php:296
 #: src/Admin/Builder/Help.php:105
 msgid "Entry Management"
 msgstr "Quản lý Nhập liệu"
 
-#: includes/admin/class-welcome.php:221
+#: includes/admin/class-welcome.php:243
 msgid "View all your leads in one place to streamline your workflow."
 msgstr "Xem tất cả khách hàng tiềm năng của bạn ở một nơi để tối ưu hóa quy trình làm việc."
 
-#: includes/admin/class-welcome.php:226
+#: includes/admin/class-welcome.php:248
 msgid "Payments Made Easy"
 msgstr "Thanh toán dễ dàng"
 
-#: includes/admin/class-welcome.php:227
+#: includes/admin/class-welcome.php:249
 msgid "Easily collect payments, donations, and online orders without hiring a developer."
 msgstr "Thu thập thanh toán, quyên góp và đơn hàng trực tuyến một cách dễ dàng mà không cần thuê nhà phát triển."
 
-#: includes/admin/class-welcome.php:232
+#: includes/admin/class-welcome.php:254
 msgid "Marketing &amp; Subscriptions"
 msgstr "Tiếp thị & Đăng ký"
 
-#: includes/admin/class-welcome.php:238
+#: includes/admin/class-welcome.php:260
 msgid "Easy to Embed"
 msgstr "Dễ dàng nhúng"
 
-#: includes/admin/class-welcome.php:244
+#: includes/admin/class-welcome.php:266
 msgid "Spam Protection"
 msgstr "Bảo vệ chống thư rác"
 
-#: includes/admin/class-welcome.php:245
+#: includes/admin/class-welcome.php:267
 msgid "Our smart captcha and spam protection automatically prevents spam submissions."
 msgstr "Captcha thông minh và bảo vệ chống thư rác của chúng tôi tự động ngăn chặn các bài gửi thư rác."
 
-#: includes/admin/class-welcome.php:253
+#: includes/admin/class-welcome.php:275
 msgid "See All Features"
 msgstr "Xem tất cả các tính năng"
 
-#: includes/admin/class-welcome.php:272
+#: includes/admin/class-welcome.php:294
 msgid "Signatures"
 msgstr "Chữ ký"
 
-#: includes/admin/class-welcome.php:278
+#: includes/admin/class-welcome.php:300
 msgid "User Registration"
 msgstr "Đăng ký người dùng"
 
-#: includes/admin/class-welcome.php:287
+#: includes/admin/class-welcome.php:309
 msgid "per year"
 msgstr "mỗi năm"
 
-#: includes/admin/class-welcome.php:303
+#: includes/admin/class-welcome.php:325
 msgid "Testimonials"
 msgstr "Lời chứng thực"
 
@@ -8397,7 +8387,7 @@ msgstr "Lời chứng thực"
 msgid "The callback function used for the %s setting is missing."
 msgstr "Hàm gọi lại được sử dụng cho cài đặt %s bị thiếu."
 
-#: includes/class-form.php:596 includes/templates/class-blank.php:62
+#: includes/class-form.php:617 includes/templates/class-blank.php:62
 #: includes/templates/class-simple-contact-form.php:60
 msgid "Sending..."
 msgstr "Đang gửi..."
@@ -8417,8 +8407,8 @@ msgid "You cannot send emails with WPForms_WP_Emails() until init/admin_init has
 msgstr "Bạn không thể gửi email bằng WPForms_WP_Emails() cho đến khi init/admin_init được thực hiện."
 
 #: includes/emails/class-emails.php:614 includes/integrations.php:44
-#: src/Admin/Education/Fields.php:125 src/Emails/Notifications.php:1025
-#: src/Forms/Fields/Content/Field.php:27 src/Forms/Fields/Content/Field.php:107
+#: src/Admin/Education/Fields.php:133 src/Emails/Notifications.php:1025
+#: src/Forms/Fields/Content/Field.php:27 src/Forms/Fields/Content/Field.php:108
 #: src/Integrations/AI/API/Forms.php:290
 msgid "Content"
 msgstr "Nội dung"
@@ -8429,12 +8419,12 @@ msgstr "Nội dung"
 msgid "Sent from %s"
 msgstr "Gửi từ %s"
 
-#: includes/fields/class-base.php:1354
+#: includes/fields/class-base.php:1408
 #: src/Admin/Payments/Views/Overview/Table.php:92
 #: src/Admin/Payments/Views/Single.php:358
 #: src/Admin/Settings/Captcha/ReCaptcha.php:58
 #: src/Admin/Settings/Captcha/Turnstile.php:95
-#: src/Forms/Fields/CustomCaptcha/Field.php:129
+#: src/Forms/Fields/CustomCaptcha/Field.php:130
 #: src/Forms/Fields/DateTime/Field.php:234
 #: templates/admin/payments/single/payment-history.php:31
 #: templates/admin/payments/single/payment-history.php:50
@@ -8466,6 +8456,7 @@ msgstr "Họ"
 #: includes/fields/class-name.php:255 src/Forms/Fields/DateTime/Field.php:119
 #: src/Forms/Fields/DateTime/Field.php:280
 #: src/Forms/Fields/DateTime/Field.php:382 src/Forms/Fields/Phone/Field.php:87
+#: src/Forms/Fields/Traits/CameraTrait.php:80
 msgid "Format"
 msgstr "Định dạng"
 
@@ -9899,7 +9890,7 @@ msgstr "Bật bẫy mật ong chống thư rác"
 msgid "Enable Google Invisible v2 reCAPTCHA"
 msgstr "Bật Google Invisible v2 reCAPTCHA"
 
-#: src/Admin/Builder/Settings/Themes.php:180
+#: src/Admin/Builder/Settings/Themes.php:232
 #: src/Admin/Builder/Templates.php:184
 #: src/Integrations/Gutenberg/FormSelector.php:541
 msgid "Heads Up!"
@@ -10005,7 +9996,7 @@ msgstr "Chưa chọn tệp"
 msgid "Not Active"
 msgstr "Không hoạt động"
 
-#: src/Admin/Builder/Settings/Themes.php:648
+#: src/Admin/Builder/Settings/Themes.php:705
 #: src/Admin/Tools/Views/Import.php:305 src/Admin/Tools/Views/Import.php:323
 #: src/Integrations/AI/Admin/Builder/Forms.php:202
 #: src/Integrations/Elementor/WidgetModern.php:363
@@ -10137,10 +10128,6 @@ msgstr "Tên Người dùng"
 #: src/SmartTags/SmartTags.php:128
 msgid "User Last Name"
 msgstr "Họ Người dùng"
-
-#: src/SmartTags/SmartTags.php:129
-msgid "User Email"
-msgstr "Email Người dùng"
 
 #: src/SmartTags/SmartTags.php:130
 msgid "User Meta"
@@ -10402,7 +10389,7 @@ msgstr "Đọc tài liệu"
 msgid "A Complete Guide to WPForms Settings"
 msgstr "Hướng dẫn hoàn chỉnh về cài đặt WPForms"
 
-#: lite/wpforms-lite.php:786 src/Admin/Forms/BulkActions.php:345
+#: lite/wpforms-lite.php:806 src/Admin/Forms/BulkActions.php:345
 msgid "Security check failed. Please try again."
 msgstr "Kiểm tra bảo mật không thành công. Vui lòng thử lại."
 
@@ -10415,7 +10402,7 @@ msgstr "%d thẻ đã được xoá thành công."
 msgid "View entries"
 msgstr "Xem lượt nhập"
 
-#: includes/admin/class-welcome.php:168
+#: includes/admin/class-welcome.php:183
 msgid "Read the Full Guide"
 msgstr "Đọc hướng dẫn đầy đủ"
 
@@ -10529,7 +10516,7 @@ msgstr "Lượt nhập Form"
 msgid "Form Fields"
 msgstr "Trường Form"
 
-#: includes/admin/class-about.php:1744 includes/admin/class-welcome.php:270
+#: includes/admin/class-about.php:1744 includes/admin/class-welcome.php:292
 #: src/Admin/Builder/Help.php:108
 msgid "Payment Forms"
 msgstr "Form thanh toán"
@@ -10538,53 +10525,57 @@ msgstr "Form thanh toán"
 msgid "Advanced Form Features"
 msgstr "Các tính năng Form nâng cao"
 
-#: includes/admin/class-welcome.php:148
+#: includes/admin/class-welcome.php:163
 msgid "Thank you for choosing WPForms - the most powerful drag & drop WordPress form builder in the market."
 msgstr "Cảm ơn bạn đã chọn WPForms - công cụ tạo Form WordPress kéo và thả mạnh mẽ nhất trên thị trường."
 
-#: includes/admin/class-welcome.php:151 includes/admin/class-welcome.php:152
+#: includes/admin/class-welcome.php:166 includes/admin/class-welcome.php:167
 msgid "Watch how to create your first form"
 msgstr "Xem cách tạo Form đầu tiên của bạn"
 
-#: includes/admin/class-welcome.php:184
+#: includes/admin/class-welcome.php:206
 msgid "WPForms is both easy to use and extremely powerful. We have tons of helpful features that allow us to give you everything you need from a form builder."
 msgstr "WPForms vừa dễ sử dụng vừa cực kỳ mạnh mẽ. Chúng tôi có rất nhiều tính năng hữu ích cho phép chúng tôi cung cấp cho bạn mọi thứ bạn cần từ một công cụ tạo Form."
 
-#: includes/admin/class-welcome.php:190
+#: includes/admin/class-welcome.php:212
 msgid "Drag &amp; Drop Form Builder"
 msgstr "Công cụ Tạo Form Kéo và Thả"
 
-#: includes/admin/class-welcome.php:191
+#: includes/admin/class-welcome.php:213
 msgid "Easily create an amazing form in just a few minutes without writing any code."
 msgstr "Dễ dàng tạo một Form tuyệt vời chỉ trong vài phút mà không cần viết bất kỳ mã nào."
 
-#: includes/admin/class-welcome.php:197
+#: includes/admin/class-welcome.php:219
 msgid "Start with pre-built form templates to save even more time."
 msgstr "Bắt đầu với các mẫu Form được tạo sẵn để tiết kiệm nhiều thời gian hơn."
 
-#: includes/admin/class-welcome.php:209
+#: includes/admin/class-welcome.php:231
 msgid "Easily create high performance forms with our smart conditional logic."
 msgstr "Dễ dàng tạo các Form hiệu suất cao với logic điều kiện thông minh của chúng tôi."
 
-#: includes/admin/class-welcome.php:215
+#: includes/admin/class-welcome.php:237
 msgid "Respond to leads quickly with our instant form notification feature for your team."
 msgstr "Phản hồi khách hàng tiềm năng nhanh chóng với tính năng thông báo Form tức thì cho nhóm của bạn."
 
-#: includes/admin/class-welcome.php:233
+#: includes/admin/class-welcome.php:255
 msgid "Create subscription forms and connect with your email marketing service."
 msgstr "Tạo Form đăng ký và kết nối với dịch vụ tiếp thị email của bạn."
 
-#: includes/admin/class-welcome.php:239
+#: includes/admin/class-welcome.php:261
 msgid "Easily embed your forms in blog posts, pages, sidebar widgets, footer, etc."
 msgstr "Dễ dàng nhúng Form của bạn vào bài đăng blog, trang, tiện ích thanh bên, chân trang, v.v."
 
-#: includes/admin/class-welcome.php:273
+#: includes/admin/class-welcome.php:295
 msgid "Form Abandonment"
 msgstr "Bỏ Form"
 
-#: includes/admin/class-welcome.php:307
+#: includes/admin/class-welcome.php:329
 msgid "WPForms is by far the easiest form plugin to use. My clients love it – it’s one of the few plugins they can use without any training. As a developer I appreciate how fast, modern, clean and extensible it is."
 msgstr "WPForms là plugin Form dễ sử dụng nhất từ trước đến nay. Khách hàng của tôi rất thích nó - nó là một trong số ít plugin mà họ có thể sử dụng mà không cần đào tạo nào. Là một nhà phát triển, tôi đánh giá cao tốc độ, hiện đại, sạch sẽ và có thể mở rộng của nó."
+
+#: includes/admin/class-welcome.php:336
+msgid "As a business owner, time is my most valuable asset. WPForms allow me to create smart online forms with just a few clicks. With their pre-built form templates and the drag & drop builder, I can create a new form that works in less than 2 minutes without writing a single line of code. Well worth the investment."
+msgstr "Là một chủ doanh nghiệp, thời gian là tài sản quý giá nhất của tôi. WPForms cho phép tôi tạo các Form trực tuyến thông minh chỉ với vài cú nhấp chuột. Với các mẫu Form được tạo sẵn và trình tạo kéo thả, tôi có thể tạo một Form mới hoạt động trong vòng chưa đầy 2 phút mà không cần viết một dòng mã nào. Đáng giá từng đồng tiền bỏ ra."
 
 #: includes/class-widget.php:44
 msgctxt "Widget"
@@ -10631,10 +10622,6 @@ msgstr "Chọn một Form để hiển thị"
 #: includes/integrations.php:35
 msgid "No forms found"
 msgstr "Không tìm thấy Form"
-
-#: includes/admin/class-welcome.php:314
-msgid "As a business owner, time is my most valuable asset. WPForms allow me to create smart online forms with just a few clicks. With their pre-built form templates and the drag & drop builder, I can create a new form that works in less than 2 minutes without writing a single line of code. Well worth the investment."
-msgstr "Là một chủ doanh nghiệp, thời gian là tài sản quý giá nhất của tôi. WPForms cho phép tôi tạo các Form trực tuyến thông minh chỉ với vài cú nhấp chuột. Với các mẫu Form được tạo sẵn và trình tạo kéo thả, tôi có thể tạo một Form mới hoạt động trong vòng chưa đầy 2 phút mà không cần viết một dòng mã nào. Đáng giá từng đồng tiền bỏ ra."
 
 #: includes/integrations.php:45
 msgid "Add your form"
@@ -10845,12 +10832,12 @@ msgstr "Cách tạo Form tuân thủ GDPR"
 msgid "Whoops, you haven't created a form yet. Want to <a href=\"%s\">give it a go</a>?"
 msgstr "Ôi, bạn chưa tạo Form nào. Muốn <a href=\"%s\">thử ngay</a> không?"
 
-#: includes/admin/class-welcome.php:162 includes/admin/class-welcome.php:331
+#: includes/admin/class-welcome.php:177 includes/admin/class-welcome.php:353
 msgid "Create Your First Form"
 msgstr "Tạo Form đầu tiên của bạn"
 
 #: includes/admin/class-about.php:1740 includes/admin/class-menu.php:139
-#: includes/admin/class-welcome.php:196 src/Admin/Pages/Templates.php:114
+#: includes/admin/class-welcome.php:218 src/Admin/Pages/Templates.php:114
 msgid "Form Templates"
 msgstr "Thư viện Form"
 
@@ -10903,6 +10890,10 @@ msgstr "<strong>Ưu đãi:</strong> Hơn 7000 tích hợp với Zapier."
 msgid "Do you need to check that your forms are compliant with the European Union’s General Data Protection Regulation? The best way to ensure GDPR compliance for your specific site is always to consult legal counsel. In this guide, we’ll discuss general considerations for GDPR compliance in your WordPress forms."
 msgstr "Bạn có cần kiểm tra xem các biểu mẫu của bạn có tuân thủ quy định bảo vệ dữ liệu chung của liên minh Châu Âu không? Cách tốt nhất để đảm bảo tuân thủ GDPR cho trang web cụ thể của bạn là luôn tham khảo ý kiến của luật sư. Trong Hướng dẫn này, chúng tôi sẽ thảo luận về những điều cần cân nhắc chung để tuân thủ GDPR trong các biểu mẫu WordPress của bạn."
 
+#: includes/admin/class-about.php:665
+msgid "Would you like to learn more about all of the settings available in WPForms? In addition to tons of customization options within the form builder, WPForms has an extensive list of plugin-wide options available. This includes choosing your currency, adding GDPR enhancements, setting up integrations."
+msgstr "Bạn có muốn tìm hiểu thêm về tất cả các cài đặt có sẵn trong WPForms không? Ngoài hàng tá tuỳ chọn tùy chỉnh trong trình tạo form, WPForms còn có một danh sách rộng lớn các tuỳ chọn cho toàn bộ plugin. Điều này bao gồm việc chọn loại tiền tệ của bạn, thêm các cải tiến GDPR, và thiết lập các tích hợp."
+
 #: includes/admin/class-about.php:646
 msgid "Are you wondering which form fields you have access to in WPForms and what each field does? WPForms has lots of field types to make creating and filling out forms easy. In this tutorial, we’ll cover all of the fields available in WPForms."
 msgstr "Bạn có đang thắc mắc về các trường form mà bạn có thể truy cập trong WPForms và mỗi trường có chức năng gì không? WPForms có nhiều loại trường để việc tạo và điền form trở nên dễ dàng. Trong hướng dẫn này, chúng ta sẽ đề cập đến tất cả các trường có sẵn trong WPForms."
@@ -10920,16 +10911,6 @@ msgstr "Chúng tôi biết rằng bạn sẽ thực sự yêu thích WPForms. N�
 msgid "Thanks for being a loyal WPForms Lite user. <strong>Upgrade to WPForms Pro</strong> to unlock all the awesome features and experience<br>why WPForms is consistently rated the best WordPress form builder."
 msgstr "Cảm ơn bạn đã là một người dùng trung thành của WPForms Lite. <strong>Nâng cấp lên WPForms Pro</strong> để mở khóa tất cả các tính năng tuyệt vời và trải nghiệm<br>tại sao WPForms luôn được đánh giá là trình tạo form WordPress tốt nhất."
 
-#: includes/admin/class-about.php:665
-msgid "Would you like to learn more about all of the settings available in WPForms? In addition to tons of customization options within the form builder, WPForms has an extensive list of plugin-wide options available. This includes choosing your currency, adding GDPR enhancements, setting up integrations."
-msgstr "Bạn có muốn tìm hiểu thêm về tất cả các cài đặt có sẵn trong WPForms không? Ngoài hàng tá tuỳ chọn tùy chỉnh trong trình tạo form, WPForms còn có một danh sách rộng lớn các tuỳ chọn cho toàn bộ plugin. Điều này bao gồm việc chọn loại tiền tệ của bạn, thêm các cải tiến GDPR, và thiết lập các tích hợp."
-
-#. translators: %1$s - WPBeginner URL, %2$s - OptinMonster URL, %3$s -
-#. MonsterInsights URL.
-#: includes/admin/class-about.php:255
-msgid "WPForms is brought to you by the same team that’s behind the largest WordPress resource site, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">WPBeginner</a>, the most popular lead-generation software, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">OptinMonster</a>, the best WordPress analytics plugin, <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">MonsterInsights</a>, and more!"
-msgstr "WPForms được mang đến cho bạn bởi cùng một đội ngũ đứng sau trang web tài nguyên WordPress lớn nhất, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">WPBeginner</a>, phần mềm tạo khách hàng tiềm năng phổ biến nhất, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">OptinMonster</a>, plugin phân tích WordPress tốt nhất, <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">MonsterInsights</a>, và nhiều hơn nữa!"
-
 #: includes/admin/builder/panels/class-settings.php:136
 msgid "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">setup your form</a> before you can manage the settings."
 msgstr "Bạn cần <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">cài đặt form</a> của bạn trước khi bạn có thể quản lý cài đặt."
@@ -10938,6 +10919,12 @@ msgstr "Bạn cần <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"se
 #: includes/admin/builder/panels/class-payments.php:87
 msgid "It seems you do not have any payment addons activated. You can head over to the <a href=\"%s\">Addons page</a> to install and activate the addon for your payment service."
 msgstr "Có vẻ như bạn chưa kích hoạt bất kỳ tiện ích thanh toán nào. Bạn có thể truy cập vào <a href=\"%s\">Trang tiện ích</a> để cài đặt và kích hoạt tiện ích cho dịch vụ thanh toán của bạn."
+
+#. translators: %1$s - WPBeginner URL, %2$s - OptinMonster URL, %3$s -
+#. MonsterInsights URL.
+#: includes/admin/class-about.php:255
+msgid "WPForms is brought to you by the same team that’s behind the largest WordPress resource site, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">WPBeginner</a>, the most popular lead-generation software, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">OptinMonster</a>, the best WordPress analytics plugin, <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">MonsterInsights</a>, and more!"
+msgstr "WPForms được mang đến cho bạn bởi cùng một đội ngũ đứng sau trang web tài nguyên WordPress lớn nhất, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">WPBeginner</a>, phần mềm tạo khách hàng tiềm năng phổ biến nhất, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">OptinMonster</a>, plugin phân tích WordPress tốt nhất, <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">MonsterInsights</a>, và nhiều hơn nữa!"
 
 #. translators: %s - plugin admin area Addons page.
 #: includes/admin/builder/panels/class-providers.php:129
@@ -10948,7 +10935,7 @@ msgstr "Có vẻ như bạn chưa kích hoạt bất kỳ tiện ích mở rộn
 msgid "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">setup your form</a> before you can manage these settings."
 msgstr "Bạn cần <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">cài đặt form</a> của bạn trước khi bạn có thể quản lý các cài đặt này."
 
-#: includes/admin/builder/panels/class-fields.php:117
+#: includes/admin/builder/panels/class-fields.php:152
 msgid "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">setup your form</a> before you can manage the fields."
 msgstr "Bạn cần <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">thiết lập form của bạn</a> trước khi bạn có thể quản lý các trường."
 
@@ -10971,7 +10958,7 @@ msgstr "Trường nhập liệu có mẫu"
 msgid "Enter your custom input mask."
 msgstr "Nhập trường nhập liệu có mẫu tùy chỉnh của bạn."
 
-#: includes/admin/class-welcome.php:157
+#: includes/admin/class-welcome.php:172
 msgid "WPForms makes it easy to create forms in WordPress. You can watch the video tutorial or read our guide on how to create your first form."
 msgstr "WPForms giúp bạn dễ dàng tạo form trong WordPress. Bạn có thể xem video hướng dẫn hoặc đọc Hướng dẫn của chúng tôi về cách tạo form đầu tiên của bạn."
 
@@ -10991,7 +10978,7 @@ msgstr[0] "%1$d form đã được khôi phục thành công."
 msgid "Shortcode"
 msgstr "Mã rút gọn"
 
-#: includes/admin/ajax-actions.php:556 includes/fields/class-base.php:1567
+#: includes/admin/ajax-actions.php:556 includes/fields/class-base.php:1621
 msgid "taxonomy"
 msgstr "phân loại"
 
@@ -11000,12 +10987,12 @@ msgstr "phân loại"
 msgid "Default Notification"
 msgstr "Thông báo mặc định"
 
-#: includes/admin/builder/class-builder.php:801 lite/wpforms-lite.php:501
+#: includes/admin/builder/class-builder.php:801 lite/wpforms-lite.php:505
 msgid "Default Confirmation"
 msgstr "Xác nhận mặc định"
 
 #: includes/admin/builder/class-builder.php:831
-#: includes/admin/builder/functions.php:484 includes/fields/class-base.php:2299
+#: includes/admin/builder/functions.php:520 includes/fields/class-base.php:2357
 #: src/Admin/Tools/Views/Logs.php:110
 #: src/Integrations/Divi/WPFormsSelector.php:78
 #: src/Integrations/Divi/WPFormsSelector.php:88
@@ -11013,7 +11000,7 @@ msgid "Off"
 msgstr "Tắt"
 
 #: includes/admin/builder/class-builder.php:832
-#: includes/admin/builder/functions.php:483 src/Admin/Tools/Views/Logs.php:110
+#: includes/admin/builder/functions.php:519 src/Admin/Tools/Views/Logs.php:110
 #: src/Integrations/Divi/WPFormsSelector.php:79
 #: src/Integrations/Divi/WPFormsSelector.php:89
 msgid "On"
@@ -11030,7 +11017,7 @@ msgstr "Lựa chọn %s"
 #. Author of the plugin
 #: wpforms.php includes/admin/class-menu.php:62
 #: includes/admin/class-menu.php:63 includes/admin/class-menu.php:82
-#: includes/admin/class-menu.php:168 includes/class-form.php:149
+#: includes/admin/class-menu.php:168 includes/class-form.php:154
 #: includes/integrations.php:41 src/Emails/Templates/General.php:94
 #: src/Integrations/Divi/WPFormsSelector.php:35
 #: src/Integrations/Elementor/Widget.php:58
@@ -11040,17 +11027,17 @@ msgstr "Lựa chọn %s"
 msgid "WPForms"
 msgstr "WPForms"
 
-#: includes/admin/ajax-actions.php:525 includes/fields/class-base.php:1560
+#: includes/admin/ajax-actions.php:525 includes/fields/class-base.php:1614
 msgid "post type"
 msgstr "loại bài đăng"
 
 #: includes/admin/builder/class-builder.php:747
-#: includes/fields/class-base.php:1465
+#: includes/fields/class-base.php:1519
 msgid "Bulk Add"
 msgstr "Thêm hàng loạt"
 
 #: includes/admin/builder/class-builder.php:808
-#: includes/fields/class-base.php:2145
+#: includes/fields/class-base.php:2203
 msgid "Show Layouts"
 msgstr "Hiển thị bố cục"
 
@@ -11061,15 +11048,15 @@ msgid "--- Select Field ---"
 msgstr "--- Chọn trường ---"
 
 #: includes/admin/builder/class-builder.php:864
-#: includes/admin/builder/functions.php:879 includes/admin/settings-api.php:532
-#: includes/fields/class-base.php:1518 includes/fields/class-base.php:1679
-#: src/Admin/Builder/Settings/Themes.php:1105
+#: includes/admin/builder/functions.php:919 includes/admin/settings-api.php:532
+#: includes/fields/class-base.php:1572 includes/fields/class-base.php:1733
+#: src/Admin/Builder/Settings/Themes.php:1162
 #: src/Integrations/Gutenberg/FormSelector.php:460
 msgid "Remove Image"
 msgstr "Xóa hình ảnh"
 
 #: includes/admin/builder/class-builder.php:1210
-#: includes/admin/class-welcome.php:143
+#: includes/admin/class-welcome.php:158
 #: lite/templates/education/builder/lite-connect/ai-modal.php:15
 #: lite/templates/education/lite-connect-modal.php:17
 #: src/Lite/Admin/DashboardWidget.php:261
@@ -11079,26 +11066,26 @@ msgstr "Xóa hình ảnh"
 msgid "Sullie the WPForms mascot"
 msgstr "Sullie, linh vật của WPForms"
 
-#: includes/admin/builder/panels/class-fields.php:410
-#: includes/fields/class-base.php:3109
+#: includes/admin/builder/panels/class-fields.php:473
+#: includes/fields/class-base.php:3168
 msgid "Duplicate Field"
 msgstr "Sao chép trường"
 
-#: includes/admin/builder/panels/class-fields.php:416
-#: includes/fields/class-base.php:3112
+#: includes/admin/builder/panels/class-fields.php:479
+#: includes/fields/class-base.php:3171
 msgid "Delete Field"
 msgstr "Xóa trường"
 
-#: includes/admin/builder/panels/class-fields.php:528
+#: includes/admin/builder/panels/class-fields.php:593
 #: includes/admin/class-settings.php:128
 #: includes/fields/class-internal-information.php:302
 #: includes/fields/class-internal-information.php:456
 #: includes/fields/class-internal-information.php:684
 #: lite/templates/education/builder/did-you-know.php:27
-#: src/Admin/Notifications/EventDriven.php:566
-#: src/Admin/Notifications/EventDriven.php:632
-#: src/Admin/Notifications/EventDriven.php:685
-#: src/Admin/Pages/PrivacyCompliance.php:508
+#: src/Admin/Notifications/EventDriven.php:590
+#: src/Admin/Notifications/EventDriven.php:656
+#: src/Admin/Notifications/EventDriven.php:709
+#: src/Admin/Pages/PrivacyCompliance.php:516
 #: src/Admin/Splash/SplashTrait.php:130
 #: src/Integrations/UncannyAutomator/UncannyAutomator.php:172
 #: src/Lite/Admin/DashboardWidget.php:272
@@ -11115,15 +11102,15 @@ msgid "Notifications"
 msgstr "Thông báo"
 
 #: includes/admin/builder/panels/class-settings.php:62
-#: lite/wpforms-lite.php:489
+#: lite/wpforms-lite.php:493
 msgid "Confirmations"
 msgstr "Xác nhận"
 
-#: includes/admin/class-about.php:504 lite/wpforms-lite.php:699
+#: includes/admin/class-about.php:504 lite/wpforms-lite.php:719
 msgid "Get WPForms Pro and Unlock all the Powerful Features"
 msgstr "Nhận WPForms Pro và mở khóa tất cả các tính năng mạnh mẽ"
 
-#: includes/admin/class-about.php:569 lite/wpforms-lite.php:732
+#: includes/admin/class-about.php:569 lite/wpforms-lite.php:752
 msgid "Accept user-submitted content with the Post Submissions addon"
 msgstr "Chấp nhận nội dung do người dùng gửi với tiện ích bổ sung Bài đăng"
 
@@ -11136,7 +11123,7 @@ msgstr "MonsterInsights"
 msgid "WPForms Addons"
 msgstr "Tiện ích WPForms"
 
-#: includes/admin/class-menu.php:382 includes/admin/class-welcome.php:338
+#: includes/admin/class-menu.php:382 includes/admin/class-welcome.php:360
 #: includes/functions/education.php:78 src/Admin/FlyoutMenu.php:112
 #: src/Admin/Payments/Views/Coupons/Education.php:143
 #: src/Admin/Tools/Views/Importer.php:229
@@ -11145,12 +11132,12 @@ msgstr "Tiện ích WPForms"
 msgid "Upgrade to WPForms Pro"
 msgstr "Nâng cấp lên WPForms Pro"
 
-#: includes/admin/class-settings.php:462 includes/fields/class-base.php:1331
+#: includes/admin/class-settings.php:462 includes/fields/class-base.php:1385
 msgid "Required"
 msgstr "Bắt buộc"
 
 #: includes/admin/class-settings.php:468 includes/fields/class-email.php:50
-#: includes/fields/class-email.php:144 includes/fields/class-email.php:485
+#: includes/fields/class-email.php:144 includes/fields/class-email.php:505
 #: includes/templates/class-simple-contact-form.php:43
 #: src/Admin/AdminBarMenu.php:213 src/Admin/Settings/Email.php:177
 #: src/Emails/Preview.php:406
@@ -11163,31 +11150,31 @@ msgstr "Bắt buộc"
 msgid "Email"
 msgstr "Email"
 
-#: includes/admin/class-welcome.php:266
+#: includes/admin/class-welcome.php:288
 msgid "Upgrade to PRO"
 msgstr "Nâng cấp lên PRO"
 
-#: includes/admin/class-welcome.php:291 lite/templates/admin/addons.php:89
-#: src/Admin/Notifications/EventDriven.php:601
-#: src/Admin/Notifications/EventDriven.php:608
-#: src/Admin/Notifications/EventDriven.php:615
-#: src/Admin/Notifications/EventDriven.php:654
-#: src/Admin/Notifications/EventDriven.php:661
-#: src/Admin/Notifications/EventDriven.php:668
-#: src/Admin/Notifications/EventDriven.php:721
-#: src/Admin/Notifications/EventDriven.php:728
-#: src/Admin/Notifications/EventDriven.php:735
+#: includes/admin/class-welcome.php:313 lite/templates/admin/addons.php:89
+#: src/Admin/Notifications/EventDriven.php:625
+#: src/Admin/Notifications/EventDriven.php:632
+#: src/Admin/Notifications/EventDriven.php:639
+#: src/Admin/Notifications/EventDriven.php:678
+#: src/Admin/Notifications/EventDriven.php:685
+#: src/Admin/Notifications/EventDriven.php:692
+#: src/Admin/Notifications/EventDriven.php:745
+#: src/Admin/Notifications/EventDriven.php:752
+#: src/Admin/Notifications/EventDriven.php:759
 #: src/Admin/Tools/Views/Importer.php:363 src/Lite/Admin/Pages/Addons.php:95
 msgid "Upgrade Now"
 msgstr "Nâng cấp ngay"
 
-#: includes/admin/builder/functions.php:873 includes/admin/settings-api.php:535
-#: includes/fields/class-base.php:1528 includes/fields/class-base.php:1689
+#: includes/admin/builder/functions.php:913 includes/admin/settings-api.php:535
+#: includes/fields/class-base.php:1582 includes/fields/class-base.php:1743
 msgid "Upload Image"
 msgstr "Tải lên ảnh"
 
 #. translators: %s - form name.
-#: includes/class-form.php:602 lite/wpforms-lite.php:248
+#: includes/class-form.php:623 lite/wpforms-lite.php:250
 #: src/Admin/Tools/Importers/ContactForm7.php:144
 #: src/Admin/Tools/Importers/ContactForm7.php:455
 #: src/Admin/Tools/Importers/NinjaForms.php:152
@@ -11197,27 +11184,27 @@ msgstr "Tải lên ảnh"
 msgid "New Entry: %s"
 msgstr "Mục nhập mới: %s"
 
-#: includes/class-form.php:613 includes/class-process.php:1399
+#: includes/class-form.php:634 includes/class-process.php:1417
 #: includes/templates/class-simple-contact-form.php:73
-#: lite/wpforms-lite.php:481 lite/wpforms-lite.php:543
+#: lite/wpforms-lite.php:485 lite/wpforms-lite.php:547
 #: src/Admin/Tools/Importers/ContactForm7.php:156
 #: src/Admin/Tools/Importers/NinjaForms.php:164
 #: src/Admin/Tools/Importers/PirateForms.php:480
 msgid "Thanks for contacting us! We will be in touch with you shortly."
 msgstr "Cảm ơn bạn đã liên hệ với chúng tôi! Chúng tôi sẽ liên lạc với bạn trong thời gian ngắn."
 
-#: includes/class-process.php:1297
+#: includes/class-process.php:1315
 msgid "Uploaded files combined size exceeds allowed maximum."
 msgstr "Tổng kích thước các tệp đã tải lên vượt quá giới hạn cho phép."
 
 #. translators: %s - form name.
-#: includes/class-process.php:1708 lite/wpforms-lite.php:123
+#: includes/class-process.php:1821 lite/wpforms-lite.php:123
 msgid "New %s Entry"
 msgstr "Mục %s mới"
 
-#: includes/emails/class-emails.php:606 src/Admin/Education/Fields.php:101
+#: includes/emails/class-emails.php:606 src/Admin/Education/Fields.php:109
 #: src/Emails/Notifications.php:1015 src/Forms/Fields/Pagebreak/Field.php:44
-#: src/Forms/Fields/Pagebreak/Field.php:519
+#: src/Forms/Fields/Pagebreak/Field.php:520
 #: src/Integrations/Elementor/WidgetModern.php:723
 #: src/Integrations/Gutenberg/FormSelector.php:539
 msgid "Page Break"
@@ -11229,71 +11216,71 @@ msgstr "Ngắt trang"
 msgid "(empty)"
 msgstr "(trống)"
 
-#: includes/fields/class-base.php:1251
-#: src/Admin/Builder/Settings/Themes.php:624 src/Forms/Fields/Html/Field.php:73
+#: includes/fields/class-base.php:1305
+#: src/Admin/Builder/Settings/Themes.php:681 src/Forms/Fields/Html/Field.php:74
 #: src/Integrations/Elementor/WidgetModern.php:343
 #: src/Integrations/Gutenberg/FormSelector.php:521
 msgid "Label"
 msgstr "Nhãn"
 
-#: includes/fields/class-base.php:1290
+#: includes/fields/class-base.php:1344
 msgid "Description"
 msgstr "Mô tả"
 
-#: includes/fields/class-base.php:1385
+#: includes/fields/class-base.php:1439
 msgid "Code"
 msgstr "Mã"
 
-#: includes/fields/class-base.php:1417
+#: includes/fields/class-base.php:1471
 msgid "Choices"
 msgstr "Lựa chọn"
 
-#: includes/fields/class-base.php:1628
+#: includes/fields/class-base.php:1682
 msgid "Items"
 msgstr "Mục"
 
-#: includes/fields/class-base.php:1752
+#: includes/fields/class-base.php:1806
 msgid "Use image choices"
 msgstr "Sử dụng lựa chọn hình ảnh"
 
-#: includes/fields/class-base.php:1753
+#: includes/fields/class-base.php:1807
 msgid "Check this option to enable using images with the choices."
 msgstr "Chọn tùy chọn này để bật việc sử dụng hình ảnh với các lựa chọn."
 
-#: includes/fields/class-base.php:1781
+#: includes/fields/class-base.php:1835
 msgid "Image Choice Style"
 msgstr "Kiểu lựa chọn hình ảnh"
 
-#: includes/fields/class-base.php:1782
+#: includes/fields/class-base.php:1836
 msgid "Select the style for the image choices."
 msgstr "Chọn kiểu cho các lựa chọn hình ảnh."
 
-#: includes/fields/class-base.php:1795 includes/fields/class-base.php:1952
-#: includes/fields/class-select.php:323 src/Emails/Notifications.php:1319
+#: includes/fields/class-base.php:1849 includes/fields/class-base.php:2010
+#: includes/fields/class-select.php:329 src/Emails/Notifications.php:1319
 #: src/Forms/Fields/Addons/LikertScale/Field.php:247
 #: src/Forms/Fields/Addons/NetPromoterScore/Field.php:123
-#: src/Forms/Fields/FileUpload/Field.php:263
+#: src/Forms/Fields/FileUpload/Field.php:258
 #: src/Forms/Fields/PaymentSelect/Field.php:302
 msgid "Modern"
 msgstr "Hiện đại"
 
-#: includes/fields/class-base.php:1796 includes/fields/class-base.php:1953
-#: includes/fields/class-select.php:322 src/Emails/Notifications.php:1309
+#: includes/fields/class-base.php:1850 includes/fields/class-base.php:2011
+#: includes/fields/class-select.php:328 src/Emails/Notifications.php:1309
 #: src/Forms/Fields/Addons/LikertScale/Field.php:248
 #: src/Forms/Fields/Addons/NetPromoterScore/Field.php:124
-#: src/Forms/Fields/FileUpload/Field.php:264
+#: src/Forms/Fields/FileUpload/Field.php:259
 #: src/Forms/Fields/PaymentSelect/Field.php:301
 msgid "Classic"
 msgstr "Cổ điển"
 
-#: includes/fields/class-base.php:1797 includes/fields/class-base.php:1954
+#: includes/fields/class-base.php:1851 includes/fields/class-base.php:2012
 #: includes/fields/class-email.php:395
 #: src/Admin/Builder/Settings/Themes.php:108
-#: src/Admin/Builder/Settings/Themes.php:906
 #: src/Admin/Builder/Settings/Themes.php:963
+#: src/Admin/Builder/Settings/Themes.php:1020
 #: src/Admin/Settings/Captcha/Page.php:158
-#: src/Forms/Fields/FileUpload/Field.php:432
-#: src/Forms/Fields/Pagebreak/Field.php:318
+#: src/Forms/Fields/Pagebreak/Field.php:319
+#: src/Forms/Fields/Traits/AccessRestrictionsTrait.php:144
 #: src/Integrations/Elementor/WidgetModern.php:82
 #: src/Integrations/Elementor/WidgetModern.php:529
 #: src/Integrations/Elementor/WidgetModern.php:574
@@ -11301,7 +11288,7 @@ msgstr "Cổ điển"
 msgid "None"
 msgstr "Không"
 
-#: includes/fields/class-base.php:1987 includes/fields/class-name.php:333
+#: includes/fields/class-base.php:2045 includes/fields/class-name.php:333
 #: includes/fields/class-name.php:359 includes/fields/class-name.php:385
 #: includes/fields/class-name.php:411 src/Forms/Fields/Address/Field.php:219
 #: src/Forms/Fields/Address/Field.php:274
@@ -11313,10 +11300,10 @@ msgstr "Không"
 msgid "Default Value"
 msgstr "Giá trị mặc định"
 
-#: includes/admin/builder/functions.php:814 includes/fields/class-base.php:2026
+#: includes/admin/builder/functions.php:854 includes/fields/class-base.php:2084
 #: src/Admin/Builder/Settings/Themes.php:102
-#: src/Admin/Builder/Settings/Themes.php:907 src/Admin/Settings/Email.php:367
-#: src/Forms/Fields/Rating/Field.php:211 src/Forms/IconChoices.php:141
+#: src/Admin/Builder/Settings/Themes.php:964 src/Admin/Settings/Email.php:367
+#: src/Forms/Fields/Rating/Field.php:231 src/Forms/IconChoices.php:141
 #: src/Integrations/Elementor/WidgetModern.php:76
 #: src/Integrations/Elementor/WidgetModern.php:530
 #: src/Integrations/Gutenberg/FormSelector.php:524
@@ -11324,11 +11311,11 @@ msgstr "Giá trị mặc định"
 msgid "Small"
 msgstr "Nhỏ"
 
-#: includes/admin/builder/functions.php:813 includes/fields/class-base.php:2027
+#: includes/admin/builder/functions.php:853 includes/fields/class-base.php:2085
 #: src/Admin/Builder/Settings/Themes.php:103
-#: src/Admin/Builder/Settings/Themes.php:908 src/Admin/Settings/Email.php:368
+#: src/Admin/Builder/Settings/Themes.php:965 src/Admin/Settings/Email.php:368
 #: src/Forms/Fields/Password/Field.php:132
-#: src/Forms/Fields/Rating/Field.php:212 src/Forms/IconChoices.php:137
+#: src/Forms/Fields/Rating/Field.php:232 src/Forms/IconChoices.php:137
 #: src/Integrations/Elementor/WidgetModern.php:77
 #: src/Integrations/Elementor/WidgetModern.php:531
 #: src/Integrations/Gutenberg/FormSelector.php:525
@@ -11336,10 +11323,10 @@ msgstr "Nhỏ"
 msgid "Medium"
 msgstr "Trung bình"
 
-#: includes/admin/builder/functions.php:812 includes/fields/class-base.php:2028
+#: includes/admin/builder/functions.php:852 includes/fields/class-base.php:2086
 #: src/Admin/Builder/Settings/Themes.php:104
-#: src/Admin/Builder/Settings/Themes.php:909 src/Admin/Settings/Email.php:369
-#: src/Forms/Fields/Rating/Field.php:213 src/Forms/IconChoices.php:133
+#: src/Admin/Builder/Settings/Themes.php:966 src/Admin/Settings/Email.php:369
+#: src/Forms/Fields/Rating/Field.php:233 src/Forms/IconChoices.php:133
 #: src/Integrations/Elementor/WidgetModern.php:78
 #: src/Integrations/Elementor/WidgetModern.php:532
 #: src/Integrations/Gutenberg/FormSelector.php:526
@@ -11347,83 +11334,83 @@ msgstr "Trung bình"
 msgid "Large"
 msgstr "Lớn"
 
-#: includes/fields/class-base.php:2040
+#: includes/fields/class-base.php:2098
 #: templates/builder/field-context-menu.php:76
 msgid "Field Size"
 msgstr "Kích thước trường"
 
-#: includes/fields/class-base.php:2108
+#: includes/fields/class-base.php:2166
 msgid "Placeholder Text"
 msgstr "Văn bản placeholder"
 
-#: includes/fields/class-base.php:2154
+#: includes/fields/class-base.php:2212
 msgid "CSS Classes"
 msgstr "Lớp CSS"
 
-#: includes/fields/class-base.php:2196
+#: includes/fields/class-base.php:2254
 #: templates/builder/field-context-menu.php:66
 msgid "Hide Label"
 msgstr "Ẩn nhãn"
 
-#: includes/fields/class-base.php:2228
+#: includes/fields/class-base.php:2286
 msgid "Hide Sublabels"
 msgstr "Ẩn nhãn phụ"
 
-#: includes/fields/class-base.php:2251
+#: includes/fields/class-base.php:2309
 msgid "Select the layout for displaying field choices."
 msgstr "Chọn bố cục để hiển thị các lựa chọn trường."
 
-#: includes/fields/class-base.php:2253
+#: includes/fields/class-base.php:2311
 msgid "One Column"
 msgstr "Một cột"
 
-#: includes/fields/class-base.php:2254
+#: includes/fields/class-base.php:2312
 msgid "Two Columns"
 msgstr "Hai cột"
 
-#: includes/fields/class-base.php:2255
+#: includes/fields/class-base.php:2313
 msgid "Three Columns"
 msgstr "Ba cột"
 
-#: includes/fields/class-base.php:2256
+#: includes/fields/class-base.php:2314
 msgid "Inline"
 msgstr "Nội tuyến"
 
-#: includes/fields/class-base.php:2264
+#: includes/fields/class-base.php:2322
 msgid "Choice Layout"
 msgstr "Bố cục lựa chọn"
 
-#: includes/fields/class-base.php:2297
+#: includes/fields/class-base.php:2355
 msgid "Select auto-populate method to use."
 msgstr "Chọn phương thức tự động điền để sử dụng."
 
-#: includes/fields/class-base.php:2300 includes/fields/class-base.php:2350
+#: includes/fields/class-base.php:2358 includes/fields/class-base.php:2408
 msgid "Post Type"
 msgstr "Kiểu bài viết"
 
-#: includes/fields/class-base.php:2301 includes/fields/class-base.php:2360
+#: includes/fields/class-base.php:2359 includes/fields/class-base.php:2418
 msgid "Taxonomy"
 msgstr "Phân loại"
 
-#: includes/fields/class-base.php:2309
+#: includes/fields/class-base.php:2367
 msgid "Dynamic Choices"
 msgstr "Lựa chọn động"
 
 #. translators: %s - dynamic source type name.
-#: includes/fields/class-base.php:2373
+#: includes/fields/class-base.php:2431
 msgid "Select %s to use for auto-populating field choices."
 msgstr "Chọn %s để sử dụng cho việc tự động điền các lựa chọn trường."
 
 #. translators: %s - dynamic source type name.
-#: includes/fields/class-base.php:2376
+#: includes/fields/class-base.php:2434
 msgid "Dynamic %s Source"
 msgstr "Nguồn %s động"
 
-#: includes/fields/class-base.php:3030
+#: includes/fields/class-base.php:3088
 msgid "No form ID found"
 msgstr "Không tìm thấy ID form"
 
-#: includes/fields/class-base.php:3035
+#: includes/fields/class-base.php:3093
 msgid "No field type found"
 msgstr "Không tìm thấy loại trường"
 
@@ -11433,7 +11420,7 @@ msgid "Checkboxes"
 msgstr "Hộp kiểm"
 
 #: includes/fields/class-checkbox.php:29 includes/fields/class-radio.php:29
-#: includes/fields/class-select.php:54
+#: includes/fields/class-select.php:59
 #: src/Integrations/AI/Admin/Builder/Enqueues.php:270
 #: templates/builder/themes/preview.php:47
 #: templates/builder/themes/preview.php:48
@@ -11443,7 +11430,7 @@ msgid "First Choice"
 msgstr "Lựa chọn đầu tiên"
 
 #: includes/fields/class-checkbox.php:37 includes/fields/class-radio.php:37
-#: includes/fields/class-select.php:59
+#: includes/fields/class-select.php:64
 #: src/Integrations/AI/Admin/Builder/Enqueues.php:271
 #: templates/builder/themes/preview.php:51
 #: templates/builder/themes/preview.php:52
@@ -11453,7 +11440,7 @@ msgid "Second Choice"
 msgstr "Lựa chọn thứ hai"
 
 #: includes/fields/class-checkbox.php:45 includes/fields/class-radio.php:45
-#: includes/fields/class-select.php:64
+#: includes/fields/class-select.php:69
 #: src/Integrations/AI/Admin/Builder/Enqueues.php:272
 #: templates/builder/themes/preview.php:55
 #: templates/builder/themes/preview.php:56
@@ -11476,12 +11463,12 @@ msgid "Check this option to randomize the order of the choices."
 msgstr "Chọn tùy chọn này để xáo trộn thứ tự của các lựa chọn."
 
 #: includes/fields/class-checkbox.php:331 includes/fields/class-radio.php:303
-#: includes/fields/class-select.php:253
+#: includes/fields/class-select.php:258
 msgid "Show Values"
 msgstr "Hiển thị giá trị"
 
 #: includes/fields/class-checkbox.php:332 includes/fields/class-radio.php:304
-#: includes/fields/class-select.php:254
+#: includes/fields/class-select.php:259
 msgid "Check this option to manually set form field values."
 msgstr "Chọn tùy chọn này để đặt thủ công các giá trị của trường form."
 
@@ -11493,7 +11480,7 @@ msgstr "Bật hiển thị Tuyên bố từ chối trách nhiệm / Điều kho�
 msgid "Check this option to adjust the field styling to support Disclaimers and Terms of Service type agreements."
 msgstr "Chọn tùy chọn này để điều chỉnh kiểu dáng trường để hỗ trợ các thỏa thuận kiểu Tuyên bố từ chối trách nhiệm và Điều khoản dịch vụ."
 
-#: includes/fields/class-email.php:168 includes/fields/class-email.php:490
+#: includes/fields/class-email.php:168 includes/fields/class-email.php:510
 msgid "Confirm Email"
 msgstr "Xác nhận email"
 
@@ -11505,11 +11492,11 @@ msgstr "Bật xác nhận email"
 msgid "Check this option to ask users to provide an email address twice."
 msgstr "Chọn tùy chọn này để yêu cầu người dùng cung cấp địa chỉ email hai lần."
 
-#: includes/fields/class-email.php:351 src/Forms/Fields/Password/Field.php:178
+#: includes/fields/class-email.php:351 src/Forms/Fields/Password/Field.php:196
 msgid "Confirmation Placeholder Text"
 msgstr "Văn bản giữ chỗ xác nhận"
 
-#: includes/fields/class-email.php:352 src/Forms/Fields/Password/Field.php:179
+#: includes/fields/class-email.php:352 src/Forms/Fields/Password/Field.php:197
 msgid "Enter text for the confirmation field placeholder."
 msgstr "Nhập văn bản cho trường giữ chỗ xác nhận."
 
@@ -11517,11 +11504,11 @@ msgstr "Nhập văn bản cho trường giữ chỗ xác nhận."
 msgid "GDPR Agreement"
 msgstr "Thỏa thuận GDPR"
 
-#: includes/fields/class-gdpr-checkbox.php:28
+#: includes/fields/class-gdpr-checkbox.php:29
 msgid "I consent to having this website store my submitted information so they can respond to my inquiry."
 msgstr "Tôi đồng ý cho trang web này lưu trữ thông tin tôi đã gửi để họ có thể trả lời yêu cầu của tôi."
 
-#: includes/fields/class-gdpr-checkbox.php:190
+#: includes/fields/class-gdpr-checkbox.php:191
 msgid "Agreement"
 msgstr "Thỏa thuận"
 
@@ -11529,7 +11516,7 @@ msgstr "Thỏa thuận"
 msgid "Numbers"
 msgstr "Số"
 
-#: includes/fields/class-select.php:47
+#: includes/fields/class-select.php:52
 msgid "Dropdown"
 msgstr "Danh sách thả xuống"
 
@@ -11650,77 +11637,77 @@ msgstr "Thêm thông báo mới"
 msgid "Send To Email Address"
 msgstr "Gửi đến địa chỉ Email"
 
-#: lite/wpforms-lite.php:228
+#: lite/wpforms-lite.php:229
 msgid "CC"
 msgstr "CC"
 
-#: lite/wpforms-lite.php:264
+#: lite/wpforms-lite.php:266
 msgid "From Name"
 msgstr "Tên người gửi"
 
-#: lite/wpforms-lite.php:297
+#: lite/wpforms-lite.php:299
 msgid "From Email"
 msgstr "Email của người gửi"
 
-#: lite/wpforms-lite.php:330
+#: lite/wpforms-lite.php:333
 msgid "Reply-To"
 msgstr "Trả lời"
 
-#: lite/wpforms-lite.php:492
+#: lite/wpforms-lite.php:496
 msgid "Multiple confirmations"
 msgstr "Nhiều xác nhận"
 
-#: lite/wpforms-lite.php:493
+#: lite/wpforms-lite.php:497
 msgid "Add New Confirmation"
 msgstr "Thêm xác nhận mới"
 
-#: lite/wpforms-lite.php:522
+#: lite/wpforms-lite.php:526
 msgid "Confirmation Type"
 msgstr "Loại xác nhận"
 
-#: lite/wpforms-lite.php:526 src/Logger/ListTable.php:291
+#: lite/wpforms-lite.php:530 src/Logger/ListTable.php:291
 #: src/Logger/ListTable.php:481 templates/builder/themes/preview.php:39
 msgid "Message"
 msgstr "Thông báo"
 
-#: lite/wpforms-lite.php:527
+#: lite/wpforms-lite.php:531
 msgid "Show Page"
 msgstr "Hiển thị trang"
 
-#: lite/wpforms-lite.php:528
+#: lite/wpforms-lite.php:532
 msgid "Go to URL (Redirect)"
 msgstr "Đi đến URL (Chuyển hướng)"
 
-#: lite/wpforms-lite.php:541
+#: lite/wpforms-lite.php:545
 msgid "Confirmation Message"
 msgstr "Thông báo xác nhận"
 
-#: lite/wpforms-lite.php:562
+#: lite/wpforms-lite.php:566
 msgid "Automatically scroll to the confirmation message"
 msgstr "Tự động cuộn đến thông báo xác nhận"
 
-#: lite/wpforms-lite.php:575
+#: lite/wpforms-lite.php:579
 msgid "Confirmation Page"
 msgstr "Trang xác nhận"
 
-#: lite/wpforms-lite.php:593
+#: lite/wpforms-lite.php:613
 msgid "Confirmation Redirect URL"
 msgstr "URL chuyển hướng xác nhận"
 
-#: lite/wpforms-lite.php:698 templates/admin/notifications.php:27
+#: lite/wpforms-lite.php:718 templates/admin/notifications.php:27
 msgid "Dismiss this message"
 msgstr "Bỏ qua thông báo này"
 
 #. translators: %s - star icons.
-#: lite/wpforms-lite.php:705
+#: lite/wpforms-lite.php:725
 msgid "We know that you will truly love WPForms. It has over 13,000+ five star ratings (%s) and is active on over 6 million websites."
 msgstr "Chúng tôi biết rằng bạn sẽ thực sự yêu thích WPForms. Nó có hơn 13.000+ xếp hạng năm sao (%s) và hoạt động trên hơn 6 triệu trang web."
 
-#: lite/wpforms-lite.php:717
+#: lite/wpforms-lite.php:737
 msgid "Pro Features:"
 msgstr "Các tính năng Pro:"
 
-#: lite/wpforms-lite.php:746
+#: lite/wpforms-lite.php:766
 msgid "Get WPForms Pro Today and Unlock all the Powerful Features »"
 msgstr "Nhận WPForms Pro ngay hôm nay và mở khóa tất cả các tính năng mạnh mẽ »"
 
@@ -11729,20 +11716,20 @@ msgstr "Nhận WPForms Pro ngay hôm nay và mở khóa tất cả các tính n�
 msgid "%s addon"
 msgstr "Phần bổ trợ %s"
 
-#: src/Admin/Education/Fields.php:133 src/Forms/Fields/Html/Field.php:25
+#: src/Admin/Education/Fields.php:141 src/Forms/Fields/Html/Field.php:25
 msgid "HTML"
 msgstr "HTML"
 
-#: src/Admin/Education/Fields.php:149 src/Forms/Fields/Rating/Field.php:35
+#: src/Admin/Education/Fields.php:157 src/Forms/Fields/Rating/Field.php:35
 #: src/Integrations/Gutenberg/FormSelector.php:540
 msgid "Rating"
 msgstr "Đánh giá"
 
-#: src/Admin/Education/Fields.php:157 src/Forms/Fields/Hidden/Field.php:25
+#: src/Admin/Education/Fields.php:165 src/Forms/Fields/Hidden/Field.php:25
 msgid "Hidden Field"
 msgstr "Trường ẩn"
 
-#: src/Admin/Education/Fields.php:175
+#: src/Admin/Education/Fields.php:183
 #: src/Forms/Fields/Addons/Signature/Field.php:25
 msgid "Signature"
 msgstr "Chữ ký"
@@ -11763,8 +11750,8 @@ msgstr "Xóa"
 #: src/Admin/Payments/Views/Overview/Table.php:99
 #: src/Admin/Payments/Views/Single.php:350
 #: src/Forms/Fields/PaymentTotal/Field.php:24
-#: src/Forms/Fields/PaymentTotal/Field.php:555
-#: src/Forms/Fields/PaymentTotal/Field.php:616
+#: src/Forms/Fields/PaymentTotal/Field.php:556
+#: src/Forms/Fields/PaymentTotal/Field.php:617
 #: src/SmartTags/SmartTag/OrderSummary.php:172
 #: templates/admin/payments/single/payment-history.php:32
 #: templates/admin/payments/single/payment-history.php:53
@@ -11983,7 +11970,7 @@ msgstr "90 ngày qua"
 msgid "hCaptcha"
 msgstr "hCaptcha"
 
-#: src/Admin/Education/Fields.php:69 src/Forms/Fields/FileUpload/Field.php:70
+#: src/Admin/Education/Fields.php:69 src/Forms/Fields/FileUpload/Field.php:65
 msgid "File Upload"
 msgstr "Tải lên tệp"
 
@@ -11996,9 +11983,9 @@ msgstr "Ngày / giờ"
 msgid "Phone"
 msgstr "Điện thoại"
 
-#: src/Admin/Education/Fields.php:77 src/Forms/Fields/FileUpload/Field.php:718
-#: src/Forms/Fields/Password/Field.php:25
-#: src/Forms/Fields/Password/Field.php:247
+#: src/Admin/Education/Fields.php:85 src/Forms/Fields/Password/Field.php:25
+#: src/Forms/Fields/Password/Field.php:304
+#: src/Forms/Fields/Traits/AccessRestrictionsTrait.php:430
 msgid "Password"
 msgstr "Mật khẩu"
 
@@ -12045,27 +12032,27 @@ msgid "You do not have permission to perform this action."
 msgstr "Bạn không có quyền thực hiện hành động này."
 
 #: src/Admin/Education/Builder/Captcha.php:68
-#: src/Admin/Pages/PrivacyCompliance.php:561 src/Admin/Pages/SMTP.php:466
+#: src/Admin/Pages/PrivacyCompliance.php:571 src/Admin/Pages/SMTP.php:466
 #: src/Lite/Admin/Education/LiteConnect.php:410 src/Logger/Log.php:200
 #: src/Providers/Provider/Settings/PageIntegrations.php:323
 msgid "You do not have permission."
 msgstr "Bạn không có quyền"
 
-#: includes/admin/builder/functions.php:78
+#: includes/admin/builder/functions.php:80
 msgid "Show Smart Tags"
 msgstr "Hiện thẻ thông minh"
 
-#: src/Admin/Education/Fields.php:195
+#: src/Admin/Education/Fields.php:203
 #: src/Forms/Fields/Addons/NetPromoterScore/Field.php:25
 msgid "Net Promoter Score"
 msgstr "Điểm mức độ hài lòng"
 
-#: src/Admin/Education/Fields.php:185
+#: src/Admin/Education/Fields.php:193
 #: src/Forms/Fields/Addons/LikertScale/Field.php:25
 msgid "Likert Scale"
 msgstr "Thang đo phản hồi"
 
-#: src/Admin/Education/Fields.php:109 src/Forms/Fields/Divider/Field.php:25
+#: src/Admin/Education/Fields.php:117 src/Forms/Fields/Divider/Field.php:25
 msgid "Section Divider"
 msgstr "Phân cách mục"
 
@@ -12091,56 +12078,56 @@ msgstr "Lượt nhập"
 msgid "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms."
 msgstr "Plugin tạo Form liên lạc WordPress thân thiện với người mới bắt đầu. Sử dụng trình tạo Form Kéo & Thả của chúng tôi để tạo Form WordPress của bạn."
 
-#: includes/class-process.php:228
+#: includes/class-process.php:227
 msgid "Invalid form."
 msgstr "Form không hợp lệ."
 
-#: includes/class-process.php:432 includes/class-process.php:594
-#: includes/class-process.php:1594
+#: includes/class-process.php:440 includes/class-process.php:602
+#: includes/class-process.php:1707
 msgid "Form has not been submitted, please see the errors below."
 msgstr "Form chưa được gửi, vui lòng xem các lỗi bên dưới."
 
-#: includes/fields/class-base.php:1244
+#: includes/fields/class-base.php:1298
 msgid "Enter text for the form field label. Field labels are recommended and can be hidden in the Advanced Settings."
 msgstr "Nhập văn bản cho nhãn trường Form. Nhãn trường được khuyến nghị và có thể ẩn trong Cài đặt nâng cao."
 
-#: includes/fields/class-base.php:1283
+#: includes/fields/class-base.php:1337
 msgid "Enter text for the form field description."
 msgstr "Nhập văn bản cho mô tả trường Form."
 
-#: includes/fields/class-base.php:1323
+#: includes/fields/class-base.php:1377
 msgid "Check this option to mark the field required. A form will not submit unless all required fields are provided."
 msgstr "Chọn tùy chọn này để đánh dấu trường là bắt buộc. Form sẽ không được gửi trừ khi tất cả các trường bắt buộc được cung cấp."
 
-#: includes/fields/class-base.php:1378
+#: includes/fields/class-base.php:1432
 msgid "Enter code for the form field."
 msgstr "Nhập mã cho trường Form."
 
-#: includes/fields/class-base.php:1462 includes/fields/class-base.php:1629
+#: includes/fields/class-base.php:1516 includes/fields/class-base.php:1683
 msgid "Add choices for the form field."
 msgstr "Thêm lựa chọn cho trường Form."
 
-#: includes/fields/class-base.php:1981
+#: includes/fields/class-base.php:2039
 msgid "Enter text for the default form field value."
 msgstr "Nhập văn bản cho giá trị mặc định của trường Form."
 
-#: includes/fields/class-base.php:2024
+#: includes/fields/class-base.php:2082
 msgid "Select the default form field size."
 msgstr "Chọn kích thước mặc định của trường Form."
 
-#: includes/fields/class-base.php:2101
+#: includes/fields/class-base.php:2159
 msgid "Enter text for the form field placeholder."
 msgstr "Nhập văn bản cho placeholder của trường Form."
 
-#: includes/fields/class-base.php:2142
+#: includes/fields/class-base.php:2200
 msgid "Enter CSS class names for the form field container. Class names should be separated with spaces."
 msgstr "Nhập tên lớp CSS cho vùng chứa trường Form. Các tên lớp phải được phân cách bằng khoảng trắng."
 
-#: includes/fields/class-base.php:2187
+#: includes/fields/class-base.php:2245
 msgid "Check this option to hide the form field label."
 msgstr "Đánh dấu tùy chọn này để ẩn nhãn của trường Form."
 
-#: includes/fields/class-base.php:2219
+#: includes/fields/class-base.php:2277
 msgid "Check this option to hide the form field sublabel."
 msgstr "Đánh dấu tùy chọn này để ẩn nhãn phụ của trường Form."
 
@@ -12172,11 +12159,11 @@ msgid "Enter the email address to receive form entry notifications. For multiple
 msgstr "Nhập địa chỉ email để nhận thông báo về các mục nhập Form. Để nhận nhiều thông báo, hãy phân tách các địa chỉ email bằng dấu phẩy."
 
 #. translators: %s - {all_fields} Smart Tag.
-#: lite/wpforms-lite.php:368
+#: lite/wpforms-lite.php:372
 msgid "To display all form fields, use the %s Smart Tag."
 msgstr "Để hiển thị tất cả các trường Form, hãy sử dụng thẻ thông minh %s."
 
-#: lite/wpforms-lite.php:700
+#: lite/wpforms-lite.php:720
 msgid "Thanks for being a loyal WPForms Lite user. Upgrade to WPForms Pro to unlock all the awesome features and experience why WPForms is consistently rated the best WordPress form builder."
 msgstr "Cảm ơn bạn đã là người dùng trung thành của WPForms Lite. Nâng cấp lên WPForms Pro để mở khóa tất cả các tính năng tuyệt vời và trải nghiệm lý do tại sao WPForms luôn được đánh giá là trình tạo Form WordPress tốt nhất."
 
@@ -12246,8 +12233,8 @@ msgstr "Xây dựng Form của bạn từ đầu hoặc sử dụng một trong 
 msgid "Add Fields to Your Form"
 msgstr "Thêm trường vào Form của bạn"
 
-#. translators: %s - total amount of choices.
-#: includes/admin/builder/panels/class-fields.php:667
+#. translators: %s - total number of choices.
+#: includes/admin/builder/panels/class-fields.php:732
 msgid "Showing the first 20 choices.<br> All %s choices will be displayed when viewing the form."
 msgstr "Hiển thị 20 lựa chọn đầu tiên.<br> Tất cả %s lựa chọn sẽ được hiển thị khi xem Form."
 
@@ -12261,20 +12248,24 @@ msgstr "Đặt tên Form của bạn"
 msgid "form"
 msgstr "form"
 
-#: includes/fields/class-base.php:1737
+#: includes/fields/class-base.php:1791
 msgid "<h4>Images are not cropped or resized.</h4><p>For best results, they should be the same size and 250x250 pixels or smaller.</p>"
 msgstr "<h4>Ảnh không bị cắt hoặc thay đổi kích thước.</h4><p>Để đạt được kết quả tốt nhất, chúng nên có cùng kích thước và kích thước 250x250 pixel hoặc nhỏ hơn.</p>"
 
-#: lite/wpforms-lite.php:752
+#: lite/wpforms-lite.php:772
 msgid "<strong>Bonus:</strong> WPForms Lite users get <span class=\"green\">50% off regular price</span>, automatically applied at checkout."
 msgstr "<strong>Thưởng:</strong> Người dùng WPForms Lite được <span class=\"green\">giảm 50% giá thông thường</span>, tự động áp dụng khi thanh toán."
 
-#: includes/admin/class-about.php:597 lite/wpforms-lite.php:740
+#: includes/admin/class-about.php:597 lite/wpforms-lite.php:760
 msgid "Create user registration and login forms"
 msgstr "Tạo form đăng ký người dùng và form đăng nhập"
 
+#: includes/fields/class-radio.php:22 templates/builder/themes/preview.php:44
+msgid "Multiple Choice"
+msgstr "Nhiều tùy chọn"
+
 #. translators: %s - WPForms.com docs page URL.
-#: lite/wpforms-lite.php:662
+#: lite/wpforms-lite.php:682
 msgid "You've just turned off notification emails for this form. Since entries are not stored in WPForms Lite, notification emails are recommended for collecting entry details. For setup steps, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">please see our notification tutorial</a>."
 msgstr "Bạn vừa tắt thông báo email cho form này. Vì các mục nhập không được lưu trữ trong WPForms Lite, nên việc sử dụng email thông báo được khuyến nghị để thu thập chi tiết mục nhập. Để biết các bước thiết lập, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">vui lòng xem hướng dẫn thông báo của chúng tôi</a>."
 
@@ -12284,7 +12275,3 @@ msgstr "Bạn vừa tắt thông báo email cho form này. Vì các mục nhập
 #: templates/admin/challenge/embed.php:61
 msgid "You completed the WPForms Challenge in <b>%1$s %2$s %3$s %4$s</b>. Share your success story with other WPForms users and help us spread the word <b>by giving WPForms a 5-star rating (%5$s) on WordPress.org</b>. Thanks for your support and we look forward to bringing you more awesome features."
 msgstr "Bạn đã hoàn thành thử thách WPForms trong <b>%1$s %2$s %3$s %4$s</b>. Hãy chia sẻ câu chuyện thành công của bạn với những người dùng WPForms khác và giúp chúng tôi lan tỏa thông điệp <b>bằng cách đánh giá WPForms 5 sao (%5$s) trên WordPress.org</b>. Cảm ơn bạn đã hỗ trợ và chúng tôi mong muốn mang đến cho bạn nhiều tính năng tuyệt vời hơn nữa."
-
-#: includes/fields/class-radio.php:22 templates/builder/themes/preview.php:44
-msgid "Multiple Choice"
-msgstr "Nhiều tùy chọn"
